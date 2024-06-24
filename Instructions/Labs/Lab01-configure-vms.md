@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Configure virtual machines'
-    module: 'Lab 01 - Configure virtual machines'
+    title: 'Lab 01 - Configure virtual machines'
+    module: 'Configure virtual machines'
 ---
 
 # Lab 01 - Configure an Azure Linux virtual machine 
@@ -117,7 +117,7 @@ In this task, you will create and deploy a Linux virtual machine using the porta
 
 1. From the **Overview** blade, ensure the virtual machine **Status** is **Running**. 
 
-    >**Check your learning.** 
+>**Check your learning.** 
     + Can you access the Azure portal?
     + Can you use the Azure portal to create an Ubuntu virtual machine?
     + Can you select the correct the Linux image and virtual machine size?
@@ -170,10 +170,10 @@ In this task, you will use SSH to connect to the virtual machine. Connecting wil
     ```
 1. Stay connected to the virtual machine and continue to the next task.
 
-    >**Check your learning.** 
-    + Can you configure a network security group inbound port rules? 
-    + Can you connect to a Linux virtual machine with native SSH?
-    + Can you install OS updates on a Linux virtual machine?
+>**Check your learning.** 
++ Can you configure a network security group inbound port rules? 
++ Can you connect to a Linux virtual machine with native SSH?
++ Can you install OS updates on a Linux virtual machine?
 
 ## Skill 3: Install the Nginx web service and test to ensure it is working
 
@@ -215,8 +215,8 @@ In this task, you will install the Nginx web service.
     >If the home page times out, check to ensure there is an inbound security rule to allow port 80. 
 
 
-    >**Check your learning.** 
-    + Can you install software, like Nginx, on a Linux virtual machine?
+>**Check your learning.** 
++ Can you install software, like Nginx, on a Linux virtual machine?
 
 ## Learn more with self-paced training and documentation
 
