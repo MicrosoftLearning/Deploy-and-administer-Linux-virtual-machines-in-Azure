@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Configure virtual machine'
-    module: 'Configure virtual machines'
+    module: 'Lab 01 - Configure virtual machines'
 ---
 
 # Lab 01 - Configure an Azure Linux virtual machine 
