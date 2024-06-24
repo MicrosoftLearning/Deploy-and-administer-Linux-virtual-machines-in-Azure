@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Monitor virtual machines'
-    module: 'Lab 02 - Monitor virtual machines'
+    title: 'Lab 02 - Monitor virtual machines'
+    module: 'Monitor virtual machines'
 ---
 
 # Lab 02 - Monitor a virtual machine
