@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Storage for virtual machines'
-    type: 'Storage for virtual machines'
+    module: 'Storage for virtual machines'
 ---
 
 
