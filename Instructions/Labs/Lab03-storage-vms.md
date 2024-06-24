@@ -149,11 +149,11 @@ In this task, you will create and configure a virtual machine using the Cloud Sh
 
 1. Minimize the Cloud Shell, but don't close the connection. In the next task, you will continue working on the virtual machine. 
 
-    >**Check your learning.**
-    + Can you access and configure the Cloud Shell?
-    + Can you create a virtual machine using the CLI?
-    + Can you add a data disk to a virtual machine (portal or CLI)?
-    + Can you partition and mount a data disk so it is usable?
+**Check your learning.**
+ + Can you access and configure the Cloud Shell?
+ + Can you create a virtual machine using the CLI?
+ + Can you add a data disk to a virtual machine (portal or CLI)?
+ + Can you partition and mount a data disk so it is usable?
 
 ## Skill 2: Access an Azure file share from the virtual machine
 
@@ -267,12 +267,12 @@ In this task, you will create and configure a storage account. You will then cre
     ```
 1. Minimize the Cloud Shell, but don't close the connection. In the next task, you will continue working on the virtual machine. 
 
-    >**Check your learning**
-    + Can you create a storage account in the portal?
-    + Can you create a file share and upload a file in the portal?
-    + Can you use the portal to get a script to connect a virtual machine to the file share?
-    + Can you assign a managed identity to the virtual machine so it can access a resource, like storage account?
-    + Can you run a script to mount the file share from the virtual machine?
+**Check your learning**
+ + Can you create a storage account in the portal?
+ + Can you create a file share and upload a file in the portal?
+ + Can you use the portal to get a script to connect a virtual machine to the file share?
+ + Can you assign a managed identity to the virtual machine so it can access a resource, like storage account?
+ + Can you run a script to mount the file share from the virtual machine?
 
 ### Skill 3: Copy a file from Azure blob storage to the virtual machine data disk
 
@@ -353,11 +353,11 @@ In this task, you will configure a virtual machine managed identity to authentic
 
 1. The Storage Blob Data Contributor role includes writing the Azure blob container. As you have time, use azcopy to copy the file share file from /datadrive to the blob storage container.  
 
-    >**Check your learning**
-    + Identity the correct Azure role based on requirements?
-    + Add a role assignment to a resource, like a virtual machine?
-    + Can you install the AzCopy utility on a Linux virtual machine?
-    + Can you use AzCopy to transfer files between a virtual machine and an Azure storage account?
+**Check your learning**
+ + Identity the correct Azure role based on requirements?
+ + Add a role assignment to a resource, like a virtual machine?
+ + Can you install the AzCopy utility on a Linux virtual machine?
+ + Can you use AzCopy to transfer files between a virtual machine and an Azure storage account?
 
 ## Learn more with self-paced training
 
