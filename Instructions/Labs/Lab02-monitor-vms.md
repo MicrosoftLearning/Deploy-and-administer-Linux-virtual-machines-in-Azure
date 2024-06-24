@@ -27,7 +27,7 @@ There is an interactive lab simulation that you might find useful for this topic
 
 ## Architecture diagram
 
-!IMAGE[Diagram of the lab 02 architecture.](instructions266099/lab02monitor.png)
+!IMAGE[Diagram of the lab 02 architecture.](./media/lab02.png)
 
 ## Job skills
 
@@ -223,7 +223,7 @@ In this task, you will review performance data and resize a virtual machine.
 
     >Choose another size if **Standard DS2_v3** is not available. Resizing is also known as vertical scaling, up or down.
 
-    !IMAGE[Screenshot of the resize virtual machine page in the portal. ](instructions266099/resizevm.png)
+    ![Screenshot of the resize virtual machine page in the portal. ](./media/resizevm.png)
 
 1. Resizing the virtual machine should trigger an alert. Navigate to the **Alerts** blade. 
 
@@ -231,7 +231,7 @@ In this task, you will review performance data and resize a virtual machine.
 
 1. You should also receive an email notification that reads, **Important notice: Azure Monitor alert VM was updated...** If not, open your email program and look for an email from azure-noreply@microsoft.com.
 
-    !IMAGE[Screenshot of an alert email.](instructions266099/alertemail.png)
+    !IMAGE[Screenshot of an alert email.](./media/alertemail.png)
 
     >**Check your learning.**
     + In the portal, can you access and review virtual machine metrics and logs?
