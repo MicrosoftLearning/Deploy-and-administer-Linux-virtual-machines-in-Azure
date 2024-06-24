@@ -1,6 +1,6 @@
 # Deploy and administer Linux virtual machines on Azure
 
-Looking for the **[HTML pages](https://microsoftlearning.github.io/Secure-storage-for-Azure-Files-and-Azure-Blob-Storage/)**?
+Looking for the **[HTML pages]((https://microsoftlearning.github.io/Deploy-and-admininister-Linux-virtual-machines-in-Azure/)**?
 
 **Are you an MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
 
