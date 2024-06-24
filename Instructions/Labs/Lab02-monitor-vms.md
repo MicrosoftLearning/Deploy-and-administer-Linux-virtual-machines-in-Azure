@@ -27,7 +27,7 @@ There is an interactive lab simulation that you might find useful for this topic
 
 ## Architecture diagram
 
-!IMAGE[Diagram of the lab 02 architecture.](./media/lab02.png)
+![Diagram of the lab 02 architecture.](./media/lab02.png)
 
 ## Job skills
 
@@ -231,7 +231,7 @@ In this task, you will review performance data and resize a virtual machine.
 
 1. You should also receive an email notification that reads, **Important notice: Azure Monitor alert VM was updated...** If not, open your email program and look for an email from azure-noreply@microsoft.com.
 
-    !IMAGE[Screenshot of an alert email.](./media/alertemail.png)
+    ![Screenshot of an alert email.](./media/alertemail.png)
 
     >**Check your learning.**
     + In the portal, can you access and review virtual machine metrics and logs?
