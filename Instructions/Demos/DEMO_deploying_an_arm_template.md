@@ -1,7 +1,7 @@
 ---
 demo:
-    title: 'Demo: Deploying an ARM Template'
-    module: 'Module 1: Exploring Azure Resource Manager'
+    title: 'Working on it'
+    module: 'Module 1: Configuring virtual machines'
 ---
 
 # Demo: Deploying an ARM Template
