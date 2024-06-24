@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Backup virtual machines'
-    module: 'Lab 04 - Backup virtual machines'
+    title: 'Lab 04 - Backup virtual machines'
+    module: 'Backup virtual machines'
 ---
 # Lab 04 - Backup a virtual machine
 
@@ -65,9 +65,9 @@ In this task, you will deploy a template to create a Linux virtual machine.
 
 In this task, you will create a Recovery Services vault. 
 
->A [Recovery Services vault](https://learn.microsoft.com/azure/backup/backup-azure-recovery-services-vault-overview)  is a storage entity in Azure that houses data. The data is typically copies of data, or configuration information for virtual machines (VMs), workloads, servers, or workstations. 
-
 1. In the Azure portal, search for and select `Recovery Services vaults`.
+
+   >A [Recovery Services vault](https://learn.microsoft.com/azure/backup/backup-azure-recovery-services-vault-overview)  is a storage entity in Azure that houses data. The data is typically copies of data, or configuration information for virtual machines (VMs), workloads, servers, or workstations. 
 
 1. On the **Recovery Services vaults** blade, click **+ Create**.
 
@@ -98,9 +98,9 @@ In this task, you will create a Recovery Services vault.
 
 In this task, you will implement Azure virtual-machine level backup. As part of a VM backup, you will define a backup and retention policy.
 
->When you [enable a virtual machine backup](https://learn.microsoft.com/azure/backup/quick-backup-vm-portal#enable-backup-on-a-vm) you can configure a backup schedule and retention range. 
-
 1. Continue working on the Recovery Services vault, click **Overview**, then click **+ Backup**.
+
+    >When you [enable a virtual machine backup](https://learn.microsoft.com/azure/backup/quick-backup-vm-portal#enable-backup-on-a-vm) you can configure a backup schedule and retention range. 
 
 1. On the **Backup Goal** blade, specify the following settings:
 
