@@ -30,7 +30,7 @@ There is an interactive lab simulation that you might find useful for this topic
 
 ## Azure Virtual Machines Architecture Diagram
 
-!Image[Diagram of the lab 01 architecture](instructions266099/lab01.png)
+![Diagram of the lab 01 architecture](./media/lab01.png)
 
 ## Skill 1: Use the Azure portal to create a virtual machine
 
