@@ -11,7 +11,7 @@ This lab requires an Azure virtual machine. If you don't have a virtual machine,
 
 This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the regions, but the steps were tested using the **(US) East** region.
 
-## Estimated timing: 30 minutes
+### Estimated timing: 30 minutes
 
 ## Lab scenario
 
