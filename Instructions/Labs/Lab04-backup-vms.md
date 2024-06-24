@@ -30,11 +30,11 @@ There is an interactive lab simulation that you might find useful for this topic
 + Task 3: Configure a SMB File share backup. 
 + Task 4: Monitor Azure Backup.
 
-## Estimated timing: 20 minutes
+### Estimated timing: 20 minutes
 
 ## Architecture diagram
 
-!IMAGE[Architecture diagram for Lab 04.](instructions266099/lab04backup.png)
+![Diagram for lab 04 architecture.](./media/lab04.png)
 
 ## Create a virtual machine (optional)
 
