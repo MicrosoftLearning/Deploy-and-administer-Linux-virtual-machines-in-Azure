@@ -1,95 +1,235 @@
 ---
 lab:
-    title: 'Exercise Title'
-    module: 'Learn module title'
+    title: 'Configure an Azure Linux virtual machine'
+    module: 'Configure virtual machines '
 ---
-<!--
-Edit the metadata above to manage the list of exercises in the home page of the GitHub site that gets generated.
-You can delete the module and edit index.md in the root of the repo to customize the display so that only the exercises are listed
-To enable GitHub page publishing, edit the Page settings for the repo and publish from the main branch
--->
 
-# Exercise title <!-- match title in metadata above (and Learn Exercise unit and ILT slide)-->
+# Lab 01 - Configure an Azure Linux virtual machine 
 
-In this exercise you will <!-- provide a description of what they'll do and why it;s important -->
+## Lab requirements
 
-This exercise should take approximately **XX** minutes to complete. <!-- update with estimated duration -->
+This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the region, but the steps were tested using the **(US) East** region.
 
-## Before you start
+## Estimated timing: 30 minutes
 
-<!--
-Add steps to get the learner to the starting point" for the exercise.
-This might be cloning the repo and running a script or performing some manual steps.
-Only include this section if its necessary to do some pre-exercise setup AND the same setup steps are required for self-paced (on Learn) and managed (in hosted ILT lab profiles) scenarios. Otherwise delete this section.
-If self-paced /ILT-specific setup steps are required, include them in the Learn "Exercise" unit from where they open this exercise and in the Skillable lab profile instructions before this markdown file is imported.
- -->
+## Lab scenario
 
-Before you can start this exercise, you will need to...
+You have been asked to create a web server for a new ecommerce website. You want to explore how to create Linux virtual machines using the Azure portal. You are also interested in using SSH to securely connect to the virtual machine. Lastly, you want to install the latest OS updates and the Nginx web server. 
 
-1. Step 1
-1. Step 2
-1. etc.
+## Interactive lab simulation
 
-## Task <!-- Change to an appropriate task title with an imperative verb phrase (e.g. "Do something") -->
+There is an interactive lab simulation that you might find useful for this topic. The simulation lets you click through a similar scenario at your own pace. There are differences between the interactive simulation and this lab, but many of the core concepts are the same. An Azure subscription is not required.
 
-First, you need to ...
++ [Create a virtual machine in the portal](https://mslearn.cloudguides.com/en-us/guides/AZ-900%20Exam%20Guide%20-%20Azure%20Fundamentals%20Exercise%201). Create a virtual machine, connect and install the web server role.
 
-1. Step 1
-1. This step includes an example of `inline code formatting`, which is used when the learner needs to type something (anything, not just code) because it creates a [T] link in the hosted Skillable environment.
-1. If you need the learner to open a website, include both a link (so they can open by clicking in the HTML GitHub page) AND the URL formatted as code (so they can type it in a hosted VM browser). For example, "Open the [Bing](https://www.bing.com) website at `https://www.bing.com`".
-1. If you need the learner to download a file (or a bunch of files in a zip), store the file in Allfiles folder in this repo and use the **raw** URL - like this: "Download [file name](https://raw.githubusercontent.com/MicrosoftLearning/INF99X-SampleCourse/master/Allfiles/Labs/01/Starter/azuredeploy.json) from `https://raw.githubusercontent.com/MicrosoftLearning/INF99X-SampleCourse/master/Allfiles/Labs/01/Starter/azuredeploy.json`.
-1. Alternatively, for a developer audience, you can have them clone this repo if that seems more appropriate.
-1. If you need to include a multiline code block, indent it to match the bulleted list indent:
+## Job skills
 
-    ```python
-    # This is an example of an
-    # indented code block.
++ Skill 1: Use the Azure portal to create a virtual machine.
++ Skill 2: Connect to the virtual machine and install OS updates
++ Skill 3: Install the Nginx web service and test to ensure it is working.
+
+## Azure Virtual Machines Architecture Diagram
+
+!Image[Diagram of the lab 01 architecture](instructions266099/lab01.png)
+
+## Skill 1: Use the Azure portal to create a virtual machine
+
+In this task, you will create and deploy a Linux virtual machine using the portal. 
+
+1. Sign in to the Azure portal - `https://portal.azure.com`.
+
+    >In this first lab you will use the Azure portal to create the virtual machine. This will give you an good overview of the configuration settings. In a later lab you will use the Azure CLI to create a virtual machine. 
+
+1. **Cancel** the **Welcome to Microsoft Azure** splash screen. 
+
+1. Use the top search box to search for and select `Virtual machines`.
+
+1. Click **+ Create**, and then select in the drop-down **Azure virtual machine**. Notice your other choices.
+
+1. On the Basics tab, continue completing the configuration:
+
+    >Use the Informational icons to learn about each parameter. If a value isn't specified, use the default value.
+
+    | Setting | Value |
+    | --- | --- |
+    | Subscription | the name of your Azure subscription |
+    | Resource group |  **rg1** (If necessary, click **Create new**) |
+    | Virtual machine names | `vm1` |
+    | Region | **(US) East** |
+    | Availability options | **No infrastructure redundancy required** |
+    | Security type | **Standard** (review your other choices) |
+    | Image | **Ubuntu Server 20.04 LTS - x64 Gen2** (use the drop-down to view other options) |
+    | Size | **Standard_Ds1_v2** (use **See all sizes** to view the performance and memory) |
+    | Authentication type | **SSH public key** (notice you could use a password) |
+    | Username | `azureadmin` |
+    | SSH public key source | **Generate new key pair** (notice your choices to use an existing key) |
+    | SSH Key Type | **RSA SSH Format** |
+    | Key pair name | `vm1_key` |
+    | Public inbound ports |**None** |
+
+1. Click **Next: Disks >** , specify the following settings (leave others with their default values):
+
+    | Setting | Value |
+    | --- | --- |
+    | OS disk size | **Image default (30 GiB)** |
+    | OS disk type | **Premium SSD** |
+    | Delete with VM | **checked** (default) |
+    | Enable Ultra Disk compatibility | **Unchecked** |
+
+    >Notice you can add a data disk to the virtual machine. We will do this in a later lab. 
+
+1. Click **Next: Networking >** and make a few changes. 
+
+    | Setting | Value |
+    | --- | --- |
+    | Delete public IP and NIC when VM is deleted | **Checked** |
+    | Load balancing options | **None** |
+
+
+1. Click **Next: Management >** and check the following settings (leave others with their default values):
+
+    | Setting | Value |
+    | --- | --- |
+    | Enable auto-shutdown | **unchecked** |
+    | Patch orchestration options | **Azure orchestrated** |  
+
+    >Patch orchestration options allow you to control how patches will be applied to your virtual machine. 
+
+1. Click **Next: Monitoring >** and specify the following settings (leave others with their default values):
+
+    | Setting | Value |
+    | --- | --- |
+    | Boot diagnostics | **Disable** |
+
+    >We will review monitoring in another lab. 
+
+1. Click **Next: Advanced >** and notice the **Custom data** textbox. This is where you would pass a cloud-init script, configuration file, or other data into the virtual machine while it is being provisioned. Do not make any changes.
+
+1. Click **Review + Create**.
+
+1. After the validation passes, click **Create**.
+
+1. When prompted, select **Download private key and create resource**. 
+
+    >If you receive a message, *Can not download private key*, just click the download button again. 
+
+1. Wait for the deployment to complete, then select **Go to resource**. This will take a couple of minutes. 
+
+1. From the **Overview** blade, ensure the virtual machine **Status** is **Running**. 
+
+    >**Check your learning.** 
+    + Can you access the Azure portal?
+    + Can you use the Azure portal to create an Ubuntu virtual machine?
+    + Can you select the correct the Linux image and virtual machine size?
+
+## Skill 2: Connect to the virtual machine and install OS updates
+
+In this task, you will use SSH to connect to the virtual machine. Connecting will require network traffic to port 22 be allowed. Once connected, you will check for and update the operating system. 
+
+1. Continue in the portal on the virtual machine page. 
+
+1. On the **Overview** tab, in the top menu, select **Connect** and **Connect** in the drop-down.
+
+1. Select **More ways to connect** to display the possible connection methods. 
+
+1. Review your choices, then select **Native SSH**. 
+
+1. Read the steps on connecting with SSH. Notice that port 22 is not configured to allow access with SSH. This must be corrected before continuing. **Close** the Native SSH page. 
+
+1. In the **Networking** section, select **Network settings**. Notice the Network Security Group (NSG) rules. 
+
+    >A Network Security Group (NSG) acts as a virtual firewall for controlling inbound and outbound traffic to Azure resources. By default, inbound access is allowed from other virtual machines in the virtual network and from load balancers. All other inbound traffic is denied.  
+
+1. Select **Create port rule** and then **Inbound port rule**.
+
+1. In the **Service** drop-down, select **SSH**, then **Add** the rule. 
+
+1. The Nginx web service that you will be installing later needs port 80 open. Repeat the above step to **add** another inbound port rule for service **HTTP**. 
+
+1. Check your work and ensure you have two new inbound port rules to **allow** port 22 and port 80. 
+
+1. In the **Connect** menu (left-side) select **Connect** and then **select** Native SSH. Confirm port 22 access is now configured (check mark). It may take a minute for the rule to deploy, if necessary refresh the page. 
+
+1. Make a note of the **public IP address**. You will need this to connect to the virtual machine. **Close** the Native SSH page. 
+
+1. Open a **Command Prompt** window so you can run the SSH connection string. 
+
+1. At the prompt, connect to the virtual machine using SSH. Be sure to  include the correct path to the key and the virtual machine's public IP address. Example of key location: `c:\users\admin\downloads\vm1_key.pem`. When prompted, type *yes* to connect. 
+
+    ```sh
+    ssh -i <path to the key file> adminuser@<public IP address>
     ```
 
-1. If you need to include a acreenshot, resize it to an appropriate size (so any "normal" formatted text in a partial screenshot is roughly the same size as this text - generally try to make screenshots of full application windows 800x600px (approx)). Store images in a **Media** subfolder and use markdown to add it to the page (remembering that file and folder names are case-sensitive). If the image is in a list, indent it, like this:
+    >Ensure the command is successful and the prompt changes to *azureadmin@vm1*. 
 
-    ![A screenshot of an application.](./Media/edge-copilot.png) 
+1. Fetch the list of available OS updates and install updates. When prompted, type **yes** to continue.
 
-1. If you need to explain why something is done the way it is, or provide additional context or links to info, use a note like this:
+    ```sh
+    sudo apt update;
+    sudo apt upgrade
+    ```
+1. Stay connected to the virtual machine and continue to the next task.
 
-    > **Note**: This is a note.
+    >**Check your learning.** 
+    + Can you configure a network security group inbound port rules? 
+    + Can you connect to a Linux virtual machine with native SSH?
+    + Can you install OS updates on a Linux virtual machine?
 
-1. Be flexible when providing instructions that might vary between self-paced and hosted lab environments. For example:
-    - "Sign in using your Azure credentials" (assuming there were Learn-specific instructions to use a personal subscription or create a trial in the Learn exercise page, and ILT-specific instructions to use provided cloudslice credentials in the Skillable lab profile)
-    - "Select an existing resource group or create a new one" (assuming that if a Skillable CS-R cloudslice is used, you included a note in the lab profile telling the learner which resource group they should use)
-    <!-- The key point is that this markdown file should be environment-agnostic - you need to provide explicit details of things that can vary OUTSIDE of this file (in the Learn exercise page or the Skillable lab profile instructions) -->
-1. etc.
+## Skill 3: Install the Nginx web service and test to ensure it is working
 
-## Next task
+In this task, you will install the Nginx web service. 
 
-Now let's, ...
+1. Continue working at the command prompt. Run these commands one at a time. Ensure each command completes successfully. 
 
-1. Step 1
-1. Step 2
-1. etc.
+1. Install the Nginx service. When prompted indicate **Y** to continue the install.  
 
-## Task with subtasks
+    ```sh
+    sudo apt install nginx;
+    ```
+1. Start the Nginx service. 
 
-Sometimes you might want to break a taak down into smaller chunks.
+    ```sh
+    sudo systemctl start nginx
+    ```
 
-### Subtask 1
+1. Configure Nginx to launch on boot. This is optional but good practice. 
 
-1. Step 1
-1. Step 2
-1. Etc.
+    ```sh
+    sudo systemctl enable nginx
+    ```
 
-### Subtask 2
+1. Check to ensure the Nginx service is **active (running)**. 
 
-1. Step 1
-1. Step 2
-1. etc.
+    ```sh
+    service nginx status
+    ```
 
-## Clean up
+1. Launch the Nginx welcome page. Be sure to substitute your virtual machine public IP address. You can also open the Nginx default page in a browser.  
 
-<!-- Good practice - especially as self-paced learners will be using their own subscriptions -->
-<!-- Delete this section if it is not needed -->
+    ```sh
+    curl -m 80 public_ip_address
+    ```
 
-Now that you've finished the exercise, you should delete the cloud resources you've created to avoid unnecessary resource usage.
+    !IMAGE[Screenshot of the nginx home page.](instructions266099/nginxwelcome.png)
 
-1. Step 1
-2. etc.
+    >If the home page times out, check to ensure there is an inbound security rule to allow port 80. 
+
+
+    >**Check your learning.** 
+    + Can you install software, like Nginx, on a Linux virtual machine?
+
+## Learn more with self-paced training and documentation
+
++ [Provisioning a Linux virtual machine in Microsoft Azure](https://learn.microsoft.com/training/modules/provision-linux-virtual-machine-in-azure/). Azure allows you to use several common provisioning tools to deploy Linux virtual machines (VMs), to include Terraform, Bicep, the Azure portal, and the Azure CLI. In this module, you'll learn how to deploy a Linux virtual machine using each of these methods.
++ [Quickstart: Create a Linux virtual machine in the Azure portal](https://learn.microsoft.com/azure/virtual-machines/linux/quick-create-portal?tabs=ubuntu) Azure virtual machines (VMs) can be created through the Azure portal. The Azure portal is a browser-based user interface to create Azure resources. This Quickstart shows you how to use the Azure portal to deploy a Linux virtual machine (VM) running Ubuntu Server 22.04 LTS. To see your VM in action, you also SSH to the VM and install the NGINX web server.
+
+
+## Key takeaways
+
+Congratulations on completing the lab. Here are the main takeaways for this lab.
+
++ Azure virtual machines are on-demand, scalable computing resources.
++ Configuring Azure virtual machines includes choosing an operating system, size, storage and networking settings. You can create a basic virtual machine by accepting the defaults. 
++ There are several ways to connect to an Azure virtual machine. Bastion provides connectivity without having to open a SSH or RDP port. 
++ SSH also provides secure connections. To use SSH the virtual machine must have a public IP address and port 22 must be open.  
++ Network Security Group rules let you allow or deny inbound and outbound port connections. For example, port 22 for SSH and port 80 for Nginx. 
