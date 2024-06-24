@@ -5,7 +5,7 @@ lab:
 ---
 
 
-# Lab 03 - Configure storage for virtual machines
+# Lab 03 - Storage for virtual machines
 
 ## Lab requirements
 
