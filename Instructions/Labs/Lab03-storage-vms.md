@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Storage for virtual machines'
-    module: 'Storage for virtual machines'
+    module: 'Lab 03 - Storage for virtual machines'
 ---
 
 
