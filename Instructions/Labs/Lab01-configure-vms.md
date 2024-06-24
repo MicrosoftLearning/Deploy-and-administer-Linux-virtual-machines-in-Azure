@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Configure virtual machine'
+    title: 'Configure virtual machines'
     module: 'Lab 01 - Configure virtual machines'
 ---
 
@@ -210,7 +210,7 @@ In this task, you will install the Nginx web service.
     curl -m 80 public_ip_address
     ```
 
-    !IMAGE[Screenshot of the nginx home page.](instructions266099/nginxwelcome.png)
+    ![Screenshot of the nginx home page.](./media/nginxwelcome.png)
 
     >If the home page times out, check to ensure there is an inbound security rule to allow port 80. 
 
