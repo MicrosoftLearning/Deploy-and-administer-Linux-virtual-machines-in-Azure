@@ -90,8 +90,8 @@ In this task, you will create a Recovery Services vault.
 
 1. In the **Protected items** section select **Backup items**. Notice the vault does not yet contain any backups. 
 
-    >**Check your learning**
-    + Can you create and configure a Recovery Service vault for backups?  
+**Check your learning**
+ + Can you create and configure a Recovery Service vault for backups?  
 
 
 ## Task 2: Configure Azure virtual machine-level backup
@@ -143,10 +143,10 @@ In this task, you will implement Azure virtual-machine level backup. As part of 
     
 1. Select **Backup now**, accept the default value in the **Retain Backup Till** drop-down list, and click **OK**. Do not wait for the backup to complete.
 
-    >**Check your learning**
-    + Do you know the difference between an Enhanced and Standard backup policy?
-    + Can you configure backup policy retention settings?
-    + Can you review the backup job details and status?
+**Check your learning**
+ + Do you know the difference between an Enhanced and Standard backup policy?
+ + Can you configure backup policy retention settings?
+ + Can you review the backup job details and status?
 
 ## Learn more with self-paced training
 
