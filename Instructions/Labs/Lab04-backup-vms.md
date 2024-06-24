@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Backup virtual machines'
-    module: 'Backup virtual machines'
+    module: 'Lab 04 - Backup virtual machines'
 ---
 # Lab 04 - Backup a virtual machine
 
