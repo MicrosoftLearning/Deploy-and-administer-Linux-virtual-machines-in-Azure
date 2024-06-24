@@ -32,7 +32,7 @@ There is an interactive lab simulations that you might find useful for this topi
 
 ## Azure Virtual Machines Architecture Diagram
 
-!IMAGE[lab03storage3.png](instructions266099/lab03storage3.png)
+![Diagram for the storage architecture](./media/lab03.png)
 
 ## Skill 1: Create a virtual machine and add a data disk. 
 
@@ -44,7 +44,7 @@ In this task, you will create and configure a virtual machine using the Cloud Sh
 
 1. Select the **Cloud Shell** icon in the top right of the Azure Portal.
 
-    !IMAGE[Screenshot of the Cloud Shell icon.](instructions266099/cloudshell-icon.png)
+    ![Screenshot of the Cloud Shell icon.](./media/cloudshell-icon.png)
 
     >The [Cloud Shell](https://learn.microsoft.com/azure/cloud-shell/overview) is an interactive, authenticated, browser-accessible terminal for managing Azure resources. It provides the flexibility of choosing the shell experience that best suits the way you work, either Bash or PowerShell.
 
