@@ -83,9 +83,9 @@ In this task, you will enable VM Insights for a virtual machine.
 
 1. You do not need to wait for the deployment to finish, continue on. 
 
-    >**Check your learning**.
-    + Can you enable VM Insights on a virtual machine?
-    + Can create a data collection rule?
+**Check your learning**.
+ + Can you enable VM Insights on a virtual machine?
+ + Can create a data collection rule?
 
 ## Skill 2: Configure action groups
 
@@ -123,9 +123,9 @@ In this task, you will create an action group and configure a notification metho
 
 1. Finish creating the action group by selecting **Review + Create** and then **Create**. 
 
-    >**Check your learning.**
-    + Can you create an alert action group?
-    + Can you configure how the action group is notified when an alert is triggered? 
+**Check your learning.**
+ + Can you create an alert action group?
+ + Can you configure how the action group is notified when an alert is triggered? 
 
 ## Skill 3: Create alerts
 
@@ -190,9 +190,9 @@ In this task, you will create two alert rules.
 
 1. Select **Review + create**, then select **Create**.
 
-    >**Check your learning.**
-    + Can you create a virtual machine alert based on metrics?
-    + Can you create a virtual machine alert based on log activity? 
+**Check your learning.**
+ + Can you create a virtual machine alert based on metrics?
+ + Can you create a virtual machine alert based on log activity? 
 
 ## Skill 4: Trigger an alert by resizing the virtual machine
 
@@ -233,10 +233,10 @@ In this task, you will review performance data and resize a virtual machine.
 
     ![Screenshot of an alert email.](./media/alertemail.png)
 
-    >**Check your learning.**
-    + In the portal, can you access and review virtual machine metrics and logs?
-    + Can you resize a virtual machine?
-    + Can you manage alerts? For example, acknowledging that an alert has been reviewed. 
+**Check your learning.**
+ + In the portal, can you access and review virtual machine metrics and logs?
+ + Can you resize a virtual machine?
+ + Can you manage alerts? For example, acknowledging that an alert has been reviewed. 
 
 ## Skill 5: Configure an alert processing rule (optional)
 
