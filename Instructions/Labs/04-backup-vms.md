@@ -1,4 +1,8 @@
-
+---
+lab:
+    title: 'Backup virtual machines'
+    type: 'Backup virtual machines'
+---
 # Lab 04 - Backup a virtual machine
 
 ## Lab requirements    
