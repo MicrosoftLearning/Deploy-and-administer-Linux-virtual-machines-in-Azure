@@ -117,10 +117,10 @@ In this task, you will create and deploy a Linux virtual machine using the porta
 
 1. From the **Overview** blade, ensure the virtual machine **Status** is **Running**. 
 
->**Check your learning.** 
-    + Can you access the Azure portal?
-    + Can you use the Azure portal to create an Ubuntu virtual machine?
-    + Can you select the correct the Linux image and virtual machine size?
+**Check your learning.** 
+ + Can you access the Azure portal?
+ + Can you use the Azure portal to create an Ubuntu virtual machine?
+ + Can you select the correct the Linux image and virtual machine size?
 
 ## Skill 2: Connect to the virtual machine and install OS updates
 
@@ -215,8 +215,8 @@ In this task, you will install the Nginx web service.
     >If the home page times out, check to ensure there is an inbound security rule to allow port 80. 
 
 
->**Check your learning.** 
-+ Can you install software, like Nginx, on a Linux virtual machine?
+**Check your learning.** 
+ + Can you install software, like Nginx, on a Linux virtual machine?
 
 ## Learn more with self-paced training and documentation
 
