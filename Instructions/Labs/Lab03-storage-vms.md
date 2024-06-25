@@ -138,7 +138,7 @@ In this task, you will create and configure a virtual machine using the Cloud Sh
 1. Verify the disk now has a mount point. 
 
     ```sh
-    lsblk -o NAME,SIZE,MOUNTPOINT
+    df
     ```
 
 1. Verify there are no files on the data disk.
