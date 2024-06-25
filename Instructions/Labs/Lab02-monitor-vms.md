@@ -33,13 +33,13 @@ There is an interactive lab simulation that you might find useful for this topic
 
 + Skill 1: Configure VM Insights. 
 + Skill 2: Configure action groups and notifications. 
-+ Skill 3: Create alerts
-+ Skill 4: Trigger an alert by resizing the virtual machine
++ Skill 3: Create alerts.
++ Skill 4: Trigger an alert by resizing the virtual machine.
 + Skill 5: Configure an alert processing rule.
 
-## Create a virtual machine (optional)
+## Skill 0: Create a virtual machine (optional)
 
-In this task, you will deploy a template to create a Linux virtual machine. 
+In this task, you will deploy a template to create a Linux virtual machine. If you already have a virtual machine to use for this exercise, then skip to Skill 1. 
 
 1. In the Azure portal, search for and select `Deploy a custom template.`
 
@@ -65,11 +65,11 @@ In this task, you will deploy a template to create a Linux virtual machine.
 
 In this task, you will enable VM Insights for a virtual machine. 
 
->[VM insights](https://learn.microsoft.com/azure/azure-monitor/vm/vminsights-enable-overview) is a method for monitoring the client workloads on your virtual machines and virtual machine scale sets. VM Insights collects performance data, displays an inventory of your existing VMs, and provides a guided experience to enable base monitoring for them.
-
 1. In the portal, search for and select your virtual machine. Before proceeding, ensure the VM is **Running**. 
 
-1. In the **Monitoring** section, select **Insights**, and then **Enable**. 
+1. In the **Monitoring** section, select **Insights**, and then **Enable**.
+
+   >[VM insights](https://learn.microsoft.com/azure/azure-monitor/vm/vminsights-enable-overview) is a method for monitoring the client workloads on your virtual machines and virtual machine scale sets. VM Insights collects performance data, displays an inventory of your existing VMs, and provides a guided experience to enable base monitoring for them.
 
 1. For **Data collection rule**, select **Create New**. 
 
@@ -95,7 +95,7 @@ In this task, you will create an action group and configure a notification metho
 
 1. Select **+ Create** and then **Action group**.
 
->[Action groups](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/action-groups) are a collection of notification preferences and actions. You can add up to five action groups to an alert rule. Action groups are executed concurrently, in no specific order. Multiple alert rules can use the same action group. 
+    >[Action groups](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/action-groups) are a collection of notification preferences and actions. You can add up to five action groups to an alert rule. Action groups are executed concurrently, in no specific order. Multiple alert rules can use the same action group. 
 
 1. On the **Basics** tab, enter the following values for each setting.
 
@@ -109,7 +109,7 @@ In this task, you will create an action group and configure a notification metho
     | Action group name | `Help Desk` (must be unique in the resource group) |
     | Display name | `Help Desk` |
 
-1. Select **Next: Notifications** and enter the following values for each setting. Notifications determine how the action group is alerted. 
+1. Select **Next: Notifications >**. Notifications determine how the action group is alerted. We will be using email notifications. 
 
     | Setting | Value |
     |---------|---------|
@@ -131,9 +131,9 @@ In this task, you will create an action group and configure a notification metho
 
 In this task, you will create two alert rules. 
 
->[Virtual machine alerts](https://learn.microsoft.com/azure/azure-monitor/vm/monitor-virtual-machine-alerts) are automated notifications in Azure Monitor that provide insights into the status of Azure resource. There are no preconfigured alert rules for virtual machines, but there is a set of recommended alert rules you can enable. Or you can just create your own. 
+1. In the **Monitor** section, select **Alerts**.
 
-1. In the **Monitor** section, select **Alerts**. 
+    >[Virtual machine alerts](https://learn.microsoft.com/azure/azure-monitor/vm/monitor-virtual-machine-alerts) are automated notifications in Azure Monitor that provide insights into the status of Azure resource. There are no preconfigured alert rules for virtual machines, but there is a set of recommended alert rules you can enable. Or you can just create your own. 
 
 1. Select **Create +** and select **Alert rule**. 
 
@@ -154,7 +154,7 @@ In this task, you will create two alert rules.
 
 1. Move to the **Actions** tab, **Select action groups**, then choose the **Help Desk** action group and click **Select**. 
 
-1.Move to the **Details** tab, complete the required information. 
+1. Move to the **Details** tab, complete the required information. 
 
     | Setting | Value |
     |---------|---------|
@@ -198,7 +198,7 @@ In this task, you will create two alert rules.
 
 In this task, you will review performance data and resize a virtual machine. 
 
-1. Continue working on your virtual machine. 
+1. Continue working with your virtual machine. 
 
 1. In the **Monitoring** section select the **Metrics** blade. Take a few minutes to explore.
     + You can create a variety of different charts, like a **Line chart**. 
@@ -211,9 +211,8 @@ In this task, you will review performance data and resize a virtual machine.
 
     + In the **Topic** drop-down select **Resource type** and then **Virtual machines**.
     + Notice there are a large number of built-in queries that might be of interest. For example, the **Count heartbeats** or **Virtual Machine available memory**.
-    + Take time to explore and **Run** any queries of interest. 
-
-    >Depending on the virtual machine activity, there may not be a lot of activity. 
+    + Take time to explore and **Run** any queries of interest.
+    + Depending on the virtual machine activity, there may not be a lot of events. 
 
 1.  Based on your monitoring review you have decided to resize the virtual machine.
 
@@ -225,7 +224,7 @@ In this task, you will review performance data and resize a virtual machine.
 
     ![Screenshot of the resize virtual machine page in the portal. ](./media/resizevm.png)
 
-1. Resizing the virtual machine should trigger an alert. Navigate to the **Alerts** blade. 
+1. Navigate to the **Alerts** blade. Resizing the virtual machine should have triggered your VM1Changed alert rule. 
 
 1. Select an alert and review the details. **Edit** the **User response** and ensure the status is **Acknowledged**. **Save** your changes. 
 
@@ -271,16 +270,8 @@ In this task, you create an alert processing rule.
 
 1. Select **Review + create** to validate your input, then select **Create**.
 
-    >**Check your learning.**
-    + Can you configure an alert processing rule? For example, to suppress alerts during a maintenance period. 
-
-## Cleanup your resources
-
-If you are working with **your own subscription** take a minute to delete the lab resources. This will ensure resources are freed up and cost is minimized. The easiest way to delete the lab resources is to delete the lab resource group. 
-
-+ In the Azure portal, select the resource group, select **Delete the resource group**, **Enter resource group name**, and then click **Delete**.
-+ Using Azure PowerShell, `Remove-AzResourceGroup -Name resourceGroupName`.
-+ Using the CLI, `az group delete --name resourceGroupName`.
+**Check your learning.**
+ + Can you configure an alert processing rule? For example, to suppress alerts during a maintenance period. 
 
 ## Learn more with self-paced training
 
@@ -292,7 +283,7 @@ If you are working with **your own subscription** take a minute to delete the la
 Congratulations on completing the lab. Here are the main takeaways for this lab. 
 
 + Alerts help you detect and address issues before users notice there might be a problem with your infrastructure or application.
-+ You can alert on any metric or log data source in the Azure Monitor data platform.
++ You can alert on any metric or log data in the Azure Monitor data platform.
 + An alert rule monitors your data and captures a signal that indicates something is happening on the specified resource.
 + An alert is triggered if the conditions of the alert rule are met. Several actions (email, SMS, push, voice) can be triggered.
 + Action groups include individuals that should be notified of an alert.
