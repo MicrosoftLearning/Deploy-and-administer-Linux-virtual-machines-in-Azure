@@ -59,7 +59,7 @@ In this task, you will create and deploy a Linux virtual machine using the porta
     | Availability options | **No infrastructure redundancy required** |
     | Security type | **Standard** (review your other choices) |
     | Image | **Ubuntu Server 20.04 LTS - x64 Gen2** (use the drop-down to view other options) |
-    | Size | **Standard_Ds1_v2** (use **See all sizes** to view the performance and memory) |
+    | Size | **Standard_Ds1_v2** (use **See all sizes** to view the CPU and memory) |
     | Authentication type | **SSH public key** (notice you could use a password) |
     | Username | `azureadmin` |
     | SSH public key source | **Generate new key pair** (notice your choices to use an existing key) |
