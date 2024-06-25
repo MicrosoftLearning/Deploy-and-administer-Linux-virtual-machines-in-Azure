@@ -80,7 +80,7 @@ In this task, you will create and configure a virtual machine using the Cloud Sh
     az vm disk attach --resource-group rg1 --vm-name vm2 --name Disk1 --new --size-gb 4
     ```
 
-1. Verify the data disk was created. This command will also show the operating system disk information.
+1. Verify the data disk was created. This command will also show the operating system disk information. 
 
     ```sh
     az disk list --output table
@@ -157,7 +157,7 @@ In this task, you will create and configure a virtual machine using the Cloud Sh
 
 ## Skill 2: Access an Azure file share from the virtual machine
 
-In this task, you will create and configure a storage account. You will then create a file share and upload a file for testing. 
+In this task, you will create a storage account and file share. You will then give the virtual machine access to the file share and connect to the file share. 
 
 ### Create and configure the storage account
 
@@ -268,21 +268,23 @@ In this task, you will create and configure a storage account. You will then cre
 1. Minimize the Cloud Shell, but don't close the connection. In the next task, you will continue working on the virtual machine. 
 
 **Check your learning**
- + Can you create a storage account in the portal?
- + Can you create a file share and upload a file in the portal?
+ + Can you create a storage account in the portal (not part of the credential)?
+ + Can you create a file share and upload a file in the portal (not part of the credential)?
  + Can you use the portal to get a script to connect a virtual machine to the file share?
- + Can you assign a managed identity to the virtual machine so it can access a resource, like storage account?
+ + Can you assign a managed identity to the virtual machine so it can access a resource, like a storage account?
  + Can you run a script to mount the file share from the virtual machine?
 
 ### Skill 3: Copy a file from Azure blob storage to the virtual machine data disk
 
-In this task, you will configure a virtual machine managed identity to authenticate to the storage account. You will also assign an Azure role to allow the virtual machine read and write access to the storage account. 
+In this task, you will create a blob container. You will assign an Azure role to storage account. Lastly, you will use azcopy to transfer files to the virtual machine. 
 
 ### Create a blob storage container with test file
 
 1. Switch to the portal and your storage account. 
 
-1. In the **Data storage** section, click **Containers**. 
+1. In the **Data storage** section, click **Containers**.
+
+   >[Azure blob storage](https://learn.microsoft.com/azure/storage/blobs/storage-blobs-introduction) is an object storage solution optimized for storing massive amounts of unstructured data. Blob storage is organized into containers. 
 
 1. Click **+ Container** and **Create** a container with the following settings:
 
@@ -318,6 +320,8 @@ In this task, you will configure a virtual machine managed identity to authentic
 
     >There are many storage roles, including roles specifically for the storage account and for Blob storage. The **Storage Blob Data Contributor** role provides read, write, and delete on Azure storage containers and blobs. 
 
+### Use AzCopy to transfer files
+
 1. Return to the Cloud Shell. Ensure you are still connected to vm2. 
 
 1. Download AzCopy and extract the file. 
@@ -351,12 +355,12 @@ In this task, you will configure a virtual machine managed identity to authentic
     ls /datadrive
     ```
 
-1. The Storage Blob Data Contributor role includes writing the Azure blob container. As you have time, use azcopy to copy the file share file from /datadrive to the blob storage container.  
+1. The Storage Blob Data Contributor role includes writing the Azure blob container. As you have time, use azcopy to copy the data disk to the blob storage container.  
 
 **Check your learning**
- + Identity the correct Azure role based on requirements?
- + Add a role assignment to a resource, like a virtual machine?
- + Can you install the AzCopy utility on a Linux virtual machine?
+ + Can you use requirements to identify the best Azure role to use?
+ + Can you add a role assignment to a resource, like a virtual machine?
+ + Can you install the AzCopy utility on a virtual machine?
  + Can you use AzCopy to transfer files between a virtual machine and an Azure storage account?
 
 ## Learn more with self-paced training
@@ -373,7 +377,9 @@ In this task, you will configure a virtual machine managed identity to authentic
 
 Congratulations on completing the lab. Here are the main takeaways for this lab.
 
-+ An Azure storage account contains non-relational data including blobs, files, queues, and tables. 
++ An Azure storage account contains non-relational data including blobs and files. 
 + Azure file shares are accessible with the SMB protocol, NFS protocol, and Azure Files REST API. 
-+ Azure disks are block-level storage volumes that are managed by Azure and used with Azure Virtual Machines. 
++ Azure virtual machine data disks are block-level storage volumes. 
++ Azure blob storage is optimized for storing massive amounts of unstructured data, like images and videos. 
++ AzCopy is a utility to transfer data from virtual machines to Azure storage accounts. 
 
