@@ -122,7 +122,6 @@ In this task, you will create and configure a virtual machine using the Cloud Sh
     sudo mkfs.xfs /dev/sdc1
     ```
 
-
 1. Make a directory
 
     ```sh
@@ -147,7 +146,7 @@ In this task, you will create and configure a virtual machine using the Cloud Sh
     ls /datadrive
     ```
 
-1. Minimize the Cloud Shell, but don't close the connection. In the next task, you will continue working on the virtual machine. 
+1. Minimize the Cloud Shell, but don't close the connection. In the next task, you will continue working in the virtual machine. 
 
 **Check your learning.**
  + Can you access and configure the Cloud Shell?
@@ -331,10 +330,11 @@ In this task, you will create a blob container. You will assign an Azure role to
     sudo tar xzf downloadazcopy-v10-linux
     ```
 
-1. Copy azcopy to the usr/bin directory. 
+1. Make folder for azcopy and copy the executable to that directory. 
 
     ```sh
-    sudo cp ./azcopy_linux_amd64_*/azcopy /usr/bin/
+    sudo mkdir /opt/azcopy
+    sudo cp ./azcopy_linux_amd64_*/azcopy /opt/azcopy/
     ```
 
 1. Run this command to login azcopy as the virtual machine managed identity. Ensure there is a **succeeded** response.
