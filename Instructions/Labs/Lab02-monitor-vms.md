@@ -75,7 +75,11 @@ In this task, you will enable VM Insights for a virtual machine.
 
     >[Data collection rules](https://learn.microsoft.com/azure/azure-monitor/vm/monitor-virtual-machine-data-collection) provide a consistent and centralized way to define and customize different data collection scenarios. 
 
-1. Set the **Data collection rule name** to `Vm1Rule1`. Review the defaults and then select **Create**. 
+1. Set the **Data collection rule name** to `Vm1Rule1`.
+
+   >Notice the drop-down for **Log Analytics workspace**. Take the default, but notice you could make another selection. 
+  
+1. Review the defaults and then select **Create**. 
 
 1. Ensure your new rule is selected in the **Data collection rule** drop-down, then select **Configure**. 
 
