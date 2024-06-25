@@ -152,15 +152,20 @@ In this task, you will use SSH to connect to the virtual machine. Connecting wil
 
 1. Make a note of the **public IP address**. You will need this to connect to the virtual machine. **Close** the Native SSH page. 
 
-1. Open a **Command Prompt** window so you can run the SSH connection string. 
+1. Open a **Command Prompt** window so you can run the SSH connection string.
+
+   >In this lab we are using a key pair, but you could also provide a user and password. Use *ssh --help* to review how that connection string would be constructed. 
 
 1. At the prompt, connect to the virtual machine using SSH. Be sure to  include the correct path to the key and the virtual machine's public_ip_address. Example of key location: `c:\users\admin\downloads\vm1_key.pem`. When prompted, type *yes* to connect. 
 
     ```sh
     ssh -i path_to_key_file adminuser@public_ip_address
     ```
+    
 
-    >Ensure the command is successful and the prompt changes to *azureadmin@vm1*. 
+
+
+1. Ensure the command is successful and the prompt changes to *azureadmin@vm1*. 
 
 1. Fetch the list of available OS updates and install updates. When prompted, type **yes** to continue. Each command must complete successfully. 
 
