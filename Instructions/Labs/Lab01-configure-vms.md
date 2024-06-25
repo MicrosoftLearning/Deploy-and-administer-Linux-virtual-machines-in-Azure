@@ -38,7 +38,7 @@ In this task, you will create and deploy a Linux virtual machine using the porta
 
 1. Sign in to the Azure portal - `https://portal.azure.com`.
 
-    >In this first lab you will use the Azure portal to create the virtual machine. This will give you an good overview of the configuration settings. In a later lab you will use the Azure CLI to create a virtual machine. 
+    >In this first lab you will use the Azure portal to create the virtual machine. This will give you a good overview of the configuration settings. In a later lab you will use the Azure CLI to create a virtual machine. 
 
 1. **Cancel** the **Welcome to Microsoft Azure** splash screen. 
 
@@ -119,12 +119,12 @@ In this task, you will create and deploy a Linux virtual machine using the porta
 
 **Check your learning.** 
  + Can you access the Azure portal?
- + Can you use the Azure portal to create an Ubuntu virtual machine?
+ + Can you use the Azure portal to create a Linux virtual machine?
  + Can you select the correct the Linux image and virtual machine size?
 
 ## Skill 2: Connect to the virtual machine and install OS updates
 
-In this task, you will use SSH to connect to the virtual machine. Connecting will require network traffic to port 22 be allowed. Once connected, you will check for and update the operating system. 
+In this task, you will use SSH to connect to the virtual machine. Connecting will require network traffic to port 22 to be allowed. Once connected, you will check for and update the operating system. 
 
 1. Continue in the portal on the virtual machine page. 
 
@@ -144,36 +144,36 @@ In this task, you will use SSH to connect to the virtual machine. Connecting wil
 
 1. In the **Service** drop-down, select **SSH**, then **Add** the rule. 
 
-1. The Nginx web service that you will be installing later needs port 80 open. Repeat the above step to **add** another inbound port rule for service **HTTP**. 
+    >The Nginx web service that you will be installing later needs port 80 open. Repeat the above step to **add** another inbound port rule for service **HTTP**. 
 
 1. Check your work and ensure you have two new inbound port rules to **allow** port 22 and port 80. 
 
-1. In the **Connect** menu (left-side) select **Connect** and then **select** Native SSH. Confirm port 22 access is now configured (check mark). It may take a minute for the rule to deploy, if necessary refresh the page. 
+1. In the **Connect** menu (left side) select **Connect** and then **select** Native SSH. Confirm port 22 access is now configured (check mark). It may take a minute for the rule to deploy, if necessary, refresh the page. 
 
 1. Make a note of the **public IP address**. You will need this to connect to the virtual machine. **Close** the Native SSH page. 
 
 1. Open a **Command Prompt** window so you can run the SSH connection string. 
 
-1. At the prompt, connect to the virtual machine using SSH. Be sure to  include the correct path to the key and the virtual machine's public IP address. Example of key location: `c:\users\admin\downloads\vm1_key.pem`. When prompted, type *yes* to connect. 
+1. At the prompt, connect to the virtual machine using SSH. Be sure to  include the correct path to the key and the virtual machine's public_ip_address. Example of key location: `c:\users\admin\downloads\vm1_key.pem`. When prompted, type *yes* to connect. 
 
     ```sh
-    ssh -i <path to the key file> adminuser@<public IP address>
+    ssh -i path_to_key_file adminuser@public_ip_address
     ```
 
     >Ensure the command is successful and the prompt changes to *azureadmin@vm1*. 
 
-1. Fetch the list of available OS updates and install updates. When prompted, type **yes** to continue.
+1. Fetch the list of available OS updates and install updates. When prompted, type **yes** to continue. Each command must complete successfully. 
 
     ```sh
     sudo apt update;
     sudo apt upgrade
     ```
-1. Stay connected to the virtual machine and continue to the next task.
+1. Stay connected to the virtual machine, leave the Command window open, and continue to the next task.
 
->**Check your learning.** 
-+ Can you configure a network security group inbound port rules? 
-+ Can you connect to a Linux virtual machine with native SSH?
-+ Can you install OS updates on a Linux virtual machine?
+**Check your learning.** 
+ + Can you configure network security group inbound port rules? 
+ + Can you connect to a Linux virtual machine with native SSH?
+ + Can you install OS updates on a Linux virtual machine?
 
 ## Skill 3: Install the Nginx web service and test to ensure it is working
 
@@ -184,7 +184,7 @@ In this task, you will install the Nginx web service.
 1. Install the Nginx service. When prompted indicate **Y** to continue the install.  
 
     ```sh
-    sudo apt install nginx;
+    sudo apt install nginx
     ```
 1. Start the Nginx service. 
 
@@ -230,6 +230,7 @@ Congratulations on completing the lab. Here are the main takeaways for this lab.
 
 + Azure virtual machines are on-demand, scalable computing resources.
 + Configuring Azure virtual machines includes choosing an operating system, size, storage and networking settings. You can create a basic virtual machine by accepting the defaults. 
-+ There are several ways to connect to an Azure virtual machine. Bastion provides connectivity without having to open a SSH or RDP port. 
++ There are several ways to connect to a Linux virtual machine.
++ Bastion provides connectivity without having to open a SSH or RDP port. 
 + SSH also provides secure connections. To use SSH the virtual machine must have a public IP address and port 22 must be open.  
 + Network Security Group rules let you allow or deny inbound and outbound port connections. For example, port 22 for SSH and port 80 for Nginx. 
