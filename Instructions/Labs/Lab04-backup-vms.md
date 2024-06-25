@@ -36,9 +36,9 @@ There is an interactive lab simulation that you might find useful for this topic
 
 ![Diagram for lab 04 architecture.](./media/lab04.png)
 
-## Create a virtual machine (optional)
+## Task 0: Create a virtual machine (optional)
 
-In this task, you will deploy a template to create a Linux virtual machine. 
+In this task, you will deploy a template to create a Linux virtual machine. If you already have a virtual machine to work with you can skip this step. 
 
 1. In the Azure portal, search for and select `Deploy a custom template.`
 
