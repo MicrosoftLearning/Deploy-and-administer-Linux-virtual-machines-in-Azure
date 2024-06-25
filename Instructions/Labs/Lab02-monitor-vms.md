@@ -21,7 +21,7 @@ Your organization is migrating their virtual machine workloads to Azure. It is i
 
 ## Interactive lab simulation
 
-There is an interactive lab simulation that you might find useful for this topic. The simulation lets you to click through a similar scenario at your own pace. There are differences between the interactive simulation and this lab, but many of the core concepts are the same. An Azure subscription is not required.
+There is an interactive lab simulation that you might find useful for this topic. The simulation lets you click through a similar scenario at your own pace. There are differences between the interactive simulation and this lab, but many of the core concepts are the same. An Azure subscription is not required.
 
 + [Implement monitoring](https://mslabs.cloudguides.com/guides/AZ-104%20Exam%20Guide%20-%20Microsoft%20Azure%20Administrator%20Exercise%2017). Create a Log Analytics workspace and Azure-automation solutions. Review monitoring and diagnostic settings for virtual machines. Review Azure Monitor and Log Analytics functionality. 
 
@@ -141,11 +141,11 @@ In this task, you will create two alert rules.
 
 1. In the **Signal name** drop-down select **Percentage CPU**. 
 
-1. You want to alerted when the CPU threshold is over 90%. So change the **Threshold value** to `90`.
+1. You want to be alerted when the CPU threshold is over 90%. So, change the **Threshold value** to `90`.
 
     >Alerts can be based on metrics. Metrics are numerical values that are automatically collected at regular intervals and describe some aspect of a resource. For example, this metric would tell you the processor utilization of a virtual machine.
 
-1. You also need to adjust the **When to evaluate** settings. It is important to be reasonable about how often the alert is checking. 
+1. You also need to adjust the **When to evaluate** settings. It is important to be reasonable about how often the alert is checked. 
 
     | Setting | Value |
     |---------|---------|
@@ -207,7 +207,7 @@ In this task, you will review performance data and resize a virtual machine.
     + You can create a **New alert rule** from your data. 
     + You can **Save to the dashboard**. 
 
-1. In the **Monitoring** section select the **Logs** blade. If necessary **close** the **Welcome to Log Analytics** page. Take a few minutes to explore.
+1. In the **Monitoring** section select the **Logs** blade. If necessary, **close** the **Welcome to Log Analytics** page. Take a few minutes to explore.
 
     + In the **Topic** drop-down select **Resource type** and then **Virtual machines**.
     + Notice there are a large number of built-in queries that might be of interest. For example, the **Count heartbeats** or **Virtual Machine available memory**.
