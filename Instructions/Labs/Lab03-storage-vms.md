@@ -15,11 +15,11 @@ This lab requires an Azure subscription. Your subscription type may affect the a
 
 ## Lab scenario
 
-You have been asked to explore how virtual machines can use Azure storage. You want explore using Azure file shares and Blobs. You want to add and mount a data disk on the virtual machine. Lastly, you want to explore how to transfer data from Azure to the virtual machine with azcopy. 
+You have been asked to explore how virtual machines can use Azure storage. You want to explore using Azure file shares and Blobs. You want to add and mount a data disk on the virtual machine. Lastly, you want to explore how to transfer data from Azure to the virtual machine with azcopy. 
 
 ## Interactive lab simulation 
 
-There is an interactive lab simulations that you might find useful for this topic. The simulation lets you to click through a similar scenario at your own pace. There are differences between the interactive simulation and this lab, but many of the core concepts are the same. An Azure subscription is not required.
+There is an interactive lab simulation that you might find useful for this topic. The simulation lets you click through a similar scenario at your own pace. There are differences between the interactive simulation and this lab, but many of the core concepts are the same. An Azure subscription is not required.
 
 + [Create a virtual machine with the CLI](https://mslearn.cloudguides.com/en-us/guides/AZ-900%20Exam%20Guide%20-%20Azure%20Fundamentals%20Exercise%2011). Use the CLI to deploy a virtual machine. Review Azure Advisor recommendations.
 
@@ -89,7 +89,7 @@ In this task, you will create and configure a virtual machine using the Cloud Sh
 
 ### Connect to the virtual machine and configure the data disk
 
-1. To format and mount the data disk you will need to connect into the virtual machine. Substitute your public IP address. When prompted, confirm you want to connect. When successfully connected, the prompt will change to *adminuser@vm2*.
+1. To format and mount the data disk you will need to connect to the virtual machine. Substitute your public IP address. When prompted, confirm you want to connect. When successfully connected, the prompt will change to *adminuser@vm2*.
 
     ```sh
     ssh -i ~/.ssh/id_rsa.pem adminuser@public_ip_address
@@ -153,7 +153,7 @@ In this task, you will create and configure a virtual machine using the Cloud Sh
  + Can you access and configure the Cloud Shell?
  + Can you create a virtual machine using the CLI?
  + Can you add a data disk to a virtual machine (portal or CLI)?
- + Can you partition and mount a data disk so it is usable?
+ + Can you partition and mount a data disk, so it is usable?
 
 ## Skill 2: Access an Azure file share from the virtual machine
 
@@ -179,7 +179,7 @@ In this task, you will create a storage account and file share. You will then gi
     | Redundancy            | **Geo-redundant storage** (notice the other options)|
     | Make read access to data in the event of regional availability | Check the box |
 
-    >Storage is not focus of this lab, so take the defaults for the other tabs and continue.
+    >Storage is not the focus of this lab, so take the defaults for the other tabs and continue.
 
 1. Select **Review + Create** and then **Create**.
 
@@ -223,7 +223,7 @@ In this task, you will create a storage account and file share. You will then gi
 
 1. On the **System assigned** tab, toggle the **Status** to **On**.
 
-    >A system-assigned managed identity is an identity created and managed by Azure for a specific service instance. The managed identity allows the resource access other Azure resources without storing credentials.
+    >A system-assigned managed identity is an identity created and managed by Azure for a specific service instance. The managed identity allows the resource to access other Azure resources without storing credentials.
 
 1. **Save** your changes and select **Yes** to **Enable system assigned managed identity**. 
 
@@ -238,7 +238,7 @@ In this task, you will create a storage account and file share. You will then gi
     vi script.sh
     ```
     
-1. Right click and **Paste as plain text**. You connection script should display. 
+1. Right click and **Paste as plain text**. Your connection script should display. 
 
 1. Type **:wq** to write and quit. **Enter** to exit the editor.
 
