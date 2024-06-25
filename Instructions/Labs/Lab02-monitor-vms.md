@@ -77,7 +77,7 @@ In this task, you will enable VM Insights for a virtual machine.
 
 1. Set the **Data collection rule name** to `Vm1Rule1`.
 
-   >Notice the drop-down for **Log Analytics workspace**. Take the default, but notice you could make another selection. 
+1. Notice the drop-down for **Log Analytics workspace**. Take the default, but notice you could make another selection. 
   
 1. Review the defaults and then select **Create**. 
 
