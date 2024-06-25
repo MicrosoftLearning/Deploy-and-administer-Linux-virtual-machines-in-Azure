@@ -1,11 +1,11 @@
 ---
 lab:
-    title: 'Lab 03 - Storage for virtual machines'
-    module: 'Storage for virtual machines'
+    title: 'Exercise 03 - Storage for virtual machines'
+    module: 'Guided Project: Storage for virtual machines'
 ---
 
 
-# Lab 03 - Storage for virtual machines
+# Exercise 03 - Storage for virtual machines
 
 ## Lab requirements
 
