@@ -241,7 +241,7 @@ In this task, you will review performance data and resize a virtual machine.
  + Can you resize a virtual machine?
  + Can you manage alerts? For example, acknowledging that an alert has been reviewed. 
 
-## Skill 5: Configure an alert processing rule (optional)
+## Skill 5: Configure an alert processing rule
 
 In this task, you create an alert processing rule. 
 
