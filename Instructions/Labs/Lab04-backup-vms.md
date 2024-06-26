@@ -27,8 +27,7 @@ There is an interactive lab simulation that you might find useful for this topic
 
 + Task 1: Create and configure a Recovery Services vault.
 + Task 2: Configure Azure virtual machine-level backup.
-+ Task 3: Configure a SMB File share backup. 
-+ Task 4: Monitor Azure Backup.
+
 
 ### Estimated timing: 20 minutes
 
