@@ -25,9 +25,9 @@ There is an interactive lab simulation that you might find useful for this topic
 
 ## Job skills
 
-+ Skill 1: Create a virtual machine and add a data disk (CLI) 
-+ Skill 2: Access an Azure file share from the virtual machine
-+ Skill 2: Copy a file from Azure blob storage to the virtual machine data disk
++ Skill 1: Create a virtual machine and add a data disk (CLI).
++ Skill 2: Access an Azure file share from the virtual machine.
++ Skill 2: Copy a file from Azure blob storage to the virtual machine data disk.
 
 
 ## Azure Virtual Machines Architecture Diagram
