@@ -48,7 +48,7 @@ In this task, you will create and deploy a Linux virtual machine using the porta
 
 1. On the Basics tab, continue completing the configuration:
 
-    >Use the Informational icons to learn about each parameter. If a value isn't specified, use the default value.
+    >Use the Informational icons to learn about each parameter. If a value isn't specified, use the default value. For example, compute optimized VM sizes have a high CPU-to-memory ratio. Good for medium traffic web servers, network appliances, batch processes, and application servers.
 
     | Setting | Value |
     | --- | --- |
@@ -66,6 +66,8 @@ In this task, you will create and deploy a Linux virtual machine using the porta
     | SSH Key Type | **RSA SSH Format** |
     | Key pair name | `vm1_key` |
     | Public inbound ports |**None** |
+
+   >Did you know [virtual machine sizes](https://learn.microsoft.com/azure/virtual-machines/sizes/overview) are categorized into different families and types, each optimized for specific purposes. For example, 
 
 1. Click **Next: Disks >** , specify the following settings (leave others with their default values):
 
