@@ -25,7 +25,7 @@ There is an interactive lab simulation that you might find useful for this topic
 ## Job skills
 
 + Skill 1: Use the Azure portal to create a virtual machine.
-+ Skill 2: Connect to the virtual machine and install OS updates
++ Skill 2: Connect to the virtual machine and install OS updates.
 + Skill 3: Install the Nginx web service and test to ensure it is working.
 
 ## Azure Virtual Machines Architecture Diagram
