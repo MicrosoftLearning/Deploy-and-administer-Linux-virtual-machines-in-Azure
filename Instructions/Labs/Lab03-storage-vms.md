@@ -200,7 +200,7 @@ In this task, you will create a storage account and file share. You will then gi
 
 1. Select **Upload** and **Browse for files**. 
 
-1. Select the xxxx file and then click **Upload**.
+1. Select a file and then click **Upload**.
 
 1. Select **Browse** left menu, to ensure your file was uploaded. 
 
@@ -294,7 +294,7 @@ In this task, you will create a blob container. You will assign an Azure role to
 
 1. Select your **data** container and then click **Upload**.
 
-1. **Browse for files**. Select the xxx file and then click **Upload**.
+1. **Browse for files**. Select a file then click **Upload**.
 
 1. Select your uploaded file and copy the **URL**. 
 
