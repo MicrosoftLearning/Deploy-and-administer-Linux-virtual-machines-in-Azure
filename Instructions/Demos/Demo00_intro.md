@@ -1,4 +1,3 @@
-
 ---
 demo:
     title: 'Demonstration 00: Student materials and lab environment'
