@@ -1,6 +1,6 @@
 ---
 demo:
-    title: 'Demo 04: Backup Azure virtual machines'
+    title: 'Demo 04 - Backup Azure virtual machines'
     module: 'Guided Project: Backup Azure virtual machines'
 ---
 
