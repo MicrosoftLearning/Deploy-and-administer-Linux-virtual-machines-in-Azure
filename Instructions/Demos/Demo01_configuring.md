@@ -1,8 +1,7 @@
-
 ---
 demo:
-    title: 'Demo 04 - Backup Azure virtual machines'
-    module: 'Guided Project: Backup Azure virtual machines'
+    title: 'Demo 01 - Configuring Azure virtual machines'
+    module: 'Guided Project: Configuring Azure virtual machines'
 ---
 
 # Demo: Backup Azure virtual machines
