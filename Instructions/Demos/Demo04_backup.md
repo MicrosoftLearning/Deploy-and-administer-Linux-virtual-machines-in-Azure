@@ -16,7 +16,7 @@ There are no additional slides to support the demonstration.
 
 ## Discussion points
 
-1. Discuss the need for a recovery services vault. The vault must be in the same region as the data source. A recovery services vault will be provided for students taking the credential test.
+1. Discuss the need for a recovery services vault. The vault must be in the same region as the data source. 
 2. Review how virtual machine backup can be enabled in the portal (vault, virtual machine, backup center).
 3. Use the **datasource type** drop-down to review the many different resources the Backup Center can protect.
 4. Point out the default backup policy and that a custom backup policy can be created.
