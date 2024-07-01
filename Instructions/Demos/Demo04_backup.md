@@ -1,14 +1,18 @@
 ---
 demo:
-    title: 'Demo 04 - Backup Azure virtual machines'
-    module: 'Guided Project: Backup Azure virtual machines'
+    title: 'Demo 04 - Backup virtual machines'
+    module: 'Guided Project: Backup virtual machines'
 ---
 
 # Demo: Backup Azure virtual machines
 
-## Reference
+## Demonstration steps
 
 Use this [Quickstart](https://learn.microsoft.com/azure/backup/quick-backup-vm-portal) for your demonstration. 
+
+## Reference slides
+
+There are no additional slides to support the demonstration. 
 
 ## Discussion points
 
