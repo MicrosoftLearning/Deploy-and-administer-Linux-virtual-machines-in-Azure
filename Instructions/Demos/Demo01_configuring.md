@@ -1,43 +1,21 @@
 ---
 demo:
-    title: 'Working on it'
-    module: 'Module 1: Configuring virtual machines'
+    title: 'Backup Azure virtual machines'
+    module: 'Backup Azure virtual machines'
 ---
 
-# Demo: Deploying an ARM Template
+# Demo: Backup Azure virtual machines
 
-## Instructions
+## Reference
 
-1. Quisque dictum convallis metus, vitae vestibulum turpis dapibus non.
+Use this [Quickstart](https://learn.microsoft.com/azure/backup/quick-backup-vm-portal) for your demonstration. 
 
-    1. Suspendisse commodo tempor convallis. 
+## Discussion points
 
-    1. Nunc eget quam facilisis, imperdiet felis ut, blandit nibh. 
-
-    1. Phasellus pulvinar ornare sem, ut imperdiet justo volutpat et.
-
-1. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-
-1. Vestibulum hendrerit orci urna, non aliquet eros eleifend vitae. 
-
-1. Curabitur nibh dui, vestibulum cursus neque commodo, aliquet accumsan risus. 
-
-    ```
-    Sed at malesuada orci, eu volutpat ex
-    ```
-
-1. In ac odio vulputate, faucibus lorem at, sagittis felis.
-
-1. Fusce tincidunt sapien nec dolor congue facilisis lacinia quis urna.
-
-    > **Note**: Ut feugiat est id ultrices gravida.
-
-1. Phasellus urna lacus, luctus at suscipit vitae, maximus ac nisl. 
-
-    - Morbi in tortor finibus, tempus dolor a, cursus lorem. 
-
-    - Maecenas id risus pharetra, viverra elit quis, lacinia odio. 
-
-    - Etiam rutrum pretium enim. 
-
-1. Curabitur in pretium urna, nec ullamcorper diam. 
+1. Discuss the need for a recovery services vault. The vault must be in the same region as the data source. A recovery services vault will be provided for students taking the credential test.
+2. Review how virtual machine backup can be enabled in the portal (vault, virtual machine, backup center).
+3. Use the **datasource type** drop-down to review the many different resources the Backup Center can protect.
+4. Point out the default backup policy and that a custom backup policy can be created.
+5. Discuss how a single backup policy can be used across many different virtual machines.
+6. Review the backup policy configuration settings (schedule and retention).
+7. Review how to monitor backup jobs. 
