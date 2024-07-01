@@ -13,7 +13,7 @@ Use this demonstration to show students how to access the lab environment and st
 
 - Explain how to sign-in to the virtual machine host.
 
-- Explain how to access the [Azure portal](https://portal.azure.com). It is preferred to open the Azure portal in the lab environment instead of a separate window. Ask for a show of hands on how many students have used the portal. 
+- Explain how to access the [Azure portal](https://portal.azure.com). It is preferred to open the Azure portal in the lab environment instead of a separate window. Ask how many students have used the portal. 
 
 - Explain what resources, if any, have already been configured for the labs.
 
