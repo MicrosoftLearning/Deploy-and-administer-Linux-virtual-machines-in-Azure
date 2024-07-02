@@ -15,12 +15,9 @@ Use this demonstration to review these credential tasks:
 + Update Linux VM operating systems
 + Install and run a workload dependency
 
+## Resource requirements
 
-## Reference slides
-
-Use these slides for additional context.
-    
-
+None.
 
 ## Reference steps
 
