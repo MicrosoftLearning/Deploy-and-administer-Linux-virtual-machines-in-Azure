@@ -23,7 +23,7 @@ Use these links to provide a demonstration.
 
 ## Reference slides
 
-Use these slides for additional context as you go through the demonstration. 
+Use these slides for additional context.
     
 
 
