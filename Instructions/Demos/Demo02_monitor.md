@@ -8,17 +8,15 @@ demo:
 
 ## Credential tasks
 
-Use this demonstration to review these credential tasks:
 + Configure VM Insights.
 + Create an alert.  
 + Identify performance issues. 
 + Resize a virtual machine. 
 
-## Reference slides
+## Resource requirements
 
-Use these slides for additional context.
-
-
++ Linux virtual machine
+  
 ## Reference steps
 
 Detailed steps are provided in these links.
@@ -26,6 +24,10 @@ Detailed steps are provided in these links.
 + [Enable VM insights for Azure Monitor Agent](https://learn.microsoft.com/azure/azure-monitor/vm/vminsights-enable-portal#enable-vm-insights-for-azure-monitor-agent) 
 
 + [Tutorial: Create a metric alert for an Azure resource](https://learn.microsoft.com/azure/azure-monitor/alerts/alerts-create-metric-alert-rule)
+
+## Reference slides
+
+Use these slides for additional context.
 
 
 ## Discussion points
