@@ -4,7 +4,7 @@ demo:
     module: 'Guided Project: Access storage for virtual machines'
 ---
 
-# Demo: Access storage for virtual machines
+# Demo: Storage for virtual machines
 
 ## Demonstration steps
 
