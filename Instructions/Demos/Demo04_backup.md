@@ -6,7 +6,7 @@ demo:
 
 # Demo 04: Backup Azure virtual machines
 
-Use this demonstration to review this task:
+Use this demonstration to review this credential task:
 + Configure Azure Backup 
 
 ## Demonstration steps
