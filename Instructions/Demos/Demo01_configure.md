@@ -6,6 +6,8 @@ demo:
 
 # Demo 01: Configure virtual machines
 
+## Credential tasks
+
 Use this demonstration to review these credential tasks:
 + Create a Linux virtual machine (VM) 
 + Configure a Linux VM 
@@ -20,14 +22,16 @@ Use these slides for additional context.
     
 
 
-## Demonstration and discussion points
+## Reference steps
 
 Detailed steps are provided in these links.
 
 + [Provision a Linux virtual machine by using the Azure portal](https://learn.microsoft.com/training/modules/provision-linux-virtual-machine-in-azure/2-provision-linux-virtual-machine-using-the-azure-portal)
 
 + [Quickstart: Create a Linux VM](https://learn.microsoft.com/azure/virtual-machines/linux/quick-create-portal?tabs=ubuntu)
-  
+
+## Discussion points
+
 **Creating and configuring the virtual machine**
 
 1. Use the portal link to review the Linux **Images** selection.  Identify the latest Ubuntu distribution.
