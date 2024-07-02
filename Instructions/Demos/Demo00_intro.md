@@ -3,7 +3,7 @@ demo:
     title: 'Demo 00 - Student materials and lab environment'
     module: 'Guided Project: Student materials and lab environment'
 ---
-## Demo: Student materials and lab environment 
+## Demo 00: Student materials and lab environment (optional)
 
 Use this demonstration to show students how to access the lab environment and student materials. You can do this at the beginning of class or before the next demonstration. 
 
