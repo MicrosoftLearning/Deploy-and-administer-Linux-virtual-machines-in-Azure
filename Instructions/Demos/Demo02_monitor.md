@@ -4,7 +4,7 @@ demo:
     module: 'Guided Project: Monitor virtual machines'
 ---
 
-# Demo: Monitor virtual machines
+# Demo 01: Monitor virtual machines
 
 Use this demonstration to review these tasks:
 + Configure VM Insights 
