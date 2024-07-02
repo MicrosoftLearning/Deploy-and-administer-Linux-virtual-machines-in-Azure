@@ -1,9 +1,9 @@
 ---
 lab:
-    title: 'Exercise 04 - Backup virtual machines'
+    title: 'Exercise 04: Backup virtual machines'
     module: 'Guided Project: Backup virtual machines'
 ---
-# Exercise 04 - Backup a virtual machine
+# Exercise 04: Backup a virtual machine
 
 ## Lab requirements    
 
