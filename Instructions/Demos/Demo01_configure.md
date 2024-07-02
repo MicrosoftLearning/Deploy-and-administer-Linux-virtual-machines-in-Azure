@@ -20,7 +20,9 @@ Use these slides for additional context.
     
 
 
-## Demonstration and discussion
+## Demonstration and discussion points
+
+Detailed steps are provided in these links.
 
 + [Provision a Linux virtual machine by using the Azure portal](https://learn.microsoft.com/training/modules/provision-linux-virtual-machine-in-azure/2-provision-linux-virtual-machine-using-the-azure-portal)
 
