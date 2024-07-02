@@ -4,7 +4,7 @@ demo:
     module: 'Guided Project: Configure virtual machines'
 ---
 
-# Demo: Configure virtual machines
+# Demo 01: Configure virtual machines
 
 Use this demonstration to review these tasks:
 + Create a Linux virtual machine (VM) 
