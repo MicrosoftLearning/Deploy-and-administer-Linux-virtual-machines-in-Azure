@@ -9,17 +9,13 @@ demo:
 Use this demonstration to review this credential task:
 + Configure Azure Backup 
 
-## Demonstration steps
-
-Use this link to provide a demonstration.
-
-+ [Quickstart: Backup virtual machines in the portal](https://learn.microsoft.com/azure/backup/quick-backup-vm-portal)
-
 ## Reference slides
 
 Use these slides for additional context.  
 
-## Discussion points
+## Demonstration and discussion points
+
+[Quickstart: Backup virtual machines in the portal](https://learn.microsoft.com/azure/backup/quick-backup-vm-portal)
 
 1. Discuss the need for a recovery services vault. The vault must be in the same region as the data source. 
 
