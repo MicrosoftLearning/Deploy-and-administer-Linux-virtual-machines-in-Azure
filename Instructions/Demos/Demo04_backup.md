@@ -11,11 +11,13 @@ Use this demonstration to review this credential task:
 
 ## Demonstration steps
 
-Use this [Quickstart: Backup virtual machines in the portal](https://learn.microsoft.com/azure/backup/quick-backup-vm-portal). 
+Use this link to provide a demonstration.
+
++ [Quickstart: Backup virtual machines in the portal](https://learn.microsoft.com/azure/backup/quick-backup-vm-portal)
 
 ## Reference slides
 
-There are no additional slides to support the demonstration. 
+Use these slides for additional context.  
 
 ## Discussion points
 
