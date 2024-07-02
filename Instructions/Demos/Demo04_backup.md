@@ -23,7 +23,7 @@ There are no additional slides to support the demonstration.
 
 1. Review how virtual machine backup can be enabled in the portal (vault, virtual machine, backup center).
 
-1. Use the **datasource type** drop-down to review the many different resources the Backup Center can protect.
+1. Use the **datasource type** drop-down to review the many resources the Backup Center can protect.
 
 1. Point out the default backup policy and that a custom backup policy can be created.
 
@@ -31,4 +31,6 @@ There are no additional slides to support the demonstration.
 
 1. Review the backup policy configuration settings (schedule and retention).
 
-1. Review how to monitor backup jobs. 
+1. Review how to monitor backup jobs.
+
+1. Review how you can restore virtual machines (not on the credential). 
