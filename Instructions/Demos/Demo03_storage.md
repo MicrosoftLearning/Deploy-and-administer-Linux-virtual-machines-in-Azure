@@ -6,7 +6,7 @@ demo:
 
 # Demo 03: Storage for virtual machines
 
-Use this demonstration to review these tasks:
+Use this demonstration to review these credential tasks:
 + Add data disks and configure partitions  
 + Mount an SMB Azure file share on a Linux VM 
 + Assign a managed identity on a Linux VM 
