@@ -6,6 +6,13 @@ demo:
 
 # Demo: Monitor virtual machines
 
+Use this demonstration to review these tasks:
++ Configure VM Insights 
++ Create an alert  
++ Identify performance issues 
++ Resize a virtual machine 
+
+
 ## Demonstration steps
 
 Use this [Enable VM insights for Azure Monitor Agent](https://learn.microsoft.com/azure/azure-monitor/vm/vminsights-enable-portal#enable-vm-insights-for-azure-monitor-agent). 
