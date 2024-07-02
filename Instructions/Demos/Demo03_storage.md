@@ -45,4 +45,6 @@ Use these slides for additional context.
 
 **Access an SMB file share from the virtual machine**
 
-1. 
+1. Review how to locate the
+
+** 
