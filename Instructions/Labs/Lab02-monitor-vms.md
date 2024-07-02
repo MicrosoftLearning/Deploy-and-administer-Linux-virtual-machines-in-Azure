@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Exercise 02 - Monitor virtual machines'
+    title: 'Exercise 02: Monitor virtual machines'
     module: 'Guided Project: Monitor virtual machines'
 ---
 
-# Exercise 02 - Monitor a virtual machine
+# Exercise 02: Monitor a virtual machine
 
 ## Lab requirements
 
