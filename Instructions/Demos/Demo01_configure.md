@@ -6,7 +6,7 @@ demo:
 
 # Demo 01: Configure virtual machines
 
-Use this demonstration to review these tasks:
+Use this demonstration to review these credential tasks:
 + Create a Linux virtual machine (VM) 
 + Configure a Linux VM 
 + Connect to a Linux VM with SSH   
