@@ -19,9 +19,9 @@ Use these slides for additional context.
 
 ## Demonstration and discussion points
 
-+ [Enable VM insights for Azure Monitor Agent](https://learn.microsoft.com/azure/azure-monitor/vm/vminsights-enable-portal#enable-vm-insights-for-azure-monitor-agent) 
+[Enable VM insights for Azure Monitor Agent](https://learn.microsoft.com/azure/azure-monitor/vm/vminsights-enable-portal#enable-vm-insights-for-azure-monitor-agent) 
 
-+ [Tutorial: Create a metric alert for an Azure resource](https://learn.microsoft.com/azure/azure-monitor/alerts/alerts-create-metric-alert-rule)
+[Tutorial: Create a metric alert for an Azure resource](https://learn.microsoft.com/azure/azure-monitor/alerts/alerts-create-metric-alert-rule)
 
 1. Enable VM Insights. Review how to use a data collection rule and how to select a Log Analytics workspace. 
 
