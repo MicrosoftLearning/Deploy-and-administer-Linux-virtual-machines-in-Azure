@@ -29,7 +29,7 @@ Alternatively, you can use the [Quickstart: Create a Linux VM](https://learn.mic
 
 **Creating and configuring the virtual machine**
 
-1. Use the portal link to review the Linux **Images** selection.  Identify the "lastest" Ubuntu distribution.
+1. Use the portal link to review the Linux **Images** selection.  Identify the latest Ubuntu distribution.
 
 1. Use the portal link to review the **Size** selections.  Discuss how you could scale the CPU and memory settings.
 
@@ -44,6 +44,7 @@ Alternatively, you can use the [Quickstart: Create a Linux VM](https://learn.mic
 1. Also, later exercises use templates and the CLI to install virtual machines. 
 
 **Access the virtual machine and install Nginx**
+
 1. Deploy the virtual machine.
 
 1. Access the virtual machine with SSH. Discuss the format of the SSH command and the location of the key file. 
