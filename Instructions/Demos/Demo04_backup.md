@@ -10,15 +10,20 @@ demo:
 
 + Configure Azure Backup 
 
-## Reference slides
+## Resource requirements
 
-Use these slides for additional context.  
++ Linux virtual machine
 
 ## Reference steps
 
 Detailed steps are provided in this link.
 
 + [Quickstart: Backup virtual machines in the portal](https://learn.microsoft.com/azure/backup/quick-backup-vm-portal)
+
+## Reference slides
+
+Use these slides for additional context.  
+
 
 ## Discussion points
 
