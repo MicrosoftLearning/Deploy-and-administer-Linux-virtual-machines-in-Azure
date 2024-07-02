@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Exercise 01 - Configure virtual machines'
+    title: 'Exercise 01: Configure virtual machines'
     module: 'Guided Project: Configure virtual machines'
 ---
 
-# Exercise 01 - Configure an Azure Linux virtual machine 
+# Exercise 01: Configure an Azure Linux virtual machine 
 
 ## Lab requirements
 
