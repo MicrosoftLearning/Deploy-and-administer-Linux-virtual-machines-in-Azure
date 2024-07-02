@@ -16,6 +16,8 @@ Use these slides for additional context.
 
 ## Reference steps
 
+Detailed steps are provided in this link.
+
 + [Quickstart: Backup virtual machines in the portal](https://learn.microsoft.com/azure/backup/quick-backup-vm-portal)
 
 ## Discussion points
