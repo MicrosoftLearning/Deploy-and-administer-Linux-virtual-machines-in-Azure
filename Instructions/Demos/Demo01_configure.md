@@ -1,6 +1,6 @@
 ---
 demo:
-    title: 'Demo 01 - Configure virtual machines'
+    title: 'Demo 01: Configure virtual machines'
     module: 'Guided Project: Configure virtual machines'
 ---
 
