@@ -6,6 +6,9 @@ demo:
 
 # Demo: Backup Azure virtual machines
 
+Use this demonstration to review this task:
++ Configure Azure Backup 
+
 ## Demonstration steps
 
 Use this [Quickstart: Backup virtual machines in the portal](https://learn.microsoft.com/azure/backup/quick-backup-vm-portal). 
