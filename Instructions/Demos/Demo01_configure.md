@@ -20,6 +20,7 @@ Alternatively, you can use the [Quickstart: Create a Linux VM](https://learn.mic
 ## Discussion points
 
 **Creating and configuring the virtual machine**
+
 1. Use the portal link to review the Linux **Images** selection.  Identify the "lastest" Ubuntu distribution.
 
 1. Use the portal link to review the **Size** selections.  Discuss how you could scale the CPU and memory settings.
