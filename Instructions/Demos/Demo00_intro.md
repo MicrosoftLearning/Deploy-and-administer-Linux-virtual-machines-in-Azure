@@ -35,6 +35,6 @@ Use this demonstration to show students how to access the lab environment and st
 
 1. Discuss that each of these modules may have additional interactive activities. You will identify these activities as the course progresses. 
 
-+ Ask the students to locate and bookmark the learning path.
+1. Ask the students to locate and bookmark the learning path.
 
  
