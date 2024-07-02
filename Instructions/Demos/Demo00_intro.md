@@ -1,6 +1,6 @@
 ---
 demo:
-    title: 'Demonstration 00: Student materials and lab environment'
+    title: 'Demo 00: Student materials and lab environment'
     module: 'Guided Project: Student materials and lab environment'
 ---
 ## Demo: Student materials and lab environment 
