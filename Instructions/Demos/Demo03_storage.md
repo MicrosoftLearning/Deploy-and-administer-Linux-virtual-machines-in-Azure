@@ -16,7 +16,7 @@ demo:
 
 ## Resource requirements
 
-These resources can be before or during the demonstration. 
+These resources can be created before or during the demonstration. 
 + Linux virtual machine.
 + Storage account with file share and blob container.
 + Uploaded files to use for testing.
@@ -26,7 +26,7 @@ These resources can be before or during the demonstration.
 
 Detailed steps are provided in these links.
 
-+ [Use the portal to attach a data disk to a Linux VM](https://learn.microsoft.com/azure/virtual-machines/linux/attach-disk-portal)
+1. [Use the portal to attach a data disk to a Linux VM](https://learn.microsoft.com/azure/virtual-machines/linux/attach-disk-portal)
 + [Create an SMB file share](https://learn.microsoft.com/azure/storage/files/storage-how-to-create-file-share?tabs=azure-portal)
 + 
 
@@ -36,13 +36,13 @@ Use these slides for additional context.
 
 ## Discussion points
 
-**Add a data disk to a Linux virtual machine**
+**Add a data disk to a Linux virtual machine** - Reference #1
 
 1. Review how to use the portal to add a data disk to a virtual machine. Students will use CLI in the exercise.
 
 1. Connect to the virtual machine and use `lsblk` to list the disks. Note the disk size and that the disk is not mounted.
 
-1. Prepare the disk with `parted` and `partprobe`. Use the code in the demonstration.
+1. Prepare the disk with `parted` and `partprobe`. Use the code in the reference link.
 
 1. Mount the disk and use `df` to list the mount point. 
 
