@@ -6,11 +6,11 @@ demo:
 
 # Demo 02: Monitor virtual machines
 
-Use this demonstration to review these tasks:
-+ Configure VM Insights 
-+ Create an alert  
-+ Identify performance issues 
-+ Resize a virtual machine 
+Use this demonstration to review these credential tasks:
++ Configure VM Insights.
++ Create an alert.  
++ Identify performance issues. 
++ Resize a virtual machine. 
 
 
 ## Demonstration steps
