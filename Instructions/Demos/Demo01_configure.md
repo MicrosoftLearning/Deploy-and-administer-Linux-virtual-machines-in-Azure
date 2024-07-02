@@ -6,6 +6,14 @@ demo:
 
 # Demo: Configure virtual machines
 
+Use this demonstration to review these tasks:
++ Create a Linux virtual machine (VM) 
++ Configure a Linux VM 
++ Connect to a Linux VM with SSH   
++ Update Linux VM operating systems
++ Install and run a workload dependency
+
+
 ## Demonstration steps
 
 Use this Learn page [Provision a Linux virtual machine by using the Azure portal](https://learn.microsoft.com/training/modules/provision-linux-virtual-machine-in-azure/2-provision-linux-virtual-machine-using-the-azure-portal) for your demonstration. 
