@@ -17,7 +17,7 @@ Use this demonstration to review these credential tasks:
 
 Use these links to provide a demonstration.
 
-+ []()
++ [Use the portal to attach a data disk to a Linux VM](https://learn.microsoft.com/azure/virtual-machines/linux/attach-disk-portal)
 
 ## Reference slides
 
@@ -27,6 +27,16 @@ Use these slides for additional context.
 
 ## Discussion points
 
-**Creating and configuring the virtual machine**
+**Add a data disk to a Linux virtual machine**
 
-1. Use the portal link to review the Linux **Images** selection.  Identify the "lastest" Ubuntu distribution.
+>These steps require a Linux virtual machine. 
+
+1. Review how to use the portal to add a data disk to a virtual machine. Students will use CLI in the exercise.
+
+1. Connect to the virtual machine and use lsblk to list the disks. Note the disk size and that the disk is not mounted.
+
+1. Prepare the disk with parted and partprobe. Use the code in the demonstration.
+
+1. Mount the disk and verify it is available.
+
+**
