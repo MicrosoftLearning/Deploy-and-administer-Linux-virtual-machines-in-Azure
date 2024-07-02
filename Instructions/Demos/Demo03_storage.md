@@ -1,6 +1,6 @@
 ---
 demo:
-    title: 'Demo 03 - Access storage for virtual machines'
+    title: 'Demo 03: Access storage for virtual machines'
     module: 'Guided Project: Access storage for virtual machines'
 ---
 
