@@ -6,6 +6,13 @@ demo:
 
 # Demo: Storage for virtual machines
 
+Use this demonstration to review these tasks:
++ Add data disks and configure partitions  
++ Mount an SMB Azure file share on a Linux VM 
++ Assign a managed identity on a Linux VM 
++ Assign Azure roles 
++ Transfer data to and from a Linux VM by using AzCopy 
+
 ## Demonstration steps
 
 Use this Learn page []().
