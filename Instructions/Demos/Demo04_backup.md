@@ -21,9 +21,11 @@ There are no additional slides to support the demonstration.
 
 1. Discuss the need for a recovery services vault. The vault must be in the same region as the data source. 
 
-1. Review how virtual machine backup can be enabled in the portal (vault, virtual machine, backup center).
+1. Review how virtual machine backup can be accessed and enabled in the portal. 
 
-1. Use the **datasource type** drop-down to review the many resources the Backup Center can protect.
+1. Discuss the difference between the Standard and Enhanced backup policies. 
+
+1. Use the **datasource type** drop-down to review the resources the Backup Center can protect.
 
 1. Point out the default backup policy and that a custom backup policy can be created.
 
