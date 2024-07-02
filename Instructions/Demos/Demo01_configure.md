@@ -20,15 +20,23 @@ Alternatively, you can use the [Quickstart: Create a Linux VM](https://learn.mic
 ## Discussion points
 
 **Creating and configuring the virtual machine**
-1. Use the portal link to review the Linux **Images** selection.  Identify the "lastest" Ubuntu distribution. 
-2. Use the portal link to review the **Size** selections.  Discuss how you could scale the CPU and memory settings. 
-3. Discuss the different ways of connecting to a Linux virtual machine (SSH public key and Password).
-4. Discuss the importance of **inbound port rules**. Specifically, port 22 for SSH and port 80 for Nginx. 
-5. Use the **Advanced** page to show where a cloud-init file could be provided.
-6. Emphasize more details (storage, monitoring) will be added in later exercises.
-7. Also, later exercises use templates and the CLI to install virtual machines. 
+1. Use the portal link to review the Linux **Images** selection.  Identify the "lastest" Ubuntu distribution.
+
+1. Use the portal link to review the **Size** selections.  Discuss how you could scale the CPU and memory settings.
+
+1. Discuss the different ways of connecting to a Linux virtual machine (SSH public key and Password).
+   
+1. Discuss the importance of **inbound port rules**. Specifically, port 22 for SSH and port 80 for Nginx.
+ 
+1. Use the **Advanced** page to show where a cloud-init file could be provided.
+
+1. Emphasize more details (storage, monitoring) will be added in later exercises.
+
+1. Also, later exercises use templates and the CLI to install virtual machines. 
 
 **Access the virtual machine and install Nginx**
 1. Deploy the virtual machine.
-2. Access the virtual machine with SSH. Discuss the format of the SSH command and the location of the key file. 
-3. Install Nginx and ensure the home page displays. 
+
+1. Access the virtual machine with SSH. Discuss the format of the SSH command and the location of the key file. 
+
+1. Install Nginx and ensure the home page displays. 
