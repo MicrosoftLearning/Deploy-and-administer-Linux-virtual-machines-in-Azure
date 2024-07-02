@@ -4,7 +4,7 @@ demo:
     module: 'Guided Project: Backup virtual machines'
 ---
 
-# Demo: Backup Azure virtual machines
+# Demo 04: Backup Azure virtual machines
 
 Use this demonstration to review this task:
 + Configure Azure Backup 
