@@ -8,9 +8,9 @@ demo:
 
 ## Demonstration steps
 
-Use this page [Enable VM insights for Azure Monitor Agent](https://learn.microsoft.com/azure/azure-monitor/vm/vminsights-enable-portal#enable-vm-insights-for-azure-monitor-agent). 
+Use this [Enable VM insights for Azure Monitor Agent](https://learn.microsoft.com/azure/azure-monitor/vm/vminsights-enable-portal#enable-vm-insights-for-azure-monitor-agent). 
 
-Use this tutorial [Tutorial: Create a metric alert for an Azure resource](https://learn.microsoft.com/azure/azure-monitor/alerts/alerts-create-metric-alert-rule)).
+Use this [Tutorial: Create a metric alert for an Azure resource](https://learn.microsoft.com/azure/azure-monitor/alerts/alerts-create-metric-alert-rule)).
 
 
 ## Reference slides
