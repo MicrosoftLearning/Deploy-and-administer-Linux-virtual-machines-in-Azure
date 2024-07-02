@@ -1,6 +1,6 @@
 ---
 demo:
-    title: 'Demo 02 - Monitor virtual machines'
+    title: 'Demo 02: Monitor virtual machines'
     module: 'Guided Project: Monitor virtual machines'
 ---
 
