@@ -4,7 +4,7 @@ demo:
     module: 'Guided Project: Access storage for virtual machines'
 ---
 
-# Demo: Storage for virtual machines
+# Demo 03: Storage for virtual machines
 
 Use this demonstration to review these tasks:
 + Add data disks and configure partitions  
