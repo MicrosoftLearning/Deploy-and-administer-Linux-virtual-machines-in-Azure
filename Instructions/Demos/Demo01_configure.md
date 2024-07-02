@@ -13,13 +13,6 @@ Use this demonstration to review these credential tasks:
 + Update Linux VM operating systems
 + Install and run a workload dependency
 
-## Demonstration steps
-
-Use these links to provide a demonstration. 
-
-+ [Provision a Linux virtual machine by using the Azure portal](https://learn.microsoft.com/training/modules/provision-linux-virtual-machine-in-azure/2-provision-linux-virtual-machine-using-the-azure-portal)
-
-+ [Quickstart: Create a Linux VM](https://learn.microsoft.com/azure/virtual-machines/linux/quick-create-portal?tabs=ubuntu)
 
 ## Reference slides
 
@@ -27,8 +20,12 @@ Use these slides for additional context.
     
 
 
-## Discussion points
+## Demonstration and discussion
 
++ [Provision a Linux virtual machine by using the Azure portal](https://learn.microsoft.com/training/modules/provision-linux-virtual-machine-in-azure/2-provision-linux-virtual-machine-using-the-azure-portal)
+
++ [Quickstart: Create a Linux VM](https://learn.microsoft.com/azure/virtual-machines/linux/quick-create-portal?tabs=ubuntu)
+  
 **Creating and configuring the virtual machine**
 
 1. Use the portal link to review the Linux **Images** selection.  Identify the latest Ubuntu distribution.
