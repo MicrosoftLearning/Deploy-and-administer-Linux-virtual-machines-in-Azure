@@ -1,6 +1,6 @@
 ---
 demo:
-    title: 'Demo 04 - Backup virtual machines'
+    title: 'Demo 04: Backup virtual machines'
     module: 'Guided Project: Backup virtual machines'
 ---
 
