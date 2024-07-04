@@ -9,15 +9,15 @@ Use this demonstration to show students how to access the lab environment and st
 
 ## Access the lab environment (adjust for your lab hoster)
 
-1. Discuss how students access the lab environment. 
+1. Discuss how students should access the lab environment. 
 
 1. Explain how to sign-in to the virtual machine host.
 
-1. Explain how to access the Azure portal. Show the search box, Cloud Shell, and navigation blade.
+1. Explain how to access and sign-in to the Azure portal. Locate the search box, Cloud Shell, and navigation blade.
    
 1. Explain what resources, if any, have already been configured for the labs. For example, subscriptions and resource groups. 
 
-1. Review how to use the lab instructions. 
+1. Review how to step through the lab instructions. 
 
 1. Add other topics specific to your lab hosting environment. 
 
