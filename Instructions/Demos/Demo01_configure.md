@@ -39,9 +39,9 @@ Detailed steps are provided in these links.
 
 1. Discuss the different ways of connecting to a Linux virtual machine (SSH public key and Password).
    
-1. Discuss the importance of **inbound port rules**. Specifically, port 22 for SSH and port 80 for Nginx.
+1. Discuss the importance of **inbound port rules**. Specifically, port 22 for SSH and port 80 for Nginx. 
 
-1. Use the **Storage** tab to show where a data disk would be added. This will be done in a later exercise. 
+1. Use the **Disks** tab to show where a data disk would be added. This will be done in a later exercise. 
  
 1. Use the **Advanced** page to show where a cloud-init file could be provided.
 
