@@ -13,9 +13,9 @@ Use this demonstration to show students how to access the lab environment and st
 
 1. Explain how to sign-in to the virtual machine host.
 
-1. Explain how to access the [Azure portal](https://portal.azure.com).
+1. Explain how to access the Azure portal. Show the search box, Cloud Shell, and navigation blade.
    
-1. Explain what resources, if any, have already been configured for the labs.
+1. Explain what resources, if any, have already been configured for the labs. For example, subscriptions and resource groups. 
 
 1. Review how to use the lab instructions. 
 
@@ -29,12 +29,24 @@ Use this demonstration to show students how to access the lab environment and st
 
 1. Select **Learning Paths** and then search for the **Deploy and administer Linux virtual machines on Azure** learning path.
 
-1. Discuss the content in the learning path is specific to this course. But, there more virtual machine modules they can review.
-
-1. Explain the content is reference material and there isn't a 1:1 mapping with the classroom presentations.
-
-1. Discuss that each of these modules may have additional interactive activities. For example, sandboxes and interactive lab simulations. 
-
 1. Ask the students to locate and bookmark the learning path.
+
+1. Note the content in the learning path is specific to this course. But, there more modules they might find useful. 
+
+1. Explain the learning path content is reference material. There isn't a 1:1 mapping with the classroom presentations.
+
+1. Discuss that each of these modules may have additional interactive activities. For example, sandboxes and interactive lab simulations.
+
+1. Show students the link at the bottom of the Learn pages to access the Azure Q&A Forum. Review some of the current topics on the forum. 
+
+1. Explain that students don't need a Learn profile to access the content. But, if they create a profile they can track their progress.
+
+1. Discuss how students can create their own [Collection}(https://learn.microsoft.com/contribute/content/collections) of materials.
+
+1. Review the new [Plans](https://learn.microsoft.com/training/support/plans) feature. Students can create collections of content with milestones and email nudges.
+
+1. Remind students that if they finish the labs early to review the Learn content.
+
+
 
  
