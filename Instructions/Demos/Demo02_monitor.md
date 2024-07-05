@@ -16,6 +16,12 @@ demo:
 ## Resource requirements
 
 + Linux virtual machine (create using a custom template)
+
+## Reference slides 
+
++ Azure Monitor key capabilities
++ Azure Monitor components
++ Metrics and logs
   
 ## Reference steps
 
