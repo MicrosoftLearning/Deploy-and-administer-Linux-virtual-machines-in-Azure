@@ -28,9 +28,10 @@ Detailed steps are provided in these links.
 + [Tutorial: Create a metric alert for an Azure resource](https://learn.microsoft.com/azure/azure-monitor/alerts/alerts-create-metric-alert-rule)
 
 
-## Reference slides
+## Reference slides (optional)
 
 Use these slides for additional context.
+
 
 
 ## Discussion points
