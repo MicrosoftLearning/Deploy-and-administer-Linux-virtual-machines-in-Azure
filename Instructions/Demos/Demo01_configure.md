@@ -19,6 +19,14 @@ Use this demonstration to review these credential tasks:
 
 None.
 
+## Reference slides (optional)
+
++ Plan for virtual machines
++ Supported Linux distributions
++ Virtual machine sizing
++ Azure resource organization
+
+
 ## Reference steps
 
 Detailed steps are provided in these links.
