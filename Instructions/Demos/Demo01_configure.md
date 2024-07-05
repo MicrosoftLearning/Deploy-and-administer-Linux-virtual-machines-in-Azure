@@ -25,7 +25,7 @@ None.
 + Supported Linux distributions
 + Virtual machine sizing
 + Azure resource organization
-
++ Azure Administrator tools
 
 ## Reference steps
 
