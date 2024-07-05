@@ -19,9 +19,11 @@ demo:
 
 ## Reference slides 
 
++ Azure Resource Manager templates
 + Azure Monitor key capabilities
 + Azure Monitor components
 + Metrics and logs
+
   
 ## Reference steps
 
@@ -52,4 +54,4 @@ Use these slides for additional context.
 
 1. Review how to monitor an alert when it is triggered.
 
-1. Discuss how to export the resource template. 
+1. Close with how to export the resource template. 
