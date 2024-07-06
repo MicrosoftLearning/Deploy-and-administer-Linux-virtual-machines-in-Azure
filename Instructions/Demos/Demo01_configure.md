@@ -9,7 +9,7 @@ demo:
 ## Credential tasks
 
 Use this demonstration to review these credential tasks:
-+ Create a Linux virtual machine (VM) 
++ Create a Linux virtual machine (portal)
 + Configure a Linux VM 
 + Connect to a Linux VM with SSH   
 + Update Linux VM operating systems
