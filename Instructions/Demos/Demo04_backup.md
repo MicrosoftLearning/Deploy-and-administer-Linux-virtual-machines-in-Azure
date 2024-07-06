@@ -30,7 +30,7 @@ Use these slides for additional context.
 
 ## Discussion points
 
-1. Review importing a template is the fourth way they have created a vm in class.
+1. Review importing a template. This is the fourth way they have created a vm in class.
    
 1. Discuss the need for a recovery services vault. The vault must be in the same region as the data source. 
 
