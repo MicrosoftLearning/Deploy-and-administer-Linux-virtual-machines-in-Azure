@@ -8,6 +8,7 @@ demo:
 
 ## Credential tasks
 
++ Create a virtual machine (Quickstart template).
 + Configure VM Insights.
 + Create an alert.  
 + Identify performance issues. 
