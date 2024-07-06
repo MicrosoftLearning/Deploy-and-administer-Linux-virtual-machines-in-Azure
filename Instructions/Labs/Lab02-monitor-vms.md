@@ -31,13 +31,14 @@ There is an interactive lab simulation that you might find useful for this topic
 
 ## Job skills
 
++ Skill 0: Create a virtual machine (Quickstart template). 
 + Skill 1: Configure VM Insights. 
 + Skill 2: Configure action groups and notifications. 
 + Skill 3: Create alerts.
 + Skill 4: Trigger an alert by resizing the virtual machine.
 + Skill 5: Configure an alert processing rule.
 
-## Skill 0: Create a virtual machine (optional)
+## Skill 0: Create a virtual machine 
 
 In this task, you will deploy a template to create a Linux virtual machine. If you already have a virtual machine to use for this exercise, then skip to Skill 1. 
 
