@@ -49,7 +49,7 @@ Use these slides for additional context.
 
 1. Access the Cloud Shell.
 
-1. Create the virtual machine with CLI. Point out this is the third way students have seen to create vms.
+1. Create the virtual machine with CLI. Point out this is the third way students have been shown to create vms.
    
 **Add a data disk to a Linux virtual machine** - Reference #1
 
@@ -63,7 +63,7 @@ Use these slides for additional context.
 
 **Access an SMB file share from the virtual machine**
 
->These steps are documented in the student lab instructions.
+>Detailed steps are provided in the student lab instructions.
 
 1. Locate the storage account and review file shares.
 
