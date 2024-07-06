@@ -19,6 +19,7 @@ demo:
 Detailed steps are provided in this link.
 
 + [Quickstart: Backup virtual machines in the portal](https://learn.microsoft.com/azure/backup/quick-backup-vm-portal)
++ [Quickstart: Create and deploy ARM templates by using the Azure portal](https://learn.microsoft.com/azure/azure-resource-manager/templates/quickstart-create-templates-use-the-portal)
 
 ## Reference slides
 
