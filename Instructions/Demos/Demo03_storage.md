@@ -38,8 +38,8 @@ Use these slides for additional context.
 + Storage accounts
 + Blob containers and files
 + Files versus blobs
++ Managed identities
 + Role-based access control
-+ 
 
 ## Discussion points
 
