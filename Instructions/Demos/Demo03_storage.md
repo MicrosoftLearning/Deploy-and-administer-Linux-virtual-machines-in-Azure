@@ -26,14 +26,14 @@ These resources can be created before or during the demonstration.
 
 Detailed steps are provided in these links.
 
-1. [Use the portal to attach a data disk to a Linux VM](https://learn.microsoft.com/azure/virtual-machines/linux/attach-disk-portal)
++ [Create a virtual machine with the CLI](https://learn.microsoft.com/azure/virtual-machines/linux/quick-create-cli)
++ [Use the portal to attach a data disk to a Linux VM](https://learn.microsoft.com/azure/virtual-machines/linux/attach-disk-portal)
 + [Create an SMB file share](https://learn.microsoft.com/azure/storage/files/storage-how-to-create-file-share?tabs=azure-portal)
-+ 
+
 
 ## Reference slides
 
 Use these slides for additional context. 
-
 + Storage accounts
 + Blob containers and files
 + Files versus blobs
