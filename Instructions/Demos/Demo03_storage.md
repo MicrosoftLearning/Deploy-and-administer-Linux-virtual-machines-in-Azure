@@ -30,6 +30,7 @@ Detailed steps are provided in these links.
 + [Attach a data disk to a Linux VM](https://learn.microsoft.com/azure/virtual-machines/linux/attach-disk-portal)
 + [Create a virtual machine with the CLI](https://learn.microsoft.com/azure/virtual-machines/linux/quick-create-cli)
 + [Create an SMB file share](https://learn.microsoft.com/azure/storage/files/storage-how-to-create-file-share?tabs=azure-portal)
++ [Get started with AzCopy](https://learn.microsoft.com/azure/storage/common/storage-use-azcopy-v10)
 
 
 ## Reference slides
