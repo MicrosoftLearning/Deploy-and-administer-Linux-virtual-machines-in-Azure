@@ -8,7 +8,8 @@ demo:
 
 ## Credential tasks
 
-+ Add data disks and configure partitions. 
++ Create a virtual machine (CLI).
++ Add vm data disks and configure partitions. 
 + Mount an SMB Azure file share on a Linux VM.
 + Assign a managed identity on a Linux VM. 
 + Assign Azure roles. 
