@@ -34,6 +34,12 @@ Detailed steps are provided in these links.
 
 Use these slides for additional context. 
 
++ Storage accounts
++ Blob containers and files
++ Files versus blobs
++ Role-based access control
++ 
+
 ## Discussion points
 
 **Add a data disk to a Linux virtual machine** - Reference #1
