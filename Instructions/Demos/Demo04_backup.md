@@ -24,6 +24,8 @@ Detailed steps are provided in this link.
 
 Use these slides for additional context.  
 
++ What is Azure Backup?
++ Options to protect virtual machines
 
 ## Discussion points
 
