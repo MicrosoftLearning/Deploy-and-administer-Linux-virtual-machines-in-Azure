@@ -73,6 +73,14 @@ Use these slides for additional context.
 
 1. Connect to the virtual machine and create a file with the script. You can use the vi editor.
 
-1. Run the script
+1. Run the script and mount the file share. 
 
-** 
+**Use AzCopy to copy a blob file to the data drive**
+
+>Detailed steps are provided in the student lab instructions.
+
+1. Add the Blob Data Storage Contributor role to the virtual machine. Review other blob roles. 
+
+1. Connect to the virtual machine and install AzCopy. Review other tools that can be used for transfering files. 
+
+1. Use AzCopy to tranfer a file from blob storage to the data drive. You can also transfer a file back to blob storage. Use the portal to show the storae account files. 
