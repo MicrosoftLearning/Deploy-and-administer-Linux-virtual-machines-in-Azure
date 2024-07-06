@@ -29,7 +29,6 @@ Detailed steps are provided in these links.
 + [Quickstart: Create a Linux virtual machine with the Azure CLI on Azure](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-cli)
 + [Attach a data disk to a Linux VM](https://learn.microsoft.com/azure/virtual-machines/linux/attach-disk-portal)
 + [Create a virtual machine with the CLI](https://learn.microsoft.com/azure/virtual-machines/linux/quick-create-cli)
-
 + [Create an SMB file share](https://learn.microsoft.com/azure/storage/files/storage-how-to-create-file-share?tabs=azure-portal)
 
 
@@ -44,6 +43,14 @@ Use these slides for additional context.
 
 ## Discussion points
 
+**Create a virtual machine using CLI**
+
+>You can use an existing vm, rather than create another one.
+
+1. Access the Cloud Shell.
+
+1. Create the virtual machine with CLI. Point out this is the third way students have seen to create vms.
+   
 **Add a data disk to a Linux virtual machine** - Reference #1
 
 1. Review how to use the portal to add a data disk to a virtual machine. Students will use CLI in the exercise.
@@ -56,6 +63,8 @@ Use these slides for additional context.
 
 **Access an SMB file share from the virtual machine**
 
+>These steps are documented in the student lab instructions.
+
 1. Locate the storage account and review file shares.
 
 1. Assign a managed identity to the virtual machine. The identity should have access to the storage account.
@@ -64,6 +73,6 @@ Use these slides for additional context.
 
 1. Connect to the virtual machine and create a file with the script. You can use the vi editor.
 
-1. 
+1. Run the script
 
 ** 
