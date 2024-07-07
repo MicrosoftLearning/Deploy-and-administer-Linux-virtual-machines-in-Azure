@@ -51,9 +51,11 @@ In this task, you will deploy a template to create a Linux virtual machine. If y
     | Settings | Value |
     | --- | --- |
     | Subscription | the name of your Azure subscription |
+    | Region | `East US 2` |
+    | Vm name | `vm2` |
     | Resource group | `rg1`  |
     | Authentication type | **SSA Public Key** | 
-    | Key pair name | `key_simpleLinuxvm` |
+    | Key pair name | `key_vm2` |
     | Admin user name | `adminuser` |
 
 1. Click **Review + Create**, ensure that the validation passes and then click **Create**.
@@ -250,7 +252,7 @@ In this task, you create an alert processing rule.
 
     >[Alert processing rules](https://learn.microsoft.com/azure/azure-monitor/alerts/alerts-processing-rules?tabs=portal) decide what happens when an alert is triggered. Alert processing rules can be used to suppress alert notification during maintenance periods. 
    
-1. Notice the alert scope is **vm1**. 
+1. Notice the alert scope is **vm2**. 
    
 1. Select **Next: Rule settings**, then select **Suppress notifications**.
    
