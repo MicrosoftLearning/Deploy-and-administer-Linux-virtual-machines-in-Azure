@@ -25,7 +25,7 @@ There is an interactive lab simulation that you might find useful for this topic
 
 ## Job skills
 
-+ Task 0: Create a virtual machine (template). 
++ Task 0: Create a virtual machine (Quickstart template). 
 + Task 1: Create and configure a Recovery Services vault.
 + Task 2: Configure Azure virtual machine-level backup.
 
