@@ -29,7 +29,6 @@ Detailed steps are provided in these links.
 
 + [Quickstart: Create a Linux virtual machine with the Azure CLI on Azure](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-cli)
 + [Attach a data disk to a Linux VM](https://learn.microsoft.com/azure/virtual-machines/linux/attach-disk-portal)
-+ [Create a virtual machine with the CLI](https://learn.microsoft.com/azure/virtual-machines/linux/quick-create-cli)
 + [Create an SMB file share](https://learn.microsoft.com/azure/storage/files/storage-how-to-create-file-share?tabs=azure-portal)
 + [Get started with AzCopy](https://learn.microsoft.com/azure/storage/common/storage-use-azcopy-v10)
 
@@ -45,7 +44,7 @@ Use these slides for additional context.
 
 ## Discussion points
 
-**Create a virtual machine using CLI**
+**Create a virtual machine using CLI** - Reference #1
 
 >You can use an existing vm, rather than create another one.
 
@@ -53,7 +52,7 @@ Use these slides for additional context.
 
 1. Create the virtual machine with CLI. Point out this is the third way students have been shown to create vms.
    
-**Add a data disk to a Linux virtual machine** - Reference #1
+**Add a data disk to a Linux virtual machine** - Reference #2
 
 1. Review how to use the portal to add a data disk to a virtual machine. Students will use CLI in the exercise.
 
