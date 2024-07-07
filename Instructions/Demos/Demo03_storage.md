@@ -18,6 +18,7 @@ demo:
 ## Resource requirements
 
 These resources can be created before or during the demonstration. 
++ Resource group
 + Linux virtual machine.
 + Storage account with file share and blob container.
 + Uploaded files to use for testing.
@@ -62,11 +63,9 @@ Use these slides for additional context.
 
 1. Mount the disk and use `df` to list the mount point. 
 
-**Access an SMB file share from the virtual machine**
+**Access an SMB file share from the virtual machine** - Reference #3 and student lab instructions
 
->Detailed steps are provided in the student lab instructions.
-
-1. Locate the storage account and review file shares.
+1. Locate the storage account and discuss file shares.
 
 1. Assign a managed identity to the virtual machine. The identity should have access to the storage account.
 
@@ -76,12 +75,10 @@ Use these slides for additional context.
 
 1. Run the script and mount the file share. 
 
-**Use AzCopy to copy a blob file to the data drive**
-
->Detailed steps are provided in the student lab instructions.
+**Use AzCopy to copy a blob file to the data drive** - Reference #4 and the student lab instrutions
 
 1. Add the Blob Data Storage Contributor role to the virtual machine. Review other blob roles. 
 
 1. Connect to the virtual machine and install AzCopy. Review other tools that can be used for transfering files. 
 
-1. Use AzCopy to tranfer a file from blob storage to the data drive. You can also transfer a file back to blob storage. Use the portal to show the storae account files. 
+1. Use AzCopy to tranfer a file from blob storage to the data drive. You can also transfer a file back to blob storage.  
