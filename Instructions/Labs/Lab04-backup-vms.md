@@ -53,7 +53,7 @@ In this task, you will deploy a template to create a Linux virtual machine. If y
     | Vm name | `vm4` |
     | Resource group | `rg1`  |
     | Authentication type | **SSA Public Key** | 
-    | Key pair name | `key_simpleLinuxvm` |
+    | Key pair name | `key_vm4` |
     | Admin user name | `adminuser` |
 
 1. Click **Review + Create**, ensure that the validation passes and then click **Create**.
