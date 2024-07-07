@@ -30,13 +30,13 @@ There is an interactive lab simulation that you might find useful for this topic
 + Task 2: Configure Azure virtual machine-level backup.
 
 
-### Estimated timing: 20 minutes
+### Estimated timing: 30 minutes
 
 ## Architecture diagram
 
 ![Diagram for lab 04 architecture.](./media/lab04.png)
 
-## Task 0: Create a virtual machine (optional)
+## Task 0: Create a virtual machine 
 
 In this task, you will deploy a template to create a Linux virtual machine. If you already have a virtual machine to work with you can skip this step. 
 
@@ -49,6 +49,8 @@ In this task, you will deploy a template to create a Linux virtual machine. If y
     | Settings | Value |
     | --- | --- |
     | Subscription | the name of your Azure subscription |
+    | Region | `East US 2` |
+    | Vm name | `vm4` |
     | Resource group | `rg1`  |
     | Authentication type | **SSA Public Key** | 
     | Key pair name | `key_simpleLinuxvm` |
@@ -67,7 +69,7 @@ In this task, you will create a Recovery Services vault.
 
 1. In the Azure portal, search for and select `Recovery Services vaults`.
 
-   >A [Recovery Services vault](https://learn.microsoft.com/azure/backup/backup-azure-recovery-services-vault-overview)  is a storage entity in Azure that houses data. The data is typically copies of data, or configuration information for virtual machines (VMs), workloads, servers, or workstations. 
+   >A [Recovery Services vault](https://learn.microsoft.com/azure/backup/backup-azure-recovery-services-vault-overview)  is a storage entity in Azure that houses data. The data is typically copies of data, or configuration information for virtual machines, workloads, servers, or workstations. 
 
 1. On the **Recovery Services vaults** blade, click **+ Create**.
 
@@ -91,7 +93,8 @@ In this task, you will create a Recovery Services vault.
 1. In the **Protected items** section select **Backup items**. Notice the vault does not yet contain any backups. 
 
 **Check your learning**
- + Can you create and configure a Recovery Service vault for backups?  
+ + Can you create and configure a Recovery Service vault?
+ + Can you determine which protected items are in the vault?
 
 
 ## Task 2: Configure Azure virtual machine-level backup
@@ -129,7 +132,7 @@ In this task, you will implement Azure virtual-machine level backup. As part of 
 
     >You can create multiple backup policies or reuse a single backup policy on multiple virtual machines. 
 
-1. On the **Select virtual machines** blade, select **vm1**, click **OK**.
+1. On the **Select virtual machines** blade, select **vm4**, click **OK**.
 
 1. On the **Backup** blade, click **Enable backup**.
 
@@ -137,9 +140,9 @@ In this task, you will implement Azure virtual-machine level backup. As part of 
 
 1. In the **Protected items** section, click **Backup items**, and then click the **Azure virtual machine** entry.
 
-1. Select the **View details** link for **vm1**, and review the values of the **Backup Pre-Check** and **Last Backup Status** entries.
+1. Select the **View details** link for **vm4**, and review the values of the **Backup Pre-Check** and **Last Backup Status** entries.
 
-    >Notice the backup is pending.
+    >Notice the backup is *pending*.
     
 1. Select **Backup now**, accept the default value in the **Retain Backup Till** drop-down list, and click **OK**. Do not wait for the backup to complete.
 
