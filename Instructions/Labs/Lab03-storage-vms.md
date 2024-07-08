@@ -283,7 +283,7 @@ In this task, you will create a blob container. You will assign an Azure role to
 
 1. In the **Data storage** section, click **Containers**.
 
-   >[Azure blob storage](https://learn.microsoft.com/azure/storage/blobs/storage-blobs-introduction) is an object storage solution optimized for storing massive amounts of unstructured data. Blob storage is organized into containers. 
+    >[Azure blob storage](https://learn.microsoft.com/azure/storage/blobs/storage-blobs-introduction) is an object storage solution optimized for storing massive amounts of unstructured data. Blob storage is organized into containers. 
 
 1. Click **+ Container** and **Create** a container with the following settings:
 
@@ -325,7 +325,7 @@ In this task, you will create a blob container. You will assign an Azure role to
 
 1. Download AzCopy and extract the file.
 
-   >[AzCopy](https://learn.microsoft.com/azure/storage/common/storage-ref-azcopy) is a command-line tool that moves data into and out of Azure Storage.
+    >[AzCopy](https://learn.microsoft.com/azure/storage/common/storage-ref-azcopy) is a command-line tool that moves data into and out of Azure Storage.
 
     ```sh
     wget https://aka.ms/downloadazcopy-v10-linux;
