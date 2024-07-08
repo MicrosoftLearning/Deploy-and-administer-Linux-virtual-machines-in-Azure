@@ -223,6 +223,8 @@ In this task, you will review performance data and resize a virtual machine.
 
 1.  Based on your monitoring review you have decided to resize the virtual machine.
 
+    >You can scale the VM up or down by [changing the VM size](https://learn.microsoft.com/azure/virtual-machines/sizes/resize-vm?tabs=portal). In some cases, you must deallocate the VM first. 
+
 1. In the **Availability + scale** blade, select **Size**.
 
 1. Set the virtual machine size to **DS2_v3** and click **Resize**. If prompted, confirm the change.
