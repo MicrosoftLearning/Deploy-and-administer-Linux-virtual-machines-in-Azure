@@ -72,7 +72,7 @@ In this task, you will enable VM Insights for a virtual machine.
 
 1. In the **Monitoring** section, select **Insights**, and then **Enable**.
 
-   >[VM insights](https://learn.microsoft.com/azure/azure-monitor/vm/vminsights-enable-overview) is a method for monitoring the client workloads on your virtual machines and virtual machine scale sets. VM Insights collects performance data, displays an inventory of your existing VMs, and provides a guided experience to enable base monitoring for them.
+    >[VM insights](https://learn.microsoft.com/azure/azure-monitor/vm/vminsights-enable-overview) is a method for monitoring the client workloads on your virtual machines and virtual machine scale sets. VM Insights collects performance data, displays an inventory of your existing VMs, and provides a guided experience to enable base monitoring for them.
 
 1. For **Data collection rule**, select **Create New**. 
 
