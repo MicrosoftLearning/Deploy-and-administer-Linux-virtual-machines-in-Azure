@@ -377,7 +377,7 @@ In this task, you will create a blob container. You will assign an Azure role to
 
 ## Key takeaways
 
-Congratulations on completing the lab. Here are the main takeaways for this lab.
+Congratulations on completing the exercise. Here are the main takeaways:
 
 + An Azure storage account contains non-relational data including blobs and files. 
 + Azure file shares are accessible with the SMB protocol, NFS protocol, and Azure Files REST API. 
