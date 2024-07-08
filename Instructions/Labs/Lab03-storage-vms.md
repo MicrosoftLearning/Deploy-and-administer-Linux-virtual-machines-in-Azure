@@ -222,7 +222,7 @@ In this task, you will create a storage account and file share. You will then gi
 
 1. On the **System assigned** tab, toggle the **Status** to **On**.
 
-    >A system-assigned managed identity is an identity created and managed by Azure for a specific service instance. The managed identity allows the resource to access other Azure resources without storing credentials.
+    >A system-assigned [managed identity](https://learn.microsoft.com/entra/identity/managed-identities-azure-resources/overview) is an identity created and managed by Azure for a specific service instance. The managed identity allows the resource to access other Azure resources without storing credentials.
 
 1. **Save** your changes and select **Yes** to **Enable system assigned managed identity**. 
 
@@ -306,7 +306,7 @@ In this task, you will create a blob container. You will assign an Azure role to
 
 1. Select **Azure role assignments**. 
 
-    >Azure role-based access control (Azure RBAC) helps you manage who has access to Azure resources. There are many Azure roles that can be used, or you can create a custom set of permissions.
+    >Azure [RBAC](https://learn.microsoft.com/azure/role-based-access-control/overview) helps you manage who has access to Azure resources. There are many Azure roles that can be assigned, or you can create a custom set of permissions.
 
 1. Select **Add role assignment (Preview)** and provide the managed identity access to the storage account file share. Both read and write capability is required. **Save** your changes. 
 
@@ -317,13 +317,15 @@ In this task, you will create a blob container. You will assign an Azure role to
     | Resource       | select your storage account |
     | Role | **Storage Blob Data Contributor** |
 
-    >There are many storage roles, including roles specifically for the storage account and for Blob storage. The **Storage Blob Data Contributor** role provides read, write, and delete on Azure storage containers and blobs. 
+    >There are many [storage roles](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles/storage#storage-blob-data-contributor) , including roles specifically for the storage account and for Blob storage. The **Storage Blob Data Contributor** role provides read, write, and delete on Azure storage containers and blobs. 
 
 ### Use AzCopy to transfer files
 
-1. Return to the Cloud Shell. Ensure you are still connected to vm2. 
+1. Return to the Cloud Shell and ensure you are still connected to vm2. 
 
-1. Download AzCopy and extract the file. 
+1. Download AzCopy and extract the file.
+
+   >[AzCopy](https://learn.microsoft.com/azure/storage/common/storage-ref-azcopy) is a command-line tool that moves data into and out of Azure Storage.
 
     ```sh
     wget https://aka.ms/downloadazcopy-v10-linux;
