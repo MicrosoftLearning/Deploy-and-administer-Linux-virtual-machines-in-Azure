@@ -5,7 +5,7 @@ lab:
 ---
 
 
-# Exercise 03: Storage for virtual machines
+# Exercise 03: Provide storage for virtual machines
 
 ## Lab requirements
 
