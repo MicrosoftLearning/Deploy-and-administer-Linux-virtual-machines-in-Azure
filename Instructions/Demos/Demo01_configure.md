@@ -9,15 +9,17 @@ demo:
 ## Credential tasks
 
 Use this demonstration to review these credential tasks:
-+ Create a Linux virtual machine (portal)
-+ Configure a Linux VM 
-+ Connect to a Linux VM with SSH   
-+ Update Linux VM operating systems
-+ Install and run a workload dependency
++ Create a Linux virtual machine (portal).
++ Configure a Linux VM.
++ Connect to a Linux VM with SSH.  
++ Update Linux VM operating systems.
++ Install and run a workload dependency.
 
 ## Resource requirements
 
-None.
+This resource can be created before or during the demonstration. 
+
++ Resource group. 
 
 ## Reference slides (optional)
 
@@ -38,17 +40,19 @@ Detailed steps are provided in these links.
 
 **Creating and configuring the virtual machine**
 
-1. SUse the portal to create a Linux VM. Discuss how, in later exercises, the CLI and templates will be used to create VMs. 
+1. Use the portal to create a Linux VM. Discuss how, in later exercises, the CLI and Quickstart templates will be used to create VMs. 
 
-1. Use the link to review the Linux **Images** selection.  Identify the latest Ubuntu distribution.
+1. Use the portal link to review the Linux **Images** selection.  Identify the latest Ubuntu distribution.
 
-1. Use the link to review the **Size** selections.  Discuss how you could scale the CPU and memory settings.
+1. Use the portal link to review the **Size** selections.  Discuss how you could scale the CPU and memory settings.
+
+1. Discuss the effects of resizing. Resizing will be done in a later lab. 
 
 1. Discuss the different ways of connecting to a Linux virtual machine (SSH public key and Password).
    
 1. Discuss the importance of **inbound port rules**. Specifically, port 22 for SSH and port 80 for Nginx. 
 
-1. Use the **Disks** tab to show where a data disk would be added. This will be done in a later exercise. 
+1. Use the **Disks** tab to show how  a data disk would be added. Adding a data disk will be done in a later exercise. 
  
 1. Use the **Advanced** page to show where a cloud-init file could be provided.
 
