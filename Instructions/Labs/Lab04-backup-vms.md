@@ -52,7 +52,7 @@ In this task, you will use a template to deploy a virtual machine.
 
 1. Locate and select the **\\Allfiles\\Lab04\\azuredeploy.json** file and select **Open**.
 
-   >**Note:** Take a moment to review the template. We are deploying a virtual network with a Linux virtual machine.
+    >**Note:** Take a moment to review the template. We are deploying a virtual network with a Linux virtual machine.
 
 1. **Save** your changes.
 
@@ -83,7 +83,7 @@ In this task, you will create a Recovery Services vault.
 
 1. In the Azure portal, search for and select `Recovery Services vaults`.
 
-   >A [Recovery Services vault](https://learn.microsoft.com/azure/backup/backup-azure-recovery-services-vault-overview)  is a storage entity in Azure that houses data. The data is typically copies of data, or configuration information for virtual machines, workloads, servers, or workstations. 
+    >A [Recovery Services vault](https://learn.microsoft.com/azure/backup/backup-azure-recovery-services-vault-overview)  is a storage entity in Azure that houses data. The data is typically copies of data, or configuration information for virtual machines, workloads, servers, or workstations. 
 
 1. On the **Recovery Services vaults** blade, click **+ Create**.
 
