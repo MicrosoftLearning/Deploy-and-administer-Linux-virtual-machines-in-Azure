@@ -67,7 +67,7 @@ In this task, you will create and deploy a Linux virtual machine using the porta
     | Key pair name | `vm1_key` |
     | Public inbound ports |**None** |
 
-   >Did you know [virtual machine sizes](https://learn.microsoft.com/azure/virtual-machines/sizes/overview) are categorized into different families and types, each optimized for specific purposes. For example, 
+    >Did you know [virtual machine sizes](https://learn.microsoft.com/azure/virtual-machines/sizes/overview) are categorized into different families and types, each optimized for specific purposes. For example, 
 
 1. Click **Next: Disks >** , specify the following settings (leave others with their default values):
 
@@ -78,7 +78,7 @@ In this task, you will create and deploy a Linux virtual machine using the porta
     | Delete with VM | **checked** (default) |
     | Enable Ultra Disk compatibility | **Unchecked** |
 
-    >Notice you can add a data disk to the virtual machine. We will do this in a later lab. 
+    >Notice you can add a data disk to the virtual machine. We will do this in a later exercise. 
 
 1. Click **Next: Networking >** and make a few changes. 
 
@@ -103,7 +103,7 @@ In this task, you will create and deploy a Linux virtual machine using the porta
     | --- | --- |
     | Boot diagnostics | **Disable** |
 
-    >We will review monitoring in another lab. 
+    >We will review monitoring in another exercise. 
 
 1. Click **Next: Advanced >** and notice the **Custom data** textbox. This is where you would pass a cloud-init script, configuration file, or other data into the virtual machine while it is being provisioned. Do not make any changes.
 
@@ -155,17 +155,14 @@ In this task, you will use SSH to connect to the virtual machine. Connecting wil
 1. Make a note of the **public IP address**. You will need this to connect to the virtual machine. **Close** the Native SSH page. 
 
 1. Open a **Command Prompt** window so you can run the SSH connection string.
-
-   >In this lab we are using a key pair, but you could also provide a user and password. Use *ssh --help* to review how that connection string would be constructed. 
+   
+    >We are using a key pair, but you could also provide a user and password. Use *ssh --help* to review how that connection string would be constructed. 
 
 1. At the prompt, connect to the virtual machine using SSH. Be sure to  include the correct path to the key and the virtual machine's public_ip_address. Example of key location: `c:\users\admin\downloads\vm1_key.pem`. When prompted, type *yes* to connect. 
 
     ```sh
     ssh -i path_to_key_file adminuser@public_ip_address
     ```
-    
-
-
 
 1. Ensure the command is successful and the prompt changes to *azureadmin@vm1*. 
 
@@ -233,11 +230,10 @@ In this task, you will install the Nginx web service.
 
 ## Key takeaways
 
-Congratulations on completing the lab. Here are the main takeaways for this lab.
+Congratulations on completing the exercise. Here are the main takeaways:
 
 + Azure virtual machines are on-demand, scalable computing resources.
 + Configuring Azure virtual machines includes choosing an operating system, size, storage and networking settings. You can create a basic virtual machine by accepting the defaults. 
-+ There are several ways to connect to a Linux virtual machine.
-+ Bastion provides connectivity without having to open a SSH or RDP port. 
-+ SSH also provides secure connections. To use SSH the virtual machine must have a public IP address and port 22 must be open.  
++ There are several ways to connect to a Linux virtual machine including SSH and Password.
++ To use SSH the virtual machine must have a public IP address and port 22 must be open.  
 + Network Security Group rules let you allow or deny inbound and outbound port connections. For example, port 22 for SSH and port 80 for Nginx. 
