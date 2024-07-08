@@ -171,7 +171,7 @@ In this task, you will implement Azure virtual-machine level backup. As part of 
 
 ## Key takeaways
 
-Congratulations on completing the lab. Here are the main takeaways for this lab. 
+Congratulations on completing the exercise. Here are the main takeaways:
 
 + A Recovery Services vault stores your backup data and minimizes management overhead.
 + Azure Backup service provides simple, secure, and cost-effective solutions to back up and recover your data.
