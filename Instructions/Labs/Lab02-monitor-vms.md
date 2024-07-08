@@ -289,7 +289,7 @@ In this task, you create an alert processing rule.
 
 ## Key takeaways
 
-Congratulations on completing the lab. Here are the main takeaways for this lab. 
+Congratulations on completing the exercise. Here are the main takeaways:
 
 + Alerts help you detect and address issues before users notice there might be a problem with your infrastructure or application.
 + You can alert on any metric or log data in the Azure Monitor data platform.
