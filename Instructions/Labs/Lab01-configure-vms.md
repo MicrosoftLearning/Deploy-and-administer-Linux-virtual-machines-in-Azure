@@ -48,14 +48,14 @@ In this task, you will create and deploy a Linux virtual machine using the porta
 
 1. On the Basics tab, continue completing the configuration:
 
-    >Use the Informational icons to learn about each parameter. If a value isn't specified, use the default value. For example, compute optimized VM sizes have a high CPU-to-memory ratio. Good for medium traffic web servers, network appliances, batch processes, and application servers.
+    >Use the Informational icons to learn about each parameter. If a value isn't specified, use the default value. 
 
     | Setting | Value |
     | --- | --- |
     | Subscription | the name of your Azure subscription |
     | Resource group |  **rg1** (If necessary, click **Create new**) |
     | Virtual machine names | `vm1` |
-    | Region | **(US) East** |
+    | Region | **(US) East US** |
     | Availability options | **No infrastructure redundancy required** |
     | Security type | **Standard** (review your other choices) |
     | Image | **Ubuntu Server 20.04 LTS - x64 Gen2** (use the drop-down to view other options) |
@@ -67,14 +67,14 @@ In this task, you will create and deploy a Linux virtual machine using the porta
     | Key pair name | `vm1_key` |
     | Public inbound ports |**None** |
 
-    >Did you know [virtual machine sizes](https://learn.microsoft.com/azure/virtual-machines/sizes/overview) are categorized into different families and types, each optimized for specific purposes. For example, 
+    >Did you know [virtual machine sizes](https://learn.microsoft.com/azure/virtual-machines/sizes/overview) are categorized into different families and types, each optimized for specific purposes. For example, compute optimized VM sizes have a high CPU-to-memory ratio. Good for medium traffic web servers, network appliances, batch processes, and application servers.
 
 1. Click **Next: Disks >** , specify the following settings (leave others with their default values):
 
     | Setting | Value |
     | --- | --- |
     | OS disk size | **Image default (30 GiB)** |
-    | OS disk type | **Premium SSD** |
+    | OS disk type | **Premium SSD (locally redundant storage** |
     | Delete with VM | **checked** (default) |
     | Enable Ultra Disk compatibility | **Unchecked** |
 
@@ -93,7 +93,7 @@ In this task, you will create and deploy a Linux virtual machine using the porta
     | Setting | Value |
     | --- | --- |
     | Enable auto-shutdown | **unchecked** |
-    | Patch orchestration options | **Azure orchestrated** |  
+    | Patch orchestration options | **Azure orchestrated using Automated guest patching** |  
 
     >Patch orchestration options allow you to control how patches will be applied to your virtual machine. 
 
@@ -146,7 +146,7 @@ In this task, you will use SSH to connect to the virtual machine. Connecting wil
 
 1. In the **Service** drop-down, select **SSH**, then **Add** the rule. 
 
-    >The Nginx web service that you will be installing later needs port 80 open. Repeat the above step to **add** another inbound port rule for service **HTTP**. 
+    >The Nginx web service that you will be installing needs port 80. Repeat the above step to **add** another inbound port rule for service **HTTP**. 
 
 1. Check your work and ensure you have two new inbound port rules to **allow** port 22 and port 80. 
 
@@ -154,14 +154,14 @@ In this task, you will use SSH to connect to the virtual machine. Connecting wil
 
 1. Make a note of the **public IP address**. You will need this to connect to the virtual machine. **Close** the Native SSH page. 
 
-1. Open a **Command Prompt** window so you can run the SSH connection string.
+1. Open a **PowerShell** window so you can run the SSH connection string.
    
-    >We are using a key pair, but you could also provide a user and password. Use *ssh --help* to review how that connection string would be constructed. 
+    >We are using a key pair, but you could also provide a user and password.
 
-1. At the prompt, connect to the virtual machine using SSH. Be sure to  include the correct path to the key and the virtual machine's public_ip_address. Example of key location: `c:\users\admin\downloads\vm1_key.pem`. When prompted, type *yes* to connect. 
+1. At the prompt, connect to the virtual machine using SSH. Be sure to  include the correct path to the key and the virtual machine's public_ip_address. Example of key location: *c:\users\admin\downloads\vm1_key.pem*. When prompted, type *yes* to connect. 
 
-    ```sh
-    ssh -i path_to_key_file adminuser@public_ip_address
+    ```powershell
+    ssh -i 'c:\users\admin\downloads\vm1_key.pem azureadmin@public_ip_address
     ```
 
 1. Ensure the command is successful and the prompt changes to *azureadmin@vm1*. 
@@ -172,7 +172,7 @@ In this task, you will use SSH to connect to the virtual machine. Connecting wil
     sudo apt update;
     sudo apt upgrade
     ```
-1. Stay connected to the virtual machine, leave the Command window open, and continue to the next task.
+1. Stay connected to the virtual machine, leave the PowerShell window open, and continue to the next task.
 
 **Check your learning.** 
  + Can you configure network security group inbound port rules? 
@@ -183,7 +183,7 @@ In this task, you will use SSH to connect to the virtual machine. Connecting wil
 
 In this task, you will install the Nginx web service. 
 
-1. Continue working at the command prompt. Run these commands one at a time. Ensure each command completes successfully. 
+1. Continue working at the PowerShell prompt. Run these commands one at a time. Ensure each command completes successfully. 
 
 1. Install the Nginx service. When prompted indicate **Y** to continue the install.  
 
