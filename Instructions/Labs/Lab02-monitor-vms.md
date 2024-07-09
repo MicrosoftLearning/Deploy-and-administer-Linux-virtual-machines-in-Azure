@@ -31,39 +31,53 @@ There is an interactive lab simulation that you might find useful for this topic
 
 ## Job skills
 
-+ Skill 0: Create a virtual machine (Quickstart template). 
++ Skill 0: Create a virtual machine (import a template). 
 + Skill 1: Configure VM Insights. 
 + Skill 2: Configure action groups and notifications. 
 + Skill 3: Create alerts.
 + Skill 4: Trigger an alert by resizing the virtual machine.
 + Skill 5: Configure an alert processing rule.
 
-## Skill 0: Create a virtual machine 
+## Task 0: Create a virtual machine (import a template)
 
-In this task, you will deploy a template to create a Linux virtual machine. If you already have a virtual machine to use for this exercise, then skip to Skill 1. 
+In this task, you will use a template to deploy a virtual machine. 
 
-1. In the Azure portal, search for and select `Deploy a custom template.`
+1. Download the **\\Allfiles\\Lab02\\** lab files.
 
-1. Notice your choices and select **Create a Linux virtual machine.**
+1. Sign in to the **Azure portal**.
 
-1. Take the defaults, except for these required settings. 
+1. Search for and select `Deploy a custom template`.
 
-    | Settings | Value |
-    | --- | --- |
-    | Subscription | the name of your Azure subscription |
-    | Region | `East US 2` |
-    | Resource group | `rg1`  |
-    | Vm name | `vm2` |
-    | Admin user name | `adminuser` |
-    | Authentication type | **SSA Public Key** | 
-    | Key pair name | `vm2_key` |
+1. On the custom deployment page, select **Build you own template in the editor**.
 
+1. On the edit template page, select **Load file**.
 
-1. Click **Next** and then **Create**. Ensure that the validation passes and then click **Create**.
+1. Locate and select the **\\Allfiles\\Lab02\\azuredeploy.json** file and select **Open**.
 
-1. On the **Generate new key pairs** page select **Download + create**.
+    >**Note:** Take a moment to review the template. We are deploying a virtual network with a Linux virtual machine.
+
+1. **Save** your changes.
+
+1. Select **Edit parameters** and then **Load file**.
+
+1. Load and select the **\\Allfiles\\Lab02\\azuredeploy.parameters.json** file.
+
+1. **Save** your changes.
+
+1. Use the following information to complete the custom deployment fields, leaving all other fields with their default values:
+
+    | Setting       | Value         | 
+    | ---           | ---           |
+    | Subscription  | Your Azure subscription |
+    | Resource group| `rg1` (If necessary, select **Create new**)
+    | Region        | **East US**   |
+    | Username      | **adminuser**   |
+    | Password      | Provide a complex password |
+
+1. Select **Review + Create**, then select **Create**.
 
 1. You can continue to the next task while the virtual machine deploys. 
+
 
 ## Skill 1: Configure VM Insights
 
