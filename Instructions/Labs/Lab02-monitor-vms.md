@@ -186,7 +186,7 @@ In this task, you will create two alert rules.
 
  1. Select **Review + create**, then select **Create**.
 
-### Create an alert for virtual machine changes
+### Create an alert based on log activity
 
 1. Select **Create +** and select **Alert rule**. 
 
