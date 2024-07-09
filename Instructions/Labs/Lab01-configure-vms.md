@@ -61,7 +61,7 @@ In this task, you will create and deploy a Linux virtual machine using the porta
     | Image | **Ubuntu Server 20.04 LTS - x64 Gen2** (use the drop-down to view other options) |
     | Size | **Standard_Ds1_v2** (use **See all sizes** to view the CPU and memory) |
     | Authentication type | **SSH public key** (notice you could use a password) |
-    | Username | `azureadmin` |
+    | Username | `adminuser` |
     | SSH public key source | **Generate new key pair** (notice your choices to use an existing key) |
     | SSH Key Type | **RSA SSH Format** |
     | Key pair name | `vm1_key` |
@@ -161,10 +161,10 @@ In this task, you will use SSH to connect to the virtual machine. Connecting wil
 1. At the prompt, connect to the virtual machine using SSH. Be sure to  include the correct path to the key and the virtual machine's public_ip_address. Example of key location: *c:\users\admin\downloads\vm1_key.pem*. When prompted, type *yes* to connect. 
 
     ```powershell
-    ssh -i 'c:\users\admin\downloads\vm1_key.pem azureadmin@public_ip_address
+    ssh -i 'c:\users\admin\downloads\vm1_key.pem adminuser@public_ip_address
     ```
 
-1. Ensure the command is successful and the prompt changes to *azureadmin@vm1*. 
+1. Ensure the command is successful and the prompt changes to *adminuser@vm1*. 
 
 1. Fetch the list of available OS updates and install updates. When prompted, type **yes** to continue. Each command must complete successfully. 
 
