@@ -71,6 +71,7 @@ In this task, you will use a template to deploy a virtual machine.
     | Subscription  | Your Azure subscription |
     | Resource group| `rg1` (If necessary, select **Create new**)
     | Region        | **East US**   |
+    | Vm name       | `vm2` |
     | Username      | **adminuser**   |
     | Password      | Provide a complex password |
 
