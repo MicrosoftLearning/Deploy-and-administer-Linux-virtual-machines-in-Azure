@@ -52,13 +52,14 @@ In this task, you will deploy a template to create a Linux virtual machine. If y
     | --- | --- |
     | Subscription | the name of your Azure subscription |
     | Region | `East US 2` |
-    | Vm name | `vm2` |
     | Resource group | `rg1`  |
-    | Authentication type | **SSA Public Key** | 
-    | Key pair name | `key_vm2` |
+    | Vm name | `vm2` |
     | Admin user name | `adminuser` |
+    | Authentication type | **SSA Public Key** | 
+    | Key pair name | `vm2_key` |
 
-1. Click **Review + Create**, ensure that the validation passes and then click **Create**.
+
+1. Click **Next** and then **Create**. Ensure that the validation passes and then click **Create**.
 
 1. On the **Generate new key pairs** page select **Download + create**.
 
