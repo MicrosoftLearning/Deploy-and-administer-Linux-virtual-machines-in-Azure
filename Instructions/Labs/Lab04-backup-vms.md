@@ -25,9 +25,9 @@ There is an interactive lab simulation that you might find useful for this topic
 
 ## Job skills
 
-+ Task 0: Create a virtual machine (import a template). 
-+ Task 1: Create and configure a Recovery Services vault.
-+ Task 2: Configure Azure virtual machine-level backup.
++ Skill 0: Create a virtual machine (Quickstart template). 
++ Skill 1: Create and configure a Recovery Services vault.
++ Skill 2: Configure Azure virtual machine-level backup.
 
 
 ### Estimated timing: 30 minutes
@@ -36,43 +36,29 @@ There is an interactive lab simulation that you might find useful for this topic
 
 ![Diagram for lab 04 architecture.](./media/lab04.png)
 
-## Task 0: Create a virtual machine (import a template)
+## Skill 0: Create a virtual machine 
 
-In this task, you will use a template to deploy a virtual machine. 
+In this task, you will deploy a template to create a Linux virtual machine. If you already have a virtual machine to use for this exercise, then skip to Skill 1. 
 
-1. Download the **\\Allfiles\\Lab04\\** lab files.
+1. In the Azure portal, search for and select `Deploy a custom template.`
 
-1. Sign in to the **Azure portal**.
+1. Notice your choices and select **Create a Linux virtual machine.**
 
-1. Search for and select `Deploy a custom template`.
+1. Take the defaults, except for these required settings. 
 
-1. On the custom deployment page, select **Build you own template in the editor**.
+    | Settings | Value |
+    | --- | --- |
+    | Subscription | the name of your Azure subscription |
+    | Region | `East US 2` |
+    | Resource group | `rg1`  |
+    | Vm name | `vm4` |
+    | Admin user name | `adminuser` |
+    | Authentication type | **SSA Public Key** | 
+    | Key pair name | `vm4_key` |
 
-1. On the edit template page, select **Load file**.
+1. Click **Next** and then **Create**. Ensure that the validation passes and then click **Create**.
 
-1. Locate and select the **\\Allfiles\\Lab04\\azuredeploy.json** file and select **Open**.
-
-    >**Note:** Take a moment to review the template. We are deploying a virtual network with a Linux virtual machine.
-
-1. **Save** your changes.
-
-1. Select **Edit parameters** and then **Load file**.
-
-1. Load and select the **\\Allfiles\\Lab04\\azuredeploy.parameters.json** file.
-
-1. **Save** your changes.
-
-1. Use the following information to complete the custom deployment fields, leaving all other fields with their default values:
-
-    | Setting       | Value         | 
-    | ---           | ---           |
-    | Subscription  | Your Azure subscription |
-    | Resource group| `rg4` (If necessary, select **Create new**)
-    | Region        | **East US**   |
-    | Username      | **adminuser**   |
-    | Password      | Provide a complex password |
-
-1. Select **Review + Create**, then select **Create**.
+1. On the **Generate new key pairs** page select **Download + create**.
 
 1. You can continue to the next task while the virtual machine deploys. 
 
