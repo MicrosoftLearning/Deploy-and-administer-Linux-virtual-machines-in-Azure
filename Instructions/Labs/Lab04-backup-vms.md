@@ -50,7 +50,7 @@ In this task, you will deploy a template to create a Linux virtual machine. If y
     | --- | --- |
     | Subscription | the name of your Azure subscription |
     | Region | `East US 2` |
-    | Resource group | `rg1`  |
+    | Resource group | `rg4`  |
     | Vm name | `vm4` |
     | Admin user name | `adminuser` |
     | Authentication type | **SSA Public Key** | 
