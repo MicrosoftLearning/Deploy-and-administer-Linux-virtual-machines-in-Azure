@@ -38,7 +38,7 @@ There is an interactive lab simulation that you might find useful for this topic
 + Skill 4: Trigger an alert by resizing the virtual machine.
 + Skill 5: Configure an alert processing rule.
 
-## Task 0: Create a virtual machine (import a template)
+## Skill 0: Create a virtual machine (import a template)
 
 In this task, you will use a template to deploy a virtual machine. 
 
