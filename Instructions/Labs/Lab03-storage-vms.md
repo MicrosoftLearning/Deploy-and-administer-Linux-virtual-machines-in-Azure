@@ -160,7 +160,7 @@ In this task, you will create and configure a virtual machine using the Cloud Sh
 
 In this task, you will create a storage account and file share. You will then give the virtual machine access to the file share and connect to the file share. 
 
-### Create and configure the storage account
+### Create and configure a storage account
 
 1. Switch to the portal. 
 
@@ -186,7 +186,7 @@ In this task, you will create a storage account and file share. You will then gi
 
 1. Wait for the deployment to finish, then select **Go to resource**. 
 
-### Create and configure the file share
+### Create and configure a file share
 
 1. In the **Data storage** section, click **File shares**. 
 
@@ -344,13 +344,13 @@ In this task, you will create a blob container. You will assign an Azure role to
 1. Run this command to login azcopy as the virtual machine managed identity. Ensure there is a **succeeded** response.
 
     ```sh
-    sudo azcopy login --identity
+    sudo /opt/azcopy/azcopy login --identity
     ```
 
 1. Copy from Azure blob storage to the new virtual machine data drive. Substitute the blob file URL you copied from the portal. 
 
     ```
-    sudo azcopy copy "urlblob" /datadrive
+    sudo /opt/azcopy/azcopy copy "urlblob" /datadrive
     ```
 
 1. Verify the file you uploaded to blob storage has been copied to the /datadrive. 
@@ -358,9 +358,7 @@ In this task, you will create a blob container. You will assign an Azure role to
     ```
     ls /datadrive
     ```
-
-1. The Storage Blob Data Contributor role includes writing the Azure blob container. As you have time, use azcopy to copy the data disk to the blob storage container.  
-
+    
 **Check your learning**
  + Can you use requirements to identify the best Azure role to use?
  + Can you add a role assignment to a resource, like a virtual machine?
