@@ -40,7 +40,11 @@ There is an interactive lab simulation that you might find useful for this topic
 
 In this task, you will deploy a template to create a Linux virtual machine. If you already have a virtual machine to use for this exercise, then skip to Skill 1. 
 
-1. In the Azure portal, search for and select `Deploy a custom template.`
+1. Sign in to the Azure portal - `https://portal.azure.com`.
+
+1. **Cancel** the **Welcome to Microsoft Azure** splash screen.
+ 
+1. Search for and select `Deploy a custom template.`
 
 1. Notice your choices and select **Create a Linux virtual machine.**
 
