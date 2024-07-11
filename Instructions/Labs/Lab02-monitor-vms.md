@@ -44,7 +44,9 @@ In this task, you will use a template to deploy a virtual machine.
 
 1. Download the **\\Allfiles\\Lab02\\** lab files.
 
-1. Sign in to the **Azure portal**.
+1. Sign in to the **Azure portal**, `https://portal.azure.com`.
+
+1. **Cancel** the **Welcome to Microsoft Azure** splash screen.
 
 1. Search for and select `Deploy a custom template`.
 
@@ -80,8 +82,6 @@ In this task, you will enable VM Insights for a virtual machine.
 
 1. Continue in the Azure portal. 
 
-1. **Cancel** the **Welcome to Microsoft Azure** splash screen.
-
 1. Search for and select your virtual machine. Before proceeding, ensure the VM is **Running**. 
 
 1. In the **Monitoring** section, select **Insights**, and then **Enable**.
@@ -92,7 +92,7 @@ In this task, you will enable VM Insights for a virtual machine.
 
     >[Data collection rules](https://learn.microsoft.com/azure/azure-monitor/vm/monitor-virtual-machine-data-collection) provide a consistent and centralized way to define and customize different data collection scenarios. 
 
-1. Set the **Data collection rule name** to `Vm1Rule1`.
+1. Set the **Data collection rule name** to `Vm2Rule1`.
 
 1. Notice the drop-down for **Log Analytics workspace**. Take the default, but notice you could make another selection. 
   
@@ -107,6 +107,7 @@ In this task, you will enable VM Insights for a virtual machine.
 **Check your learning**.
  + Can you enable VM Insights on a virtual machine?
  + Can create a data collection rule?
+ + Can you select a specific Log Analytics workspace?
 
 ## Skill 2: Configure action groups
 
@@ -173,14 +174,14 @@ In this task, you will create two alert rules.
     | Check every | `1 hour` |
     | Loopback period | `1 hour` |
 
-1. Move to the **Actions** tab, **Select action groups**, then choose the **Help Desk** action group and click **Select**. 
+1. Select **Next: Actions>** tab, **Select action groups**, then choose the **Help Desk** action group and click **Select**. 
 
 1. Move to the **Details** tab, complete the required information. 
 
     | Setting | Value |
     |---------|---------|
     | Severity | `2 - Warning` |
-    | Alert rule name | `VM1CPUAlert` |
+    | Alert rule name | `VM2CPUAlert` |
 
  1. Select **Review + create**, then select **Create**.
 
@@ -200,20 +201,23 @@ In this task, you will create two alert rules.
 
 1. On the **Actions** tab, **Select action groups**, then choose the **Help Desk** action group and click **Select**.
 
-1. Move to the **Actions** tab, **Select action groups**, then choose the **Help Desk** action group and click **Select**. 
+1. Move to the **Actions** tab, **Select action groups**, then choose the **Help Desk** action group and click **Select**.
+
+    >This exercise uses an action group, but an alert doesn't require an action group. 
 
 1. Move to the **Details** tab and enter the following values for each setting.
 
     | Setting | Value |
     |---------|---------|
-    | Alert rule name | `VM1changed` |
-    | Alert rule description | `VM1 was updated or deleted.` |
+    | Alert rule name | `VM2changed` |
+    | Alert rule description | `VM2 was updated or deleted.` |
 
 1. Select **Review + create**, then select **Create**.
 
 **Check your learning.**
  + Can you create a virtual machine alert based on metrics?
- + Can you create a virtual machine alert based on log activity? 
+ + Can you create a virtual machine alert based on log activity?
+ + Can you assign an action group to an alert?
 
 ## Skill 4: Trigger an alert by resizing the virtual machine
 
@@ -247,18 +251,16 @@ In this task, you will review performance data and resize a virtual machine.
 
     ![Screenshot of the resize virtual machine page in the portal. ](./media/resizevm.png)
 
-1. Navigate to the **Alerts** blade. Resizing the virtual machine should have triggered your VM1Changed alert rule. 
+1. Navigate to the **Alerts** blade. Resizing the virtual machine should have triggered your VM2Changed alert rule. If needed, **Refresh** the page. 
 
 1. Select an alert and review the details. **Edit** the **User response** and ensure the status is **Acknowledged**. **Save** your changes. 
 
 1. You should also receive an email notification that reads, **Important notice: Azure Monitor alert VM was updated...** If not, open your email program and look for an email from azure-noreply@microsoft.com.
 
-    ![Screenshot of an alert email.](./media/alertemail.png)
-
 **Check your learning.**
  + In the portal, can you access and review virtual machine metrics and logs?
  + Can you resize a virtual machine?
- + Can you manage alerts? For example, acknowledging that an alert has been reviewed. 
+ + Can you manage alerts? For example, acknowledge that an alert has been reviewed. 
 
 ## Skill 5: Configure an alert processing rule
 
@@ -289,7 +291,7 @@ In this task, you create an alert processing rule.
     |---------|---------|
     | Resource group | **rg1** |
     | Rule name | `Planned Maintenance` |
-    | Description | `Suppress notifications during planned maintenance.` |
+    | Description | `Suppress notifications during testing.` |
 
 1. Select **Review + create** to validate your input, then select **Create**.
 
