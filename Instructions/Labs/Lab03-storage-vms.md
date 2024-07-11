@@ -40,9 +40,9 @@ In this task, you will create and configure a virtual machine using the Cloud Sh
 
 ### Configure the Cloud Shell
 
-1. Sign in to the **Azure portal** - `https://portal.azure.com`.
+1. Sign in to the Azure portal - `https://portal.azure.com`.
 
-1. **Cancel** the **Welcome to Microsoft Azure** splash screen. 
+1. **Cancel** the **Welcome to Microsoft Azure** splash screen.
 
 1. Select the **Cloud Shell** icon in the top right of the Azure Portal.
 
