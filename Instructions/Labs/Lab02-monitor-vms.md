@@ -84,7 +84,11 @@ In this task, you will use a template to deploy a virtual machine.
 
 In this task, you will enable VM Insights for a virtual machine. 
 
-1. In the portal, search for and select your virtual machine. Before proceeding, ensure the VM is **Running**. 
+1. Sign-in to the portal, `http://azure.portal.com`.
+
+1. **Cancel** the **Welcome to Microsoft Azure** splash screen.
+
+1. Search for and select your virtual machine. Before proceeding, ensure the VM is **Running**. 
 
 1. In the **Monitoring** section, select **Insights**, and then **Enable**.
 
