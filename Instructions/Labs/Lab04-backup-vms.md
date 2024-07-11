@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Exercise 04: Backup virtual machines'
+    title: 'Exercise 04: Back up virtual machines'
     module: 'Guided Project: Backup virtual machines'
 ---
 # Exercise 04: Backup a virtual machine
 
 ## Lab requirements    
 
-This lab requires an Azure virtual machine. If you don't have a virtual machine, there are optional instructions to create one. 
+This lab requires an Azure virtual machine. If you don't have a virtual machine, there are instructions to create one. 
 
 This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the regions, but the steps were tested using the **(US) East** region.
 
@@ -54,7 +54,7 @@ In this task, you will deploy a template to create a Linux virtual machine. If y
     | --- | --- |
     | Subscription | the name of your Azure subscription |
     | Region | `East US 2` |
-    | Resource group | `rg4`  |
+    | Resource group | `rg1`  |
     | Vm name | `vm4` |
     | Admin user name | `adminuser` |
     | Authentication type | **SSA Public Key** | 
@@ -114,7 +114,7 @@ In this task, you will implement Azure virtual-machine level backup. As part of 
     | Settings | Value |
     | --- | --- |
     | Where is your workload running? | **Azure** (notice your other options) |
-    | What do you want to backup? | **Virtual machine** (notice your other options |
+    | What resource do you want to back up? | **Virtual machine** (notice your other options |
 
 1. Select **Backup**.
 
@@ -144,11 +144,11 @@ In this task, you will implement Azure virtual-machine level backup. As part of 
 
 1. In the **Protected items** section, click **Backup items**, and then click the **Azure virtual machine** entry.
 
-1. Select the **View details** link for **vm4**, and review the values of the **Backup Pre-Check** and **Last Backup Status** entries.
+1. Select the **View details** link for **vm4** and review the values of the **Backup Pre-Check** and **Last Backup Status** entries.
 
     >Notice the backup is *pending*.
     
-1. Select **Backup now**, accept the default value in the **Retain Backup Till** drop-down list, and click **OK**. Do not wait for the backup to complete.
+1. Select **Backup now**, accept the default value in the **Retain Backup Till** drop-down list, and click **OK**. Do not wait for the backup to finish.
 
 **Check your learning**
  + Do you know the difference between an Enhanced and Standard backup policy?
