@@ -58,12 +58,6 @@ In this task, you will use a template to deploy a virtual machine.
 
 1. **Save** your changes.
 
-1. Select **Edit parameters** and then **Load file**.
-
-1. Load and select the **\\Allfiles\\Lab02\\azuredeploy.parameters.json** file.
-
-1. **Save** your changes.
-
 1. Use the following information to complete the custom deployment fields, leaving all other fields with their default values:
 
     | Setting       | Value         | 
