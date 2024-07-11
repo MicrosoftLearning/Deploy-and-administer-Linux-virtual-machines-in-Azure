@@ -360,9 +360,10 @@ In this task, you will create a blob container. You will assign an Azure role to
     ```
     
 **Check your learning**
- + Can you use requirements to identify the best Azure role to use?
+ + Can you use requirements to identify the best Azure storage role to use?
  + Can you add a role assignment to a resource, like a virtual machine?
  + Can you install the AzCopy utility on a virtual machine?
+ + Can you login with AzCopy and the managed identity?
  + Can you use AzCopy to transfer files between a virtual machine and an Azure storage account?
 
 ## Learn more with self-paced training
