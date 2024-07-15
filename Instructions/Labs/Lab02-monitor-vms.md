@@ -301,9 +301,29 @@ In this task, you create an alert processing rule.
 
 ## Skill 6: Connect to a Linux virtual machine using a user and password. 
 
+***this is not working, permission denied***
+
 This exercise doesn't require you to connect to the virtual machine. However, it is important to be able to connect using a user and password. So, in this task let's practice this skill.
 
-1. 
+1. In this portal, locate your virtual machine.
+
+1. On the **Overview** blade, make note of the public IP address.
+
+1. Open a **PowerShell** window so you can run the SSH connection string.
+
+1. At the prompt, use SSH and your public IP address.
+
+    ```sh
+    ssh adminuser@<IP_public_address>
+    ```
+
+1. When prompted to continue, type *yes*.
+
+1. When prompted provide the virtual machine password.
+
+1. Ensure the prompt changes, to *adminuser@<IP_public_address>*.
+
+
 
 
 
