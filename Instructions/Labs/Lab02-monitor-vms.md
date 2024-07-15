@@ -37,6 +37,7 @@ There is an interactive lab simulation that you might find useful for this topic
 + Skill 3: Create alerts.
 + Skill 4: Trigger an alert by resizing the virtual machine.
 + Skill 5: Configure an alert processing rule.
++ Skill 6: Connect to a Linux virtual machine using a user and password. 
 
 ## Skill 0: Create a virtual machine (import a template)
 
@@ -68,8 +69,8 @@ In this task, you will use a template to deploy a virtual machine.
     | Resource group| `rg1` (If necessary, select **Create new**)
     | Region        | **East US**   |
     | Vm name       | `vm2` |
-    | Username      | **adminuser**   |
-    | Password      | Provide a complex password |
+    | Username      | `adminuser`   |
+    | Password      | Provide a complex password (make a note of this, you will need it later) |
 
 1. Select **Review + Create**, then select **Create**.
 
@@ -297,6 +298,16 @@ In this task, you create an alert processing rule.
 
 **Check your learning.**
  + Can you configure an alert processing rule? For example, to suppress alerts during a maintenance period. 
+
+## Skill 6: Connect to a Linux virtual machine using a user and password. 
+
+This exercise doesn't require you to connect to the virtual machine. However, it is important to be able to connect using a user and password. So, in this task let's practice this skill.
+
+1. 
+
+
+
+
 
 ## Learn more with self-paced training
 
