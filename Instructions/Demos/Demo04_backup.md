@@ -1,10 +1,10 @@
 ---
 demo:
-    title: 'Demo 04: Backup virtual machines'
+    title: 'Demo 04: Back up Azure Linux virtual machines'
     module: 'Guided Project: Deploy and administer Linux virtual machines'
 ---
 
-# Demo 04: Backup Azure virtual machines
+# Demo 04: Back up Azure Linux virtual machines
 
 ## Credential task
 
