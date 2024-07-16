@@ -307,19 +307,19 @@ This exercise doesn't require you to connect to the virtual machine. However, it
 
 1. On the **Overview** blade, make note of the public IP address.
 
-1. Open a **PowerShell** window. Make sure the *Run as Administrator*. 
+1. Open a **Command Prompt** window. 
 
 1. At the prompt, use SSH and your public IP address to connect to the virtual machine.
 
     ```sh
-    ssh adminuser@IP_public_address
+    ssh adminuser@public_IP_address
     ```
 
-1. When prompted to continue, type *yes*.
+1. If prompted to continue, type *yes*.
 
-1. When prompted provide the virtual machine password. The password will not display in the command window. 
+1. Provide the virtual machine password. Note the password will not display in the command window. 
 
-1. Ensure the prompt changes, to *adminuser@IP_public_address*.
+1. Ensure the prompt changes, to *adminuser@public_IP_address*.
 
 **Check your learning**
 
