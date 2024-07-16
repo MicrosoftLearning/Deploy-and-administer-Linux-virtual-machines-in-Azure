@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Exercise 02: Monitor Azure Linux virtual machines'
+    title: 'Exercise 02: Monitor an Azure Linux virtual machine'
     module: 'Guided Project: Deploy and administer Linux virtual machines'
 ---
 
-# Exercise 02: Monitor a virtual machine
+# Exercise 02: Monitor an Azure Linux virtual machine
 
 ## Lab requirements
 
