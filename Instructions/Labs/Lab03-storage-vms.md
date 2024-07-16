@@ -1,11 +1,11 @@
 ---
 lab:
-    title: 'Exercise 03: Storage for virtual machines'
-    module: 'Guided Project: Storage for virtual machines'
+    title: 'Exercise 03: Provide storage for an Azure Linux virtual machine'
+    module: 'Guided Project: Deploy and administer Linux virtual machines'
 ---
 
 
-# Exercise 03: Provide storage for virtual machines
+# Exercise 03: Provide storage for an Azure Linux virtual machine
 
 ## Lab requirements
 
