@@ -1,10 +1,10 @@
 ---
 demo:
-    title: 'Demo 01: Configure virtual machines'
+    title: 'Demo 01: Configure an Azure Linux virtual machine'
     module: 'Guided Project: Deploy and administer Linux virtual machines'
 ---
 
-# Demo 01: Configure virtual machines
+# Demo 01: Configure an Azure Linux virtual machine
 
 ## Credential tasks
 
