@@ -1,7 +1,7 @@
 ---
 demo:
     title: 'Demo 04: Backup virtual machines'
-    module: 'Guided Project: Backup virtual machines'
+    module: 'Guided Project: Deploy and administer Linux virtual machines'
 ---
 
 # Demo 04: Backup Azure virtual machines
