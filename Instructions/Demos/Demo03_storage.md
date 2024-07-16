@@ -1,7 +1,7 @@
 ---
 demo:
     title: 'Demo 03: Access storage for virtual machines'
-    module: 'Guided Project: Access storage for virtual machines'
+    module: 'Guided Project: Deploy and administer Linux virtual machines'
 ---
 
 # Demo 03: Storage for virtual machines
