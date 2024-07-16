@@ -183,8 +183,9 @@ In this task, you will create two alert rules.
     |---------|---------|
     | Severity | `2 - Warning` |
     | Alert rule name | `VM2CPUAlert` |
+   
 
- 1. Select **Review + create**, then select **Create**.
+1. Select **Review + create**, then select **Create**.
 
 ### Create an alert based on log activity
 
