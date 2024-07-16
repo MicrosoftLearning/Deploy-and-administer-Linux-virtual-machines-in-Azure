@@ -1,10 +1,10 @@
 ---
 demo:
-    title: 'Demo 02: Monitor virtual machines'
+    title: 'Demo 02: Monitor an Azure Linux virtual machine''
     module: 'Guided Project: Deploy and administer Linux virtual machines'
 ---
 
-# Demo 02: Monitor virtual machines
+# Demo 02: Monitor an Azure Linux virtual machine
 
 ## Credential tasks
 
