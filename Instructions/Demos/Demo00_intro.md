@@ -1,7 +1,7 @@
 ---
 demo:
     title: 'Demo 00: Student materials and lab environment'
-    module: 'Guided Project: Student materials and lab environment'
+    module: 'Guided Project: Deploy and administer Linux virtual machines'
 ---
 ## Demo 00: Student materials and lab environment (optional)
 
