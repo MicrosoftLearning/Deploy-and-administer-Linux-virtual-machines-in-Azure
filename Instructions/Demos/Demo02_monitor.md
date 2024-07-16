@@ -1,7 +1,7 @@
 ---
 demo:
     title: 'Demo 02: Monitor virtual machines'
-    module: 'Guided Project: Monitor virtual machines'
+    module: 'Guided Project: Deploy and administer Linux virtual machines'
 ---
 
 # Demo 02: Monitor virtual machines
