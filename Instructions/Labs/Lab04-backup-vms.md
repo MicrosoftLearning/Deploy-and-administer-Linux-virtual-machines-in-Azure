@@ -3,7 +3,7 @@ lab:
     title: 'Exercise 04: Back up Azure Linux virtual machines'
     module: 'Guided Project: Deploy and administer Linux virtual machines'
 ---
-# Exercise 04: Backup a virtual machine
+# Exercise 04: Back up Azure Linux virtual machines
 
 ## Lab requirements    
 
