@@ -1,7 +1,7 @@
 ---
 demo:
     title: 'Demo 01: Configure virtual machines'
-    module: 'Guided Project: Configure virtual machines'
+    module: 'Guided Project: Deploy and administer Linux virtual machines'
 ---
 
 # Demo 01: Configure virtual machines
