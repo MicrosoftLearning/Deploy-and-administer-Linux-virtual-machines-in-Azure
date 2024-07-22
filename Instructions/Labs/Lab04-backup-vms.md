@@ -60,7 +60,7 @@ In this task, you will deploy a template to create a Linux virtual machine. If y
     | Authentication type | **SSA Public Key** | 
     | Key pair name | `vm4_key` |
 
-1. Click **Next** and then **Create**. Ensure that the validation passes and then click **Create**.
+1. Click **Review + Create**. Ensure that the validation passes and then click **Create**.
 
 1. On the **Generate new key pairs** page select **Download + create**.
 
