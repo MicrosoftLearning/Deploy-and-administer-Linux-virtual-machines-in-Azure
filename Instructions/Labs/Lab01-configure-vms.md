@@ -160,8 +160,8 @@ In this task, you will use SSH to connect to the virtual machine. Connecting wil
 
 1. At the prompt, connect to the virtual machine using SSH. Be sure to  include the correct path to the key and the virtual machine's public_ip_address. Example of key location: *c:\users\admin\downloads\vm1_key.pem*. When prompted, type *yes* to connect. 
 
-    ```powershell
-    ssh -i 'c:\users\admin\downloads\vm1_key.pem adminuser@public_ip_address
+    ```cmd
+    ssh -i 'c:\users\admin\downloads\vm1_key.pem' adminuser@public_ip_address
     ```
 
 1. Ensure the command is successful and the prompt changes to *adminuser@vm1*. 
