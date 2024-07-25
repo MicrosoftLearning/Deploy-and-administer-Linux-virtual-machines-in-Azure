@@ -241,7 +241,7 @@ In this task, you will review performance data and resize a virtual machine.
     + Take time to explore and **Run** any queries of interest.
     + Depending on the virtual machine activity, there may not be a lot of events. 
 
-1.  Based on your monitoring review you have decided to resize the virtual machine.
+1.  Based on your monitoring review you decide to increase the number of CPUs. 
 
     >You can scale the VM up or down by [changing the VM size](https://learn.microsoft.com/azure/virtual-machines/sizes/resize-vm?tabs=portal). In some cases, you must deallocate the VM first. 
 
@@ -249,7 +249,7 @@ In this task, you will review performance data and resize a virtual machine.
 
 1. Set the virtual machine size to **DS2_v2** and click **Resize**. If prompted, confirm the change.
 
-    >Choose another size if **Standard DS2_v3** is not available. Resizing is also known as vertical scaling, up or down.
+    >Choose another size if **Standard DS2_v2** is not available. Resizing is also known as vertical scaling, up or down.
 
     ![Screenshot of the resize virtual machine page in the portal. ](./media/resizevm.png)
 
