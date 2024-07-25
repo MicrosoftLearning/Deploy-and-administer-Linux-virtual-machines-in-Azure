@@ -241,7 +241,7 @@ In this task, you will review performance data and resize a virtual machine.
     + Take time to explore and **Run** any queries of interest.
     + Depending on the virtual machine activity, there may not be a lot of events. 
 
-1.  Based on your monitoring review you decide to increase the number of CPUs. 
+1.  Based on your monitoring review you learn the CPU percentage is close to being maxed out. You decide to increase the number of CPUs. 
 
     >You can scale the VM up or down by [changing the VM size](https://learn.microsoft.com/azure/virtual-machines/sizes/resize-vm?tabs=portal). In some cases, you must deallocate the VM first. 
 
