@@ -247,7 +247,7 @@ In this task, you will review performance data and resize a virtual machine.
 
 1. In the **Availability + scale** blade, select **Size**.
 
-1. Set the virtual machine size to **DS2_v3** and click **Resize**. If prompted, confirm the change.
+1. Set the virtual machine size to **DS2_v2** and click **Resize**. If prompted, confirm the change.
 
     >Choose another size if **Standard DS2_v3** is not available. Resizing is also known as vertical scaling, up or down.
 
