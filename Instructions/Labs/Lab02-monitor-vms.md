@@ -77,7 +77,7 @@ In this task, you will use a template to deploy a virtual machine.
 1. You can continue to the next task while the virtual machine deploys. 
 
 
-## Skill 1: Configure VM Insights
+## Skill 1: Configure VM insights
 
 In this task, you will enable VM Insights for a virtual machine. 
 
