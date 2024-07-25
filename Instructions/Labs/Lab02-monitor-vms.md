@@ -324,7 +324,7 @@ This exercise doesn't require you to connect to the virtual machine. However, it
 
 **Check your learning**
 
-+ Can you connect to a Linux virtual machine with SSH and a user/password?
++ Can you connect to a Linux virtual machine with a user and password?
 
 ## Learn more with self-paced training
 
