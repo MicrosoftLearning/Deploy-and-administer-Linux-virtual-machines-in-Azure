@@ -9,7 +9,7 @@ demo:
 ## Credential tasks
 
 + Create a virtual machine (CLI).
-+ Add vm data disks and configure partitions. 
++ Add virtual machine data disks and configure partitions. 
 + Mount an SMB Azure file share on a Linux VM.
 + Assign a managed identity on a Linux VM. 
 + Assign Azure roles. 
@@ -75,10 +75,10 @@ Use these slides for additional context.
 
 1. Run the script and mount the file share. 
 
-**Use AzCopy to copy a blob file to the data drive** - Reference #4 and the student lab instrutions
+**Use AzCopy to copy a blob file to the data drive** - Reference #4 and the student lab instructions.
 
 1. Add the Blob Data Storage Contributor role to the virtual machine. Review other blob roles. 
 
 1. Connect to the virtual machine and install AzCopy. Review other tools that can be used for transfering files. 
 
-1. Use AzCopy to tranfer a file from blob storage to the data drive. You can also transfer a file back to blob storage.  
+1. Use AzCopy to transfer a file from blob storage to the data drive. You can also transfer a file back to blob storage.  
