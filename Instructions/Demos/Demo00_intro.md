@@ -31,7 +31,7 @@ Use this demonstration to show students how to access the lab environment and st
 
 1. Ask the students to locate and bookmark the learning path.
 
-1. Note the content in the learning path is specific to this course. But, there more modules they might find useful. 
+1. Note the content in the learning path is specific to this course. But, there are more modules they might find useful. 
 
 1. Explain the learning path content is reference material. There isn't a 1:1 mapping with the classroom presentations.
 
@@ -39,7 +39,7 @@ Use this demonstration to show students how to access the lab environment and st
 
 1. Show students the link at the bottom of the Learn pages to access the Azure Q&A Forum. Review some of the current topics on the forum. 
 
-1. Explain that students don't need a Learn profile to access the content. But, if they create a profile they can track their progress.
+1. Explain that students don't need a Learn profile to access the content. But if they create a profile they can track their progress.
 
 1. Discuss how students can create their own [Collection}(https://learn.microsoft.com/contribute/content/collections) of materials.
 
