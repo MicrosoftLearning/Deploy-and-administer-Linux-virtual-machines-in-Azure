@@ -53,13 +53,13 @@ In this task, you will create and deploy a Linux virtual machine using the porta
     | Setting | Value |
     | --- | --- |
     | Subscription | the name of your Azure subscription |
-    | Resource group |  **rg1** (If necessary, click **Create new**) |
+    | Resource group |  **RG1** (If necessary, click **Create new**) |
     | Virtual machine names | `vm1` |
     | Region | **(US) East US** |
     | Availability options | **No infrastructure redundancy required** |
     | Security type | **Standard** (review your other choices) |
     | Image | **Ubuntu Server 20.04 LTS - x64 Gen2** (use the drop-down to view other options) |
-    | Size | **Standard_Ds1_v2** (use **See all sizes** to view the CPU and memory) |
+    | Size | **Standard_DS1_v2** (use **See all sizes** to view the CPU and memory) |
     | Authentication type | **SSH public key** (notice you could use a password) |
     | Username | `adminuser` |
     | SSH public key source | **Generate new key pair** (notice your choices to use an existing key) |
@@ -93,7 +93,7 @@ In this task, you will create and deploy a Linux virtual machine using the porta
     | Setting | Value |
     | --- | --- |
     | Enable auto-shutdown | **unchecked** |
-    | Patch orchestration options | **Azure orchestrated using Automated guest patching** |  
+    | Patch orchestration options | **Image default** |  
 
     >Patch orchestration options allow you to control how patches will be applied to your virtual machine. 
 
@@ -169,7 +169,10 @@ In this task, you will use SSH to connect to the virtual machine. Connecting wil
 1. Fetch the list of available OS updates and install updates. When prompted, type **yes** to continue. Each command must complete successfully. 
 
     ```sh
-    sudo apt update;
+    sudo apt update
+    ```
+
+   ```sh
     sudo apt upgrade
     ```
 1. Stay connected to the virtual machine, leave the PowerShell window open, and continue to the next task.
