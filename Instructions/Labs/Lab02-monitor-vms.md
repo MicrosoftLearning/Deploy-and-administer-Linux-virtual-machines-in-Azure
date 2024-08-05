@@ -66,15 +66,13 @@ In this task, you will use a template to deploy a virtual machine.
     | Setting       | Value         | 
     | ---           | ---           |
     | Subscription  | Your Azure subscription |
-    | Resource group| `rg1` (If necessary, select **Create new**)
+    | Resource group| `RG1` (If necessary, select **Create new**)
     | Region        | **East US**   |
     | Vm name       | `vm2` |
     | Username      | `adminuser`   |
     | Password      | Provide a complex password (make a note of this, you will need it later) |
 
 1. Select **Review + Create**, then select **Create**.
-
-1. You can continue to the next task while the virtual machine deploys. 
 
 
 ## Skill 1: Configure VM insights
@@ -126,7 +124,7 @@ In this task, you will create an action group and configure a notification metho
     |---------|---------|
     | **Project details** |
     | Subscription | your subscription |
-    | Resource group | **rg1** |
+    | Resource group | **RG1** |
     | Region | **Global** (default) |
     | **Instance details** |
     | Action group name | `Help Desk` (must be unique in the resource group) |
@@ -264,7 +262,7 @@ In this task, you will review performance data and resize a virtual machine.
  + Can you resize a virtual machine?
  + Can you manage alerts? For example, acknowledge that an alert has been reviewed. 
 
-## Skill 5: Configure an alert processing rule
+## Skill 5: Configure an alert processing rule (optional)
 
 In this task, you create an alert processing rule. 
 
@@ -291,7 +289,7 @@ In this task, you create an alert processing rule.
 
     | Setting | Value |
     |---------|---------|
-    | Resource group | **rg1** |
+    | Resource group | **RG1** |
     | Rule name | `Planned Maintenance` |
     | Description | `Suppress notifications during testing.` |
 
@@ -300,7 +298,7 @@ In this task, you create an alert processing rule.
 **Check your learning.**
  + Can you configure an alert processing rule? For example, to suppress alerts during a maintenance period. 
 
-## Skill 6: Connect to a Linux virtual machine using a user and password. 
+## Skill 6: Connect to a Linux virtual machine using a user and password  (optional)
 
 This exercise doesn't require you to connect to the virtual machine. However, it is important to be able to connect using a user and password. So, in this task let's practice this skill.
 
