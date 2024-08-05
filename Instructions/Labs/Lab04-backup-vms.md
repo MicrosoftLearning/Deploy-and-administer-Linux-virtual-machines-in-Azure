@@ -59,7 +59,6 @@ In this task, you will deploy a template to create a Linux virtual machine. If y
     | Admin user name | `adminuser` |
     | Authentication type | **Password** |
     | Admin Password or Key | provide a complex password |
-    | Key pair name | `vm4_key` |
 
 1. Click **Review + Create**. Ensure that the validation passes and then click **Create**.
 
