@@ -103,7 +103,7 @@ In this task, you will create a Recovery Services vault.
 
 ## Task 2: Configure Azure virtual machine-level backup
 
-In this task, you will implement Azure virtual-machine level backup. As part of a VM backup, you will define a backup and retention policy.
+In this task, you will implement Azure virtual machine level backup. As part of a VM backup, you will define a backup and retention policy.
 
 1. Continue working on the Recovery Services vault, click **Overview**, then click **+ Backup**.
 
