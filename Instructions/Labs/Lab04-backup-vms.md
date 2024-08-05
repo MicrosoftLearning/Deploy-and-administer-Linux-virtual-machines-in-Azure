@@ -146,7 +146,7 @@ In this task, you will implement Azure virtual machine level backup. As part of 
 
 1. Select the **View details** link for **vm4** and review the values of the **Backup Pre-Check** and **Last Backup Status** entries.
 
-    >Notice the backup is *pending*.
+    >Notice the backup is *initial backup pending*.
     
 1. Select **Backup now**, accept the default value in the **Retain Backup Till** drop-down list, and click **OK**. Do not wait for the backup to finish.
 
