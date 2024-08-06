@@ -66,10 +66,10 @@ In this task, you will create and configure a virtual machine using the Cloud Sh
 
 ### Create a virtual machine and add a data disk using the CLI
 
-1. Use the CLI to create a new virtual machine named **vm2** in the **(US) East** region. Notice SSH key file are stored in the /home directory. 
+1. Use the CLI to create a new virtual machine named **vm3** in the **(US) East** region. Notice SSH key file are stored in the /home directory. 
 
     ```sh
-    az vm create --name vm2 --resource-group rg1 --image Ubuntu2204 --admin-username adminuser --generate-ssh-keys --location eastus
+    az vm create --name vm3 --resource-group rg1 --image Ubuntu2204 --admin-username adminuser --generate-ssh-keys --location eastus
     ```
 
     >While you wait for the virtual machine to deploy review [az vm create](https://learn.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-create) documentation. All of the parameters you configured in the portal are available at the command line. 
@@ -79,7 +79,7 @@ In this task, you will create and configure a virtual machine using the Cloud Sh
 1. Use [az vm disk](https://learn.microsoft.com/en-us/cli/azure/vm/disk?view=azure-cli-latest) to add a 4 GB data disk to the virtual machine.
 
     ```sh
-    az vm disk attach --resource-group rg1 --vm-name vm2 --name Disk1 --new --size-gb 4
+    az vm disk attach --resource-group rg1 --vm-name vm3 --name Disk1 --new --size-gb 4
     ```
 
 1. Verify the data disk was created. This command will also show the operating system disk information. 
@@ -91,7 +91,7 @@ In this task, you will create and configure a virtual machine using the Cloud Sh
 
 ### Connect to the virtual machine and configure the data disk
 
-1. To format and mount the data disk you will need to connect to the virtual machine. Substitute your public IP address. When prompted, confirm you want to connect. When successfully connected, the prompt will change to *adminuser@vm2*.
+1. To format and mount the data disk you will need to connect to the virtual machine. Substitute your public IP address. When prompted, confirm you want to connect. When successfully connected, the prompt will change to *adminuser@vm3*.
 
     ```sh
     ssh -i ~/.ssh/id_rsa.pem adminuser@public_ip_address
@@ -218,7 +218,7 @@ In this task, you will create a storage account and file share. You will then gi
 
 1. Your virtual machine must be able to authenticate to the storage account.
 
-1. In the portal, locate your virtual machine (vm2).
+1. In the portal, locate your virtual machine (vm3).
 
 1. In the **Security** settings, select **Identity**.
 
@@ -302,7 +302,7 @@ In this task, you will create a blob container. You will assign an Azure role to
 
 ### Assign the virtual machine the Storage Blob Data Contributor role to the storage account
 
-1. In the portal, search for and select **vm2**.
+1. In the portal, search for and select **vm3**.
 
 1. In the **Security** settings, select **Identity**.
 
@@ -323,7 +323,7 @@ In this task, you will create a blob container. You will assign an Azure role to
 
 ### Use AzCopy to transfer files
 
-1. Return to the Cloud Shell and ensure you are still connected to vm2. 
+1. Return to the Cloud Shell and ensure you are still connected to vm3. 
 
 1. Download AzCopy and extract the file.
 
