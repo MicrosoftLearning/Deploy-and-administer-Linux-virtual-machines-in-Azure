@@ -54,7 +54,7 @@ In this task, you will create and deploy a Linux virtual machine using the porta
     | --- | --- |
     | Subscription | the name of your Azure subscription |
     | Resource group |  **RG1** (If necessary, click **Create new**) |
-    | Virtual machine names | `vm1` |
+    | Virtual machine names | `VM1` |
     | Region | **(US) East US** |
     | Availability options | **No infrastructure redundancy required** |
     | Security type | **Standard** (review your other choices) |
@@ -64,7 +64,7 @@ In this task, you will create and deploy a Linux virtual machine using the porta
     | Username | `adminuser` |
     | SSH public key source | **Generate new key pair** (notice your choices to use an existing key) |
     | SSH Key Type | **RSA SSH Format** |
-    | Key pair name | `vm1_key` |
+    | Key pair name | `VM1_key` |
     | Public inbound ports |**None** |
 
     >Did you know [virtual machine sizes](https://learn.microsoft.com/azure/virtual-machines/sizes/overview) are categorized into different families and types, each optimized for specific purposes. For example, compute optimized VM sizes have a high CPU-to-memory ratio. Good for medium traffic web servers, network appliances, batch processes, and application servers.
@@ -158,13 +158,13 @@ In this task, you will use SSH to connect to the virtual machine. Connecting wil
    
     >We are using a key pair, but you could also provide a user and password.
 
-1. At the prompt, connect to the virtual machine using SSH. Be sure to  include the correct path to the key and the virtual machine's public_ip_address. Example of key location: *c:\users\admin\downloads\vm1_key.pem*. When prompted, type *yes* to connect. 
+1. At the prompt, connect to the virtual machine using SSH. Be sure to  include the correct path to the key and the virtual machine's public_ip_address. Example of key location: *c:\users\admin\downloads\VM1_key.pem*. When prompted, type *yes* to connect. 
 
     ```cmd
-    ssh -i 'c:\users\admin\downloads\vm1_key.pem' adminuser@public_ip_address
+    ssh -i 'c:\users\admin\downloads\VM1_key.pem' adminuser@public_ip_address
     ```
 
-1. Ensure the command is successful and the prompt changes to *adminuser@vm1*. 
+1. Ensure the command is successful and the prompt changes to *adminuser@VM1*. 
 
 1. Fetch the list of available OS updates and install updates. When prompted, type **yes** to continue. Each command must complete successfully. 
 
