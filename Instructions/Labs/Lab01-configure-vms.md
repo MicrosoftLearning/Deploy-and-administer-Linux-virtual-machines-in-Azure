@@ -211,7 +211,7 @@ In this task, you will install the Nginx web service.
     service nginx status
     ```
 
-1. Launch the Nginx welcome page. Be sure to substitute your virtual machine public IP address. You can also open the Nginx default page in a browser.  
+1. Launch the Nginx welcome page. Be sure to substitute your virtual machine public IP address. You can also open the Nginx default page in a browser, `http://public_ip_address`.  
 
     ```sh
     curl -m 80 public_ip_address
