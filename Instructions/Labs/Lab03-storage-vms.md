@@ -173,7 +173,7 @@ In this task, you will create a storage account and file share. You will then gi
     | Setting | Value |
     | --- | --- |
     | Subscription          | your Azure subscription  |
-    | Resource group        | **rg1** (create new if necessary) |
+    | Resource group        | **RG1** (create new if necessary) |
     | Storage account name  | any globally unique name between 3 and 24 characters in length consisting of letters and digits |
     | Region                | **(US) East**  |
     | Performance           | **Standard** (notice the Premium option) |
