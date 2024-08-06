@@ -67,7 +67,7 @@ In this task, you will deploy a template to create a Linux virtual machine. If y
 1. You can continue to the next task while the virtual machine deploys. 
 
 
-## Task 1: Create and configure a Recovery Services vault
+## Skill 1: Create and configure a Recovery Services vault
 
 In this task, you will create a Recovery Services vault. 
 
@@ -101,7 +101,7 @@ In this task, you will create a Recovery Services vault.
  + Can you determine which protected items are in the vault?
 
 
-## Task 2: Configure Azure virtual machine-level backup
+## Skill 2: Configure Azure virtual machine-level backup
 
 In this task, you will implement Azure virtual machine level backup. As part of a VM backup, you will define a backup and retention policy.
 
@@ -154,6 +154,32 @@ In this task, you will implement Azure virtual machine level backup. As part of 
  + Do you know the difference between an Enhanced and Standard backup policy?
  + Can you configure backup policy retention settings?
  + Can you review the backup job details and status?
+
+## Skill 3: Connect to a Linux virtual machine using a user and password  (optional)
+
+This exercise doesn't require you to connect to the virtual machine. However, it is important to be able to connect using a user and password. So, in this task let's practice this skill.
+
+1. In the portal, locate your virtual machine.
+
+1. On the **Overview** blade, make note of the public IP address.
+
+1. Open a **Command Prompt** window. 
+
+1. At the prompt, use SSH and your public IP address to connect to the virtual machine.
+
+    ```sh
+    ssh adminuser@public_IP_address
+    ```
+
+1. If prompted to continue, type *yes*.
+
+1. Provide the virtual machine password. Note the password will not display in the command window. 
+
+1. Ensure the prompt changes, to *adminuser@public_IP_address*.
+
+**Check your learning**
+
++ Can you connect to a Linux virtual machine with a user and password?
 
 ## Learn more with self-paced training
 
