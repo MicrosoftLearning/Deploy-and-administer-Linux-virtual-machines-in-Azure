@@ -298,31 +298,6 @@ In this task, you create an alert processing rule.
 **Check your learning.**
  + Can you configure an alert processing rule? For example, to suppress alerts during a maintenance period. 
 
-## Skill 6: Connect to a Linux virtual machine using a user and password  (optional)
-
-This exercise doesn't require you to connect to the virtual machine. However, it is important to be able to connect using a user and password. So, in this task let's practice this skill.
-
-1. In the portal, locate your virtual machine.
-
-1. On the **Overview** blade, make note of the public IP address.
-
-1. Open a **Command Prompt** window. 
-
-1. At the prompt, use SSH and your public IP address to connect to the virtual machine.
-
-    ```sh
-    ssh adminuser@public_IP_address
-    ```
-
-1. If prompted to continue, type *yes*.
-
-1. Provide the virtual machine password. Note the password will not display in the command window. 
-
-1. Ensure the prompt changes, to *adminuser@public_IP_address*.
-
-**Check your learning**
-
-+ Can you connect to a Linux virtual machine with a user and password?
 
 ## Learn more with self-paced training
 
