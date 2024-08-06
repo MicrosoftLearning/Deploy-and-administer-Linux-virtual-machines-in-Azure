@@ -28,7 +28,7 @@ There is an interactive lab simulation that you might find useful for this topic
 + Skill 0: Create a virtual machine (Quickstart template). 
 + Skill 1: Create and configure a Recovery Services vault.
 + Skill 2: Configure Azure virtual machine-level backup.
-
++ Skill 3: Connect to a Linux virtual machine using a user and password  (optional)
 
 ### Estimated timing: 30 minutes
 
