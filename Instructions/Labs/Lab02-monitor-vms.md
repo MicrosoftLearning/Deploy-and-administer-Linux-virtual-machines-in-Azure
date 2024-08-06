@@ -36,8 +36,8 @@ There is an interactive lab simulation that you might find useful for this topic
 + Skill 2: Configure action groups and notifications. 
 + Skill 3: Create alerts.
 + Skill 4: Trigger an alert by resizing the virtual machine.
-+ Skill 5: Configure an alert processing rule.
-+ Skill 6: Connect to a Linux virtual machine using a user and password. 
++ Skill 5: Configure an alert processing rule (optional).
+
 
 ## Skill 0: Create a virtual machine (import a template)
 
