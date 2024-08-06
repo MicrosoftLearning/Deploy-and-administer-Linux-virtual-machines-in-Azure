@@ -55,14 +55,12 @@ In this task, you will deploy a template to create a Linux virtual machine. If y
     | Subscription | the name of your Azure subscription |
     | Region | `East US 2` |
     | Resource group | `RG1`  |
-    | Vm name | `vm4` |
+    | Vm name | `VM4` |
     | Admin user name | `adminuser` |
     | Authentication type | **Password** |
     | Admin Password or Key | provide a complex password |
 
 1. Click **Review + Create**. Ensure that the validation passes and then click **Create**.
-
-1. On the **Generate new key pairs** page select **Download + create**.
 
 1. You can continue to the next task while the virtual machine deploys. 
 
@@ -83,8 +81,8 @@ In this task, you will create a Recovery Services vault.
     | --- | --- |
     | Subscription | the name of your Azure subscription |
     | Resource group | `RG1`  |
-    | Vault Name | `rsv1` |
-    | Region | **(US) East** |
+    | Vault Name | `RSV1` |
+    | Region | **East US** |
 
     >Make sure you use the same region as the virtual machines.
 
@@ -136,7 +134,7 @@ In this task, you will implement Azure virtual machine level backup. As part of 
 
     >You can create multiple backup policies or reuse a single backup policy on multiple virtual machines. 
 
-1. On the **Select virtual machines** blade, select **vm4**, click **OK**.
+1. On the **Select virtual machines** blade, select **VM4**, click **OK**.
 
 1. On the **Backup** blade, click **Enable backup**.
 
@@ -144,7 +142,7 @@ In this task, you will implement Azure virtual machine level backup. As part of 
 
 1. In the **Protected items** section, click **Backup items**, and then click the **Azure virtual machine** entry.
 
-1. Select the **View details** link for **vm4** and review the values of the **Backup Pre-Check** and **Last Backup Status** entries.
+1. Select the **View details** link for **VM4** and review the values of the **Backup Pre-Check** and **Last Backup Status** entries.
 
     >Notice the backup is *initial backup pending*.
     
