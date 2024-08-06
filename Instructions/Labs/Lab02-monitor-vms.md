@@ -67,7 +67,7 @@ In this task, you will use a template to deploy a virtual machine.
     | ---           | ---           |
     | Subscription  | Your Azure subscription |
     | Resource group| `RG1` (If necessary, select **Create new**)
-    | Region        | **East US**   |
+    | Region        | **(US) East US**   |
     | Vm name       | `VM2` |
     | Username      | `adminuser`   |
     | Password      | Provide a complex password (make a note of this, you will need it later) |
@@ -77,11 +77,11 @@ In this task, you will use a template to deploy a virtual machine.
 
 ## Skill 1: Configure VM insights
 
-In this task, you will enable VM Insights for a virtual machine. 
+In this task, you will enable Insights for a virtual machine. 
 
 1. Continue in the Azure portal. 
 
-1. Search for and select your virtual machine. Before proceeding, ensure the VM is **Running**. 
+1. Search for and select your virtual machine. Before proceeding, ensure the VM status is **Running**. 
 
 1. In the **Monitoring** section, select **Insights**, and then **Enable**.
 
@@ -170,10 +170,11 @@ In this task, you will create two alert rules.
 
     | Setting | Value |
     |---------|---------|
-    | Check every | `1 hour` |
     | Loopback period | `1 hour` |
+    | Check every | `1 hour` |
 
-1. Select **Next: Actions>** tab, **Select action groups**, then choose the **Help Desk** action group and click **Select**. 
+
+1. Select **Next: Actions>** tab, **Use action groups**, then choose the **Help Desk** action group and click **Select**. 
 
 1. Move to the **Details** tab, complete the required information. 
 
@@ -199,7 +200,7 @@ In this task, you will create two alert rules.
 
 1. Review the **Status** drop-down selections. Leave the default of **All selected**.
 
-1. On the **Actions** tab, **Select action groups**, then choose the **Help Desk** action group and click **Select**.
+1. On the **Actions** tab, **Use action groups**, then choose the **Help Desk** action group and click **Select**.
 
 1. Move to the **Actions** tab, **Select action groups**, then choose the **Help Desk** action group and click **Select**.
 
