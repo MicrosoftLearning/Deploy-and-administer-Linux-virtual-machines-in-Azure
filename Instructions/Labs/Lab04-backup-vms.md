@@ -54,7 +54,7 @@ In this task, you will deploy a template to create a Linux virtual machine. If y
     | --- | --- |
     | Subscription | the name of your Azure subscription |
     | Region | `East US 2` |
-    | Resource group | `rg1`  |
+    | Resource group | `RG1`  |
     | Vm name | `vm4` |
     | Admin user name | `adminuser` |
     | Authentication type | **Password** |
@@ -82,7 +82,7 @@ In this task, you will create a Recovery Services vault.
     | Settings | Value |
     | --- | --- |
     | Subscription | the name of your Azure subscription |
-    | Resource group | `rg1`  |
+    | Resource group | `RG1`  |
     | Vault Name | `rsv1` |
     | Region | **(US) East** |
 
