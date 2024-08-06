@@ -154,7 +154,7 @@ In this task, you will use SSH to connect to the virtual machine. Connecting wil
 
 1. Make a note of the **public IP address**. You will need this to connect to the virtual machine. **Close** the Native SSH page. 
 
-1. Open a **PowerShell** window so you can run the SSH connection string.
+1. Open a **CMD** window so you can run the SSH connection string.
    
     >We are using a key pair, but you could also provide a user and password.
 
