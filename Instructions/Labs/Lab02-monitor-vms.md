@@ -68,7 +68,7 @@ In this task, you will use a template to deploy a virtual machine.
     | Subscription  | Your Azure subscription |
     | Resource group| `RG1` (If necessary, select **Create new**)
     | Region        | **East US**   |
-    | Vm name       | `vm2` |
+    | Vm name       | `VM2` |
     | Username      | `adminuser`   |
     | Password      | Provide a complex password (make a note of this, you will need it later) |
 
@@ -91,7 +91,7 @@ In this task, you will enable VM Insights for a virtual machine.
 
     >[Data collection rules](https://learn.microsoft.com/azure/azure-monitor/vm/monitor-virtual-machine-data-collection) provide a consistent and centralized way to define and customize different data collection scenarios. 
 
-1. Set the **Data collection rule name** to `Vm2Rule1`.
+1. Set the **Data collection rule name** to `VM2Rule1`.
 
 1. Notice the drop-down for **Log Analytics workspace**. Take the default, but notice you could make another selection. 
   
@@ -270,7 +270,7 @@ In this task, you create an alert processing rule.
 
     >[Alert processing rules](https://learn.microsoft.com/azure/azure-monitor/alerts/alerts-processing-rules?tabs=portal) decide what happens when an alert is triggered. Alert processing rules can be used to suppress alert notification during maintenance periods. 
    
-1. Notice the alert scope is **vm2**. 
+1. Notice the alert scope is **VM2**. 
    
 1. Select **Next: Rule settings**, then select **Suppress notifications**.
    
