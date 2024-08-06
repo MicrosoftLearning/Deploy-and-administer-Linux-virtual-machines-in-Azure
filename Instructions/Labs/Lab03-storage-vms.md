@@ -204,6 +204,8 @@ In this task, you will create a storage account and file share. You will then gi
 
 1. Select a file and then click **Upload**.
 
+    >If you have downloaded the lab files, there is a `filedoc.txt` file for you to use.
+    
 1. Select **Browse** left menu, to ensure your file was uploaded. 
 
 1. Select **Connect**. 
@@ -298,6 +300,8 @@ In this task, you will create a blob container. You will assign an Azure role to
 
 1. **Browse for files**. Select a file then click **Upload**.
 
+    >If you have downloaded the lab files, there is a `blobimage.png` file for you to use.
+
 1. Select your uploaded file and copy the **URL**. 
 
 ### Assign the virtual machine the Storage Blob Data Contributor role to the storage account
@@ -330,16 +334,23 @@ In this task, you will create a blob container. You will assign an Azure role to
     >[AzCopy](https://learn.microsoft.com/azure/storage/common/storage-ref-azcopy) is a command-line tool that moves data into and out of Azure Storage.
 
     ```sh
-    wget https://aka.ms/downloadazcopy-v10-linux;
+    wget https://aka.ms/downloadazcopy-v10-linux
+    ```
+    
+    ```sh
     sudo tar xzf downloadazcopy-v10-linux
     ```
-
 1. Make folder for azcopy and copy the executable to that directory. 
 
     ```sh
     sudo mkdir /opt/azcopy
+    ```
+    
+    ```sh
     sudo cp ./azcopy_linux_amd64_*/azcopy /opt/azcopy/
     ```
+
+
 
 1. Run this command to login azcopy as the virtual machine managed identity. Ensure there is a **succeeded** response.
 
