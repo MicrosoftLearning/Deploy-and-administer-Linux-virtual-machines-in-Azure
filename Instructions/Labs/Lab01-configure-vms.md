@@ -175,7 +175,7 @@ In this task, you will use SSH to connect to the virtual machine. Connecting wil
    ```sh
     sudo apt upgrade
     ```
-1. Stay connected to the virtual machine, leave the PowerShell window open, and continue to the next task.
+1. Stay connected to the virtual machine, leave the CMD window open, and continue to the next task.
 
 **Check your learning.** 
  + Can you configure network security group inbound port rules? 
@@ -186,7 +186,7 @@ In this task, you will use SSH to connect to the virtual machine. Connecting wil
 
 In this task, you will install the Nginx web service. 
 
-1. Continue working at the PowerShell prompt. Run these commands one at a time. Ensure each command completes successfully. 
+1. Continue working at the CMD prompt. Run these commands one at a time. Ensure each command completes successfully. 
 
 1. Install the Nginx service. When prompted indicate **Y** to continue the install.  
 
