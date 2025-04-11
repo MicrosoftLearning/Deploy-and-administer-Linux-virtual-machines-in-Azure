@@ -69,7 +69,7 @@ In this task, you will create and configure a virtual machine using the Cloud Sh
 1. Use the CLI to create a new virtual machine named **vm3** in the **(US) East** region. Notice SSH key file are stored in the /home directory. 
 
     ```sh
-    az vm create --name vm3 --resource-group rg1 --image Ubuntu2204 --admin-username adminuser --generate-ssh-keys --location eastus
+    az vm create --name vm3 --resource-group rg1 --image Ubuntu2204 --size Standard_D2s_v3 --admin-username adminuser --generate-ssh-keys --location eastus
     ```
 
     >This is a very simple implemention of the [az vm create](https://learn.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-create) command. 
