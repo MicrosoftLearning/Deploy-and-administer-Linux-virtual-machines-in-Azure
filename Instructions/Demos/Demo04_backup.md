@@ -6,7 +6,7 @@ demo:
 
 # Demo 04: Back up Azure Linux virtual machines
 
-## Credential task
+## Job skill
 
 + Configure Azure Backup 
 
@@ -48,4 +48,4 @@ Use these slides for additional context.
 
 1. Review how to monitor backup jobs.
 
-1. Review how you can restore virtual machines (not on the credential). 
+1. Review how you can restore virtual machines. 
