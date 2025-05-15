@@ -6,7 +6,7 @@ demo:
 
 # Demo 02: Monitor an Azure Linux virtual machine
 
-## Credential tasks
+## Job skills
 
 + Create a virtual machine (Quickstart template).
 + Configure VM Insights.
