@@ -16,7 +16,7 @@ This lab requires an Azure subscription. Your subscription type may affect the a
 
 You have been asked to create a web server for a new ecommerce website. You want to explore how to create Linux virtual machines using the Azure portal. You are also interested in using SSH to securely connect to the virtual machine. Lastly, you want to install the latest OS updates and the Nginx web server. 
 
-## Interactive lab simulation
+## Interactive lab simulations
 
 >**Note**: The lab simulations that were previously provided have been retired.
 
