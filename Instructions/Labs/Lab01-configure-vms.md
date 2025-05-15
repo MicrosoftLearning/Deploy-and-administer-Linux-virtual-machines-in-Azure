@@ -18,9 +18,7 @@ You have been asked to create a web server for a new ecommerce website. You want
 
 ## Interactive lab simulation
 
-There is an interactive lab simulation that you might find useful for this topic. The simulation lets you click through a similar scenario at your own pace. There are differences between the interactive simulation and this lab, but many of the core concepts are the same. An Azure subscription is not required.
-
-+ [Create a virtual machine in the portal](https://mslearn.cloudguides.com/en-us/guides/AZ-900%20Exam%20Guide%20-%20Azure%20Fundamentals%20Exercise%201). Create a virtual machine, connect and install the web server role.
+>**Note**: The lab simulations that were previously provided have been retired.
 
 ## Job skills
 
