@@ -6,9 +6,8 @@ demo:
 
 # Demo 01: Configure an Azure Linux virtual machine
 
-## Credential tasks
+## Job skills
 
-Use this demonstration to review these credential tasks:
 + Create a Linux virtual machine (portal).
 + Configure a Linux VM.
 + Connect to a Linux VM with SSH.  
