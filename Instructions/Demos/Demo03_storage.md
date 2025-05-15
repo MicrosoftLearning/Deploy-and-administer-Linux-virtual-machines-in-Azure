@@ -6,7 +6,7 @@ demo:
 
 # Demo 03: Access storage for an Azure Linux virtual machine
 
-## Credential tasks
+## Job skills
 
 + Create a virtual machine (CLI).
 + Add virtual machine data disks and configure partitions. 
