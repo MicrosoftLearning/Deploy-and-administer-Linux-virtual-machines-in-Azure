@@ -231,10 +231,10 @@
       "name": "[variables('publicIPAddressName')]",
       "location": "[parameters('location')]",
       "sku": {
-        "name": "Basic"
+        "name": "Standard"
       },
       "properties": {
-        "publicIPAllocationMethod": "Dynamic",
+        "publicIPAllocationMethod": "Static",
         "publicIPAddressVersion": "IPv4",
         "dnsSettings": {
           "domainNameLabel": "[parameters('dnsLabelPrefix')]"
