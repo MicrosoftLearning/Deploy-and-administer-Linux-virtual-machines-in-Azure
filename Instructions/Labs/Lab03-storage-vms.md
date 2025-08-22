@@ -240,7 +240,7 @@ In this task, you will create a storage account and file share. You will then gi
     vi script.sh
     ```
     
-1. Right click and **Paste as plain text**. Your connection script should display. 
+1. Right click and **Paste as plain text**. Your connection script should display. Review the script.
 
 1. Type **:wq** to write and quit. **Enter** to exit the editor.
 
@@ -253,13 +253,13 @@ In this task, you will create a storage account and file share. You will then gi
 1. Verify you are able to access the file share. The file you uploaded should be listed. 
 
     ```sh
-    ls /mnt/share1
+    ls /media/share1
     ```
 
 1. Copy the file share file to the virtual machine data disk.
 
     ```
-    sudo cp /mnt/share1/* /datadrive
+    sudo cp /media/share1/* /datadrive
     ```
 
 1. Verify the file share was copied to the data disk. 
