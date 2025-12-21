@@ -19,10 +19,6 @@ This lab requires an Azure subscription. Your subscription type may affect the a
 
 Your organization is migrating their virtual machine workloads to Azure. It is important that you are notified of any significant infrastructure changes. You plan to explore the capabilities of Azure Monitor, including alerts and Log Analytics.
 
-## Interactive lab simulations
-
->**Note**: The lab simulations that were previously provided have been retired.
-
 ## Architecture diagram
 
 ![Diagram of the lab 02 architecture.](./media/lab02.png)
@@ -38,6 +34,8 @@ Your organization is migrating their virtual machine workloads to Azure. It is i
 
 
 ## Skill 0: Create a virtual machine (import a template)
+
+ >**Note:** Templates are available in the [download directory](https://github.com/MicrosoftLearning/Deploy-and-administer-Linux-virtual-machines-in-Azure/tree/main/Allfiles/Labs).
 
 In this task, you will use a template to deploy a virtual machine. 
 
