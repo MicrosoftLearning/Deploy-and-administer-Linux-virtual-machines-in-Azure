@@ -17,10 +17,6 @@ This lab requires an Azure subscription. Your subscription type may affect the a
 
 Your organization is evaluating how to backup Azure virtual machines. Backup will protect the virtual machines from accidental or malicious data loss. You plan to explore using the Azure Backup Center.
 
-## Interactive lab simulation
-
->**Note**: The lab simulations that were previously provided have been retired.
-
 ## Job skills
 
 + Skill 0: Create a virtual machine (Quickstart template). 
@@ -35,6 +31,9 @@ Your organization is evaluating how to backup Azure virtual machines. Backup wil
 ![Diagram for lab 04 architecture.](./media/lab04.png)
 
 ## Skill 0: Create a virtual machine 
+
+
+ >**Note:** Templates are available in the [download directory](https://github.com/MicrosoftLearning/Deploy-and-administer-Linux-virtual-machines-in-Azure/tree/main/Allfiles/Labs).
 
 In this task, you will deploy a template to create a Linux virtual machine. If you already have a virtual machine to use for this exercise, then skip to Skill 1. 
 
