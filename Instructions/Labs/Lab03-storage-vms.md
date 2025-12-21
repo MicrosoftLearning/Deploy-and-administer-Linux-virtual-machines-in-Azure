@@ -17,10 +17,6 @@ This lab requires an Azure subscription. Your subscription type may affect the a
 
 You have been asked to explore how virtual machines can use Azure storage. You want to explore using Azure file shares and Blobs. You want to add and mount a data disk on the virtual machine. Lastly, you want to explore how to transfer data from Azure to the virtual machine with azcopy. 
 
-## Interactive lab simulations
-
->**Note**: The lab simulations that were previously provided have been retired.
-
 ## Job skills
 
 + Skill 1: Create a virtual machine and add a data disk (CLI).
