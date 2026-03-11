@@ -1,9 +1,17 @@
 ---
 lab:
-    title: 'Exercise 03: Access storage for an Azure Linux virtual machine'
-    module: 'Guided Project: Deploy and administer Linux virtual machines'
+  title: 'Exercise 03: Access storage for an Azure Linux virtual machine'
+  module: 'Guided Project: Deploy and administer Linux virtual machines'
+  description: Create and configure access from a Linux virtual machine to Azure storage. 
+  duration: 45 minutes
+  level: 400
+  islab: true
+  primarytopics:
+    - Azure
+    - Linux
+    - Virtual machines
+    - Storage access
 ---
-
 
 # Exercise 03: Access storage for an Azure Linux virtual machine
 

@@ -1,8 +1,17 @@
 ---
 lab:
-    title: 'Exercise 04: Back up Azure Linux virtual machines'
-    module: 'Guided Project: Deploy and administer Linux virtual machines'
+  title: 'Exercise 04: Back up Azure Linux virtual machines'
+  module: 'Guided Project: Deploy and administer Linux virtual machines'
+  description: Create a Linux virtual machine and configure backups. 
+  duration: 30 minutes
+  level: 300
+  islab: true
+  primarytopics:
+    - Azure
+    - Virtual Machines
+    - Backup
 ---
+
 # Exercise 04: Back up Azure Linux virtual machines
 
 ## Lab requirements    

@@ -1,7 +1,15 @@
 ---
 lab:
-    title: 'Exercise 01: Configure an Azure Linux virtual machine'
-    module: 'Guided Project: Deploy and administer Linux virtual machines'
+  title: 'Exercise 01: Configure an Azure Linux virtual machine'
+  module: 'Guided Project: Deploy and administer Linux virtual machines'
+  description: Create and configure a Linux virtual machine.
+  duration: 45 minutes
+  level: 400
+  islab: true
+  primarytopics:
+    - Azure
+    - Linux 
+    - Virtual machines
 ---
 
 # Exercise 01: Configure an Azure Linux virtual machine 
