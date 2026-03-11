@@ -2,12 +2,15 @@
 lab:
   title: 'Exercise 03: Access storage for an Azure Linux virtual machine'
   module: 'Guided Project: Deploy and administer Linux virtual machines'
-  description: In this task, you will create a storage account and file share. You will then give the virtual machine access to the file share and connect to the file share.
+  description: Create and configure access from a Linux virtual machine to Azure storage. 
   duration: 45 minutes
-  level: 500
+  level: 400
   islab: true
   primarytopics:
     - Azure
+    - Linux
+    - Virtual machines
+    - Storage access
 ---
 
 # Exercise 03: Access storage for an Azure Linux virtual machine
