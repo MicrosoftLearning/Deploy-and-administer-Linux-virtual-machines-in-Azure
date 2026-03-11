@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Exercise 02: Monitor an Azure Linux virtual machine'
-    module: 'Guided Project: Deploy and administer Linux virtual machines'
+  title: 'Exercise 02: Monitor an Azure Linux virtual machine'
+  module: 'Guided Project: Deploy and administer Linux virtual machines'
+  description: This lab requires an Azure virtual machine. If you don't have a virtual
+    machine, there are optional instructions to create one.
+  duration: 45 minutes
+  level: 300
+  islab: true
+  primarytopics:
+  - Azure
 ---
 
 # Exercise 02: Monitor an Azure Linux virtual machine
