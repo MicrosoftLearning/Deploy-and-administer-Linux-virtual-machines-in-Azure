@@ -2,12 +2,14 @@
 lab:
   title: 'Exercise 04: Back up Azure Linux virtual machines'
   module: 'Guided Project: Deploy and administer Linux virtual machines'
-  description: In this task, you will implement Azure virtual machine level backup. As part of a VM backup, you will define a backup and retention policy.
+  description: Create a Linux virtual machine and configure backups. 
   duration: 5 minutes
   level: 300
   islab: true
   primarytopics:
     - Azure
+    - Virtual Machines
+    - Backup
 ---
 
 # Exercise 04: Back up Azure Linux virtual machines
