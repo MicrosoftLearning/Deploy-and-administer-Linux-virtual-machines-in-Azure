@@ -2,12 +2,15 @@
 lab:
   title: 'Exercise 02: Monitor an Azure Linux virtual machine'
   module: 'Guided Project: Deploy and administer Linux virtual machines'
-  description: In this task, you will use a template to deploy a virtual machine.
+  description: Create and monitor a Linux virtual machine. 
   duration: 45 minutes
   level: 300
   islab: true
   primarytopics:
     - Azure
+    - Linux
+    - Virtual machine
+    - Azure Monitor
 ---
 
 # Exercise 02: Monitor an Azure Linux virtual machine
