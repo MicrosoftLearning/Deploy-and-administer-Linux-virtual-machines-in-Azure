@@ -2,12 +2,14 @@
 lab:
   title: 'Exercise 01: Configure an Azure Linux virtual machine'
   module: 'Guided Project: Deploy and administer Linux virtual machines'
-  description: In this task, you will create and deploy a Linux virtual machine using the portal.
+  description: Create and configure a Linux virtual machine.
   duration: 45 minutes
-  level: 500
+  level: 400
   islab: true
   primarytopics:
     - Azure
+    - Linux 
+    - Virtual machines
 ---
 
 # Exercise 01: Configure an Azure Linux virtual machine 
