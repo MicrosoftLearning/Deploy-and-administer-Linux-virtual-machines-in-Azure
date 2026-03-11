@@ -1,8 +1,16 @@
 ---
 lab:
-    title: 'Exercise 04: Back up Azure Linux virtual machines'
-    module: 'Guided Project: Deploy and administer Linux virtual machines'
+  title: 'Exercise 04: Back up Azure Linux virtual machines'
+  module: 'Guided Project: Deploy and administer Linux virtual machines'
+  description: This lab requires an Azure virtual machine. If you don't have a virtual
+    machine, there are instructions to create one.
+  duration: 5 minutes
+  level: 300
+  islab: true
+  primarytopics:
+  - Azure
 ---
+
 # Exercise 04: Back up Azure Linux virtual machines
 
 ## Lab requirements    
