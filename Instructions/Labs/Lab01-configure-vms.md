@@ -227,11 +227,10 @@ In this task, you will install the Nginx web service.
 **Check your learning.** 
  + Can you install software, like Nginx, on a Linux virtual machine?
 
-## Learn more with self-paced training and documentation
+## Learn more with self-paced training 
 
-+ [Provisioning a Linux virtual machine in Microsoft Azure](https://learn.microsoft.com/training/modules/provision-linux-virtual-machine-in-azure/). Azure allows you to use several common provisioning tools to deploy Linux virtual machines (VMs), to include Terraform, Bicep, the Azure portal, and the Azure CLI. In this module, you'll learn how to deploy a Linux virtual machine using each of these methods.
-+ [Quickstart: Create a Linux virtual machine in the Azure portal](https://learn.microsoft.com/azure/virtual-machines/linux/quick-create-portal?tabs=ubuntu) Azure virtual machines (VMs) can be created through the Azure portal. The Azure portal is a browser-based user interface to create Azure resources. This Quickstart shows you how to use the Azure portal to deploy a Linux virtual machine (VM) running Ubuntu Server 22.04 LTS. To see your VM in action, you also SSH to the VM and install the NGINX web server.
-
++ [Introduction to Azure Virtual Machines](https://learn.microsoft.com/training/modules/intro-to-azure-virtual-machines/). Learn about the decisions you make before creating a virtual machine, the options to create and manage the VM, and the extensions and services you use to manage your VM.
++ [Provisioning a Linux virtual machine in Microsoft Azure](https://learn.microsoft.com/training/modules/provision-linux-virtual-machine-in-azure/). Learn how to deploy a Linux virtual machine with different tools. 
 
 ## Key takeaways
 
