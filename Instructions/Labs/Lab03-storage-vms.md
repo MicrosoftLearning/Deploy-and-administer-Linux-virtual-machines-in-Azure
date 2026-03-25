@@ -384,7 +384,7 @@ In this task, you will create a blob container. You will assign an Azure role to
 
 + [Configure storage accounts](https://learn.microsoft.com/training/modules/configure-storage-accounts/). Learn about Azure storage accounts. This includes storage account types and replication strategies. 
 
-+ [Configure Azure file shares and file sync](https://learn.microsoft.com/training/modules/configure-azure-files-file-sync/). Learn how to configure Azure file shares. 
++ [Configure Azure files](https://learn.microsoft.com/training/modules/configure-azure-files-file-sync/). Learn how to configure Azure file shares. 
 
 + [Add and size disks in Azure virtual machines](https://learn.microsoft.com/training/modules/add-and-size-disks-in-azure-virtual-machines/). Understand and create the different types of disk storage available to Azure virtual machines (VMs). This includes adding a data disk and resizing a data disk. 
 
