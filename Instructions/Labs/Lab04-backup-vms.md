@@ -195,6 +195,7 @@ This exercise doesn't require you to connect to the virtual machine. However, it
 
 ## Learn more with self-paced training
 
++ [Introduction to Azure Backup](https://learn.microsoft.com/training/modules/intro-to-azure-backup/). Describe how the features of Azure Backup work to provide backup solutions for your needs.
 + [Protect your virtual machines by using Azure Backup](https://learn.microsoft.com/training/modules/protect-virtual-machines-with-azure-backup/). Use Azure Backup to help protect on-premises servers, virtual machines, SQL Server, Azure file shares, and other workloads.
 
 ## Key takeaways
