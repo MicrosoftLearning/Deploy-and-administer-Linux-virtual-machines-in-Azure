@@ -152,7 +152,7 @@ In this task, you will use SSH to connect to the virtual machine. Connecting wil
 
 1. Check your work and ensure you have two new inbound port rules to **allow** port 22 and port 80. 
 
-1. In the **Connect** menu (left side) select **Connect**. On the Connect page, **Native SSH** is displayed by default. Confirm port 22 access is now configured (check mark). It may take a minute for the rule to deploy, if necessary, refresh the page. 
+1. In the **Connect** menu (left side) select **Connect**. Confirm port 22 access is now configured (check mark). It may take a minute for the rule to deploy, if necessary, refresh the page. 
 
 1. Make a note of the **public IP address**. You will need this to connect to the virtual machine. **Close** the Native SSH page. 
 
