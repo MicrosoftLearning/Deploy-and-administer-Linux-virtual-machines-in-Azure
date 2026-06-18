@@ -88,21 +88,15 @@ In this task, you will enable Insights for a virtual machine.
 
 1. Search for and select your virtual machine. Before proceeding, ensure the VM status is **Running**. 
 
-1. In the **Monitoring** section, select **Insights**, and then **Enable**.
+1. In the **Monitoring** section, select **Insights (now Monitor)**.
 
     >[VM insights](https://learn.microsoft.com/azure/azure-monitor/vm/vminsights-enable-overview) is a method for monitoring the client workloads on your virtual machines and virtual machine scale sets. VM Insights collects performance data, displays an inventory of your existing VMs, and provides a guided experience to enable base monitoring for them.
 
-1. For **Data collection rule**, select **Create New**. 
+1. On the **Unlock enhanced monitoring** banner, select **Configure**.
 
-    >[Data collection rules](https://learn.microsoft.com/azure/azure-monitor/vm/monitor-virtual-machine-data-collection) provide a consistent and centralized way to define and customize different data collection scenarios. 
+1. On the **Capabilities** tab, review the default settings. If prompted, accept the default **Azure Monitor workspace** and **Log Analytics workspace** values.
 
-1. Set the **Data collection rule name** to `VM2Rule1`.
-
-1. Notice the drop-down for **Log Analytics workspace**. Take the default, but notice you could make another selection. 
-  
-1. Review the defaults and then select **Create**. 
-
-1. Ensure your new rule is selected in the **Data collection rule** drop-down, then select **Configure**. 
+1. Select the **Review + enable** tab, and then select **Enable**.
 
 1. It may take a couple of minutes for VM Insights to deploy. 
 
@@ -110,7 +104,7 @@ In this task, you will enable Insights for a virtual machine.
 
 **Check your learning**.
  + Can you enable VM Insights on a virtual machine?
- + Can create a data collection rule?
+ + Can you use the Configure workflow to enable enhanced monitoring?
  + Can you select a specific Log Analytics workspace?
 
 ## Skill 2: Configure action groups
@@ -161,7 +155,7 @@ In this task, you will create two alert rules.
 
     >[Virtual machine alerts](https://learn.microsoft.com/azure/azure-monitor/vm/monitor-virtual-machine-alerts) are automated notifications in Azure Monitor that provide insights into the status of Azure resource. There are no preconfigured alert rules for virtual machines, but there is a set of recommended alert rules you can enable. Or you can just create your own. 
 
-1. Select **Create +** and select **Alert rule**. 
+1. Select **+ Create** and select **Alert rule**. 
 
 ### Create an alert rule based on CPU percentage usage
 
@@ -179,7 +173,7 @@ In this task, you will create two alert rules.
     | Check every | `1 hour` |
 
 
-1. Select **Next: Actions>** tab, **Use action groups**, then choose the **Help Desk** action group and click **Select**. 
+1. Select **Next: Actions>** tab, **Select action groups**, then choose the **Help Desk** action group and click **Select**. 
 
 1. Move to the **Details** tab, complete the required information. 
 
@@ -193,7 +187,7 @@ In this task, you will create two alert rules.
 
 ### Create an alert based on log activity
 
-1. Select **Create +** and select **Alert rule**. 
+1. Select **+ Create** and select **Alert rule**. 
 
 1. On the **Condition** tab select **See all signals**.
 
@@ -205,9 +199,7 @@ In this task, you will create two alert rules.
 
 1. Review the **Status** drop-down selections. Leave the default of **All selected**.
 
-1. On the **Actions** tab, **Use action groups**, then choose the **Help Desk** action group and click **Select**.
-
-1. Move to the **Actions** tab, **Select action groups**, then choose the **Help Desk** action group and click **Select**.
+1. On the **Actions** tab, select **Select action groups**, then choose the **Help Desk** action group and click **Select**.
 
     >This exercise uses an action group, but an alert doesn't require an action group. 
 
@@ -238,9 +230,9 @@ In this task, you will review performance data and resize a virtual machine.
     + You can create a **New alert rule** from your data. 
     + You can **Save to the dashboard**. 
 
-1. In the **Monitoring** section select the **Logs** blade. If necessary, **close** the **Welcome to Log Analytics** page. Take a few minutes to explore.
+1. In the **Monitoring** section select the **Logs** blade. If a **Get more visibility** enable page appears, select the button to open Log Analytics. If a **Welcome to Log Analytics** splash screen appears, **close** it. Take a few minutes to explore.
 
-    + In the **Topic** drop-down select **Resource type** and then **Virtual machines**.
+    + In the **Queries hub** dialog, select the **Virtual Machines** category tab to browse built-in queries.
     + Notice there are a large number of built-in queries that might be of interest. For example, the **Count heartbeats** or **Virtual Machine available memory**.
     + Take time to explore and **Run** any queries of interest.
     + Depending on the virtual machine activity, there may not be a lot of events. 

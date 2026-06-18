@@ -68,6 +68,12 @@ In this task, you will create and configure a virtual machine using the Cloud Sh
 
 ### Create a virtual machine and add a data disk using the CLI
 
+1. If you have multiple subscriptions, run the following command to ensure you are using the correct subscription. Replace `<id>` with your subscription ID.
+
+    ```sh
+    az account set --subscription <id>
+    ```
+
 1. Use the CLI to create a new virtual machine named **vm3** in the **(US) East** region. Notice SSH key file are stored in the /home directory. 
 
     ```sh
@@ -88,7 +94,7 @@ In this task, you will create and configure a virtual machine using the Cloud Sh
 1. Verify the data disk was created. This command will also show the operating system disk information. 
 
     ```sh
-    az disk list --output table
+    az disk list --resource-group rg1 --output table
     ```
     >Your next steps will need to be performed on the virtual machine. 
 
@@ -121,10 +127,10 @@ In this task, you will create and configure a virtual machine using the Cloud Sh
     sudo partprobe /dev/sdc 
     ```
 
-1. Use *mkfs* to build the Linux file system. If necessary, change *sdc* to your disk name. 
+1. Use *mkfs* to build the Linux file system. If necessary, change *sdc* to your disk name. Use the `-f` flag to force format.
 
     ```sh
-    sudo mkfs.xfs /dev/sdc1
+    sudo mkfs.xfs -f /dev/sdc1
     ```
 
 1. Make a directory
@@ -191,11 +197,11 @@ In this task, you will create a storage account and file share. You will then gi
 
 ### Create and configure a file share
 
-1. In the **Data storage** section, click **File shares**. 
+1. In the **Data storage** section, click **Classic file shares**. 
 
     >[Azure Files](https://learn.microsoft.com/azure/storage/files/) offers fully managed file shares in the cloud that are accessible via the industry standard Server Message Block (SMB) protocol, Network File System (NFS) protocol, and Azure Files REST API. 
 
-1. Select **+ File share** and on the **Basics** tab give the file share a name, `share1`. 
+1. Select **New classic file share** and on the **Basics** tab give the file share a name, `share1`. 
 
 1. On the **Backup** tab, ensure **Enable backup** is **not checked**.
 
@@ -292,12 +298,12 @@ In this task, you will create a blob container. You will assign an Azure role to
 
     >[Azure blob storage](https://learn.microsoft.com/azure/storage/blobs/storage-blobs-introduction) is an object storage solution optimized for storing massive amounts of unstructured data. Blob storage is organized into containers. 
 
-1. Click **+ Container** and **Create** a container with the following settings:
+1. Click **Add container** and **Create** a container with the following settings:
 
     | Setting | Value |
     | --- | --- |
     | Name | `data`  |
-    | Public access level | Notice the access level is set to private |
+    | Anonymous access level | Leave the value as **Private** (it may be locked if anonymous access is disabled) |
 
 1. Select your **data** container and then click **Upload**.
 
@@ -359,6 +365,12 @@ In this task, you will create a blob container. You will assign an Azure role to
 
     ```sh
     sudo /opt/azcopy/azcopy login --identity
+    ```
+
+1. If needed, grant write permissions to the data drive directory before copying files.
+
+    ```sh
+    sudo chmod 777 /datadrive
     ```
 
 1. Copy from Azure blob storage to the new virtual machine data drive. Substitute the blob file URL you copied from the portal. 
