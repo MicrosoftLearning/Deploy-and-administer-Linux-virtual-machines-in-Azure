@@ -94,7 +94,7 @@ In this task, you will enable Insights for a virtual machine.
 
 1. On the **Unlock enhanced monitoring** banner, select **Configure**.
 
-1. On the **Capabilities** tab, review the default settings. If prompted, accept the default **Azure Monitor workspace** and **Log Analytics workspace** values.
+1. On the **Capabilities** tab, uncheck **Enable recommended alerts**, review the default settings. If prompted, accept the default **Azure Monitor workspace** and **Log Analytics workspace** values.
 
 1. Select the **Review + enable** tab, and then select **Enable**.
 
