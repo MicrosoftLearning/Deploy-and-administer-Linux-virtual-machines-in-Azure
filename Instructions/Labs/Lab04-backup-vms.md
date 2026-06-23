@@ -67,7 +67,7 @@ In this task, you will deploy a template to create a Linux virtual machine. If y
     | Settings | Value |
     | --- | --- |
     | Subscription | the name of your Azure subscription |
-    | Region | `East US 2` |
+    | Region | `East US ` |
     | Resource group | `RG1`  |
     | Vm name | `VM4` |
     | Admin user name | `adminuser` |
