@@ -60,7 +60,7 @@ In this task, you will create and deploy a Linux virtual machine using the porta
     | Region | **(US) East US** |
     | Availability options | **No infrastructure redundancy required** |
     | Security type | **Standard** (review your other choices) |
-    | Image | **Ubuntu Server 20.04 LTS - x64 Gen2** (use the drop-down to view other options) |
+    | Image | **Ubuntu Server 24.04 LTS - x64 Gen2** (use the drop-down to view other options) |
     | Size | **Standard_D2s_v3** (use **See all sizes** to view the CPU and memory) |
     | Authentication type | **SSH public key** (notice you could use a password) |
     | Username | `adminuser` |
